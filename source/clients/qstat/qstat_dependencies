@@ -1,0 +1,352 @@
+# DO NOT DELETE
+
+qstat.o: ../common/basis_types.h ../libs/rmon/sgermon.h ../libs/rmon/rmon.h
+qstat.o: ../libs/rmon/rmon_monitoring_level.h ../libs/comm/cl_commlib.h
+qstat.o: ../libs/comm/lists/cl_lists.h ../libs/comm/lists/cl_errors.h
+qstat.o: ../libs/comm/lists/cl_list_types.h ../libs/comm/lists/cl_raw_list.h
+qstat.o: ../libs/comm/lists/cl_thread.h ../libs/comm/lists/cl_thread_list.h
+qstat.o: ../libs/comm/lists/cl_log_list.h ../libs/comm/lists/cl_string_list.h
+qstat.o: ../libs/comm/cl_data_types.h ../libs/comm/cl_xml_parsing.h
+qstat.o: ../libs/comm/cl_communication.h ../libs/comm/cl_connection_list.h
+qstat.o: ../libs/uti/sge_htable.h ../libs/uti/sge_dstring.h
+qstat.o: ../libs/uti/sge_stdlib.h ../common/sge.h ../libs/gdi/sge_gdi.h
+qstat.o: ../libs/cull/cull.h ../libs/cull/cull_listP.h
+qstat.o: ../libs/cull/cull_list.h ../libs/cull/cull_hashP.h
+qstat.o: ../libs/cull/pack.h ../libs/uti/sge_bitfield.h
+qstat.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+qstat.o: ../libs/cull/cull_what_elem.h ../libs/cull/cull_what_print.h
+qstat.o: ../libs/cull/cull_db.h ../libs/cull/cull_multitype.h
+qstat.o: ../libs/cull/cull_dump_scan.h ../libs/cull/cull_lerrno.h
+qstat.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+qstat.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+qstat.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_htable.h
+qstat.o: ../libs/cull/cull_list.h ../libs/cull/cull_state.h
+qstat.o: ../libs/uti/sge_hostname.h ../libs/uti/sge_unistd.h
+qstat.o: ../libs/uti/sge_time.h ../libs/uti/sge_log.h
+qstat.o: ../libs/uti/msg_utilib.h ../libs/sgeobj/sge_all_listsL.h
+qstat.o: ../libs/sgeobj/sge_access_tree_PGR_L.h
+qstat.o: ../libs/sgeobj/sge_boundaries.h
+qstat.o: ../libs/sgeobj/sge_access_tree_USR_L.h
+qstat.o: ../libs/sgeobj/sge_access_tree_JRL_L.h
+qstat.o: ../libs/sgeobj/sge_ack_ACK_L.h
+qstat.o: ../libs/sgeobj/sge_advance_reservation_AR_L.h
+qstat.o: ../libs/sgeobj/sge_advance_reservation_ARA_L.h
+qstat.o: ../libs/sgeobj/sge_answer_AN_L.h ../libs/sgeobj/sge_attr_ASTR_L.h
+qstat.o: ../libs/sgeobj/sge_attr_AULNG_L.h ../libs/sgeobj/sge_attr_ABOOL_L.h
+qstat.o: ../libs/sgeobj/sge_attr_ATIME_L.h ../libs/sgeobj/sge_attr_AMEM_L.h
+qstat.o: ../libs/sgeobj/sge_attr_AINTER_L.h
+qstat.o: ../libs/sgeobj/sge_attr_ASTRING_L.h
+qstat.o: ../libs/sgeobj/sge_attr_ASTRLIST_L.h
+qstat.o: ../libs/sgeobj/sge_attr_AUSRLIST_L.h
+qstat.o: ../libs/sgeobj/sge_attr_APRJLIST_L.h
+qstat.o: ../libs/sgeobj/sge_attr_ACELIST_L.h
+qstat.o: ../libs/sgeobj/sge_attr_ASOLIST_L.h
+qstat.o: ../libs/sgeobj/sge_attr_AQTLIST_L.h
+qstat.o: ../libs/sgeobj/sge_binding_BN_L.h ../libs/sgeobj/sge_boundaries.h
+qstat.o: ../libs/sgeobj/sge_calendar_CAL_L.h
+qstat.o: ../libs/sgeobj/sge_calendar_CA_L.h
+qstat.o: ../libs/sgeobj/sge_calendar_CQU_L.h
+qstat.o: ../libs/sgeobj/sge_calendar_TMR_L.h
+qstat.o: ../libs/sgeobj/sge_calendar_TM_L.h ../libs/sgeobj/sge_centry_CE_L.h
+qstat.o: ../libs/sgeobj/sge_ckpt_CK_L.h ../libs/sgeobj/sge_conf_CONF_L.h
+qstat.o: ../libs/sgeobj/sge_conf_CF_L.h ../libs/sgeobj/sge_cqueue_CQ_L.h
+qstat.o: ../libs/sgeobj/sge_ct_SCT_L.h ../libs/sgeobj/sge_ct_REF_L.h
+qstat.o: ../libs/sgeobj/sge_ct_CT_L.h ../libs/sgeobj/sge_ct_CCT_L.h
+qstat.o: ../libs/sgeobj/sge_ct_CTI_L.h ../libs/sgeobj/sge_cull_xml_XMLA_L.h
+qstat.o: ../libs/sgeobj/sge_cull_xml_XMLS_L.h
+qstat.o: ../libs/sgeobj/sge_cull_xml_XMLH_L.h
+qstat.o: ../libs/sgeobj/sge_cull_xml_XMLE_L.h ../libs/sgeobj/sge_cuser_CU_L.h
+qstat.o: ../libs/sgeobj/sge_eejob_FCAT_L.h ../libs/sgeobj/sge_eejob_SGEJ_L.h
+qstat.o: ../libs/sgeobj/sge_event_EV_L.h ../libs/uti/sge_monitor.h
+qstat.o: ../libs/sgeobj/sge_event_EVS_L.h ../libs/sgeobj/sge_event_ET_L.h
+qstat.o: ../libs/sgeobj/sge_event_request_EVR_L.h
+qstat.o: ../libs/sgeobj/sge_feature_FES_L.h ../libs/sgeobj/sge_helper_QAJ_L.h
+qstat.o: ../libs/sgeobj/sge_hgroup_HGRP_L.h ../libs/sgeobj/sge_host_EH_L.h
+qstat.o: ../libs/sgeobj/sge_host_RU_L.h ../libs/sgeobj/sge_host_AH_L.h
+qstat.o: ../libs/sgeobj/sge_host_SH_L.h ../libs/sgeobj/sge_host_HL_L.h
+qstat.o: ../libs/sgeobj/sge_host_HS_L.h ../libs/sgeobj/sge_href_HR_L.h
+qstat.o: ../libs/sgeobj/sge_id_ID_L.h ../libs/sgeobj/sge_japi_JJ_L.h
+qstat.o: ../libs/sgeobj/sge_japi_JJAT_L.h ../libs/sgeobj/sge_japi_NSV_L.h
+qstat.o: ../libs/sgeobj/sge_ja_task_JAT_L.h ../libs/sgeobj/sge_job_AT_L.h
+qstat.o: ../libs/sgeobj/sge_job_JB_L.h ../libs/sgeobj/sge_job_JG_L.h
+qstat.o: ../libs/sgeobj/sge_job_PN_L.h ../libs/sgeobj/sge_job_ref_JRE_L.h
+qstat.o: ../libs/sgeobj/sge_jsv_JSV_L.h ../libs/sgeobj/sge_krb_KRB_L.h
+qstat.o: ../libs/sgeobj/sge_krb_KTGT_L.h ../libs/sgeobj/sge_loadsensor_LS_L.h
+qstat.o: ../libs/sgeobj/sge_mailrec_MR_L.h ../libs/sgeobj/sge_manop_UM_L.h
+qstat.o: ../libs/sgeobj/sge_manop_UO_L.h ../libs/sgeobj/sge_mesobj_QIM_L.h
+qstat.o: ../libs/sgeobj/sge_message_SME_L.h
+qstat.o: ../libs/sgeobj/sge_message_MES_L.h ../libs/sgeobj/sge_multi_MA_L.h
+qstat.o: ../libs/sgeobj/sge_order_OR_L.h ../libs/sgeobj/sge_order_OQ_L.h
+qstat.o: ../libs/sgeobj/sge_order_RTIC_L.h ../libs/sgeobj/sge_pack_PACK_L.h
+qstat.o: ../libs/sgeobj/sge_parse_SPA_L.h
+qstat.o: ../libs/sgeobj/sge_path_alias_PA_L.h ../libs/sgeobj/sge_pe_PE_L.h
+qstat.o: ../libs/sgeobj/sge_pe_task_FPET_L.h
+qstat.o: ../libs/sgeobj/sge_pe_task_PET_L.h
+qstat.o: ../libs/sgeobj/sge_pe_task_PETR_L.h
+qstat.o: ../libs/sgeobj/sge_permission_PERM_L.h
+qstat.o: ../libs/sgeobj/sge_pref_PREF_L.h ../libs/sgeobj/sge_ptf_JL_L.h
+qstat.o: ../libs/sgeobj/sge_ptf_JO_L.h ../libs/sgeobj/sge_ptf_JP_L.h
+qstat.o: ../libs/sgeobj/sge_qeti_QETI_L.h ../libs/sgeobj/sge_qexec_RT_L.h
+qstat.o: ../libs/sgeobj/sge_qinstance_QU_L.h ../libs/sgeobj/sge_qref_QR_L.h
+qstat.o: ../libs/sgeobj/sge_range_RN_L.h ../libs/sgeobj/sge_report_REP_L.h
+qstat.o: ../libs/sgeobj/sge_report_JR_L.h ../libs/sgeobj/sge_report_LIC_L.h
+qstat.o: ../libs/sgeobj/sge_report_LR_L.h
+qstat.o: ../libs/sgeobj/sge_resource_quota_RQS_L.h
+qstat.o: ../libs/sgeobj/sge_resource_quota_RQR_L.h
+qstat.o: ../libs/sgeobj/sge_resource_quota_RQRF_L.h
+qstat.o: ../libs/sgeobj/sge_resource_quota_RQRL_L.h
+qstat.o: ../libs/sgeobj/sge_resource_quota_RQL_L.h
+qstat.o: ../libs/sgeobj/sge_resource_utilization_RDE_L.h
+qstat.o: ../libs/sgeobj/sge_resource_utilization_RUE_L.h
+qstat.o: ../libs/sgeobj/sge_schedd_conf_PARA_L.h
+qstat.o: ../libs/sgeobj/sge_schedd_conf_SC_L.h ../libs/sgeobj/sge_sec_SEC_L.h
+qstat.o: ../libs/sgeobj/sge_select_queue_LDR_L.h
+qstat.o: ../libs/sgeobj/sge_select_queue_QRL_L.h
+qstat.o: ../libs/sgeobj/sge_sharetree_STN_L.h
+qstat.o: ../libs/sgeobj/sge_spooling_SPC_L.h
+qstat.o: ../libs/sgeobj/sge_spooling_SPR_L.h
+qstat.o: ../libs/sgeobj/sge_spooling_SPT_L.h
+qstat.o: ../libs/sgeobj/sge_spooling_SPTR_L.h
+qstat.o: ../libs/sgeobj/sge_spooling_SPM_L.h ../libs/sgeobj/sge_str_ST_L.h
+qstat.o: ../libs/sgeobj/sge_str_STU_L.h ../libs/sgeobj/sge_subordinate_SO_L.h
+qstat.o: ../libs/sgeobj/sge_suser_SU_L.h ../libs/sgeobj/sge_time_event_TE_L.h
+qstat.o: ../libs/sgeobj/sge_ulong_ULNG_L.h ../libs/sgeobj/sge_usage_UA_L.h
+qstat.o: ../libs/sgeobj/sge_userprj_PR_L.h ../libs/sgeobj/sge_userprj_UU_L.h
+qstat.o: ../libs/sgeobj/sge_userprj_UPU_L.h
+qstat.o: ../libs/sgeobj/sge_userprj_UPP_L.h ../libs/sgeobj/sge_userset_US_L.h
+qstat.o: ../libs/sgeobj/sge_userset_UE_L.h ../libs/sgeobj/sge_userset_JC_L.h
+qstat.o: ../libs/sgeobj/sge_var_VA_L.h ../libs/sgeobj/sge_procL.h
+qstat.o: ../libs/sgeobj/sge_host.h ../common/sig_handlers.h
+qstat.o: ../libs/sched/sge_sched.h ../libs/sched/sge_select_queue.h
+qstat.o: ../libs/sched/sge_orders.h ../libs/evc/sge_event_client.h
+qstat.o: ../libs/gdi/sge_gdi.h ../libs/gdi/sge_gdi_ctx.h
+qstat.o: ../libs/uti/sge_env.h ../libs/uti/sge_error_class.h
+qstat.o: ../libs/uti/sge_prog.h ../libs/uti/sge_arch.h
+qstat.o: ../libs/uti/setup_path.h ../libs/uti/sge_bootstrap.h
+qstat.o: ../libs/comm/commlib.h ../libs/sgeobj/sge_conf.h
+qstat.o: ../libs/gdi/sge_gdi2.h ../libs/sgeobj/sge_conf.h
+qstat.o: ../libs/gdi/sge_gdi_ctx.h ../libs/comm/lists/cl_list_types.h
+qstat.o: ../libs/uti/sge_profiling.h ../libs/uti/sge_uidgid.h
+qstat.o: ../libs/gdi/sge_gdi_packet.h ../libs/sgeobj/sge_event.h
+qstat.o: ../libs/sched/valid_queue_user.h ../libs/sched/sort_hosts.h
+qstat.o: ../libs/sched/sge_complex_schedd.h ../libs/sched/sge_job_schedd.h
+qstat.o: ../libs/sched/sge_range_schedd.h ../libs/sched/sge_pe_schedd.h
+qstat.o: ../libs/sched/sge_select_queue.h ../libs/sched/debit.h
+qstat.o: ../libs/sched/subordinate_schedd.h ../libs/sgeobj/parse.h
+qstat.o: ../libs/uti/sge_string.h ../clients/common/show_job.h
+qstat.o: ../clients/common/qstat_printing.h ../clients/common/sge_qhost.h
+qstat.o: ../libs/sgeobj/sge_range.h ../libs/sched/sge_schedd_text.h
+qstat.o: ../common/msg_common.h ../clients/common/msg_clients_common.h
+qstat.o: ../clients/qstat/msg_qstat.h ../libs/sgeobj/sge_answer.h
+qstat.o: ../libs/sgeobj/sge_str.h ../libs/sgeobj/sge_qinstance_state.h
+qstat.o: ../libs/sgeobj/sge_centry.h ../clients/common/read_defaults.h
+qstat.o: ../libs/sgeobj/sge_ulong.h ../clients/common/sge_qstat.h
+qstat.o: ../clients/qstat/qstat_xml.h ../clients/qstat/qstat_cmdline.h
+qstat.o: ../libs/sgeobj/sge_usage.h
+qstat_cmdline.o: ../libs/rmon/sgermon.h ../libs/rmon/rmon.h
+qstat_cmdline.o: ../libs/rmon/rmon_monitoring_level.h
+qstat_cmdline.o: ../libs/comm/cl_commlib.h ../common/basis_types.h
+qstat_cmdline.o: ../libs/comm/lists/cl_lists.h ../libs/comm/lists/cl_errors.h
+qstat_cmdline.o: ../libs/comm/lists/cl_list_types.h
+qstat_cmdline.o: ../libs/comm/lists/cl_raw_list.h
+qstat_cmdline.o: ../libs/comm/lists/cl_thread.h
+qstat_cmdline.o: ../libs/comm/lists/cl_thread_list.h
+qstat_cmdline.o: ../libs/comm/lists/cl_log_list.h
+qstat_cmdline.o: ../libs/comm/lists/cl_string_list.h
+qstat_cmdline.o: ../libs/comm/cl_data_types.h ../libs/comm/cl_xml_parsing.h
+qstat_cmdline.o: ../libs/comm/cl_communication.h
+qstat_cmdline.o: ../libs/comm/cl_connection_list.h ../libs/uti/sge_htable.h
+qstat_cmdline.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+qstat_cmdline.o: ../common/symbols.h ../common/sge.h ../libs/uti/sge_time.h
+qstat_cmdline.o: ../libs/uti/sge_log.h ../libs/uti/msg_utilib.h
+qstat_cmdline.o: ../libs/cull/cull_list.h ../libs/cull/cull_hashP.h
+qstat_cmdline.o: ../libs/cull/pack.h ../libs/uti/sge_bitfield.h
+qstat_cmdline.o: ../libs/sgeobj/parse.h ../libs/sgeobj/sge_parse_SPA_L.h
+qstat_cmdline.o: ../libs/sgeobj/sge_boundaries.h ../libs/cull/cull_list.h
+qstat_cmdline.o: ../libs/cull/cull.h ../libs/cull/cull_listP.h
+qstat_cmdline.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+qstat_cmdline.o: ../libs/cull/cull_what_elem.h ../libs/cull/cull_what_print.h
+qstat_cmdline.o: ../libs/cull/cull_db.h ../libs/cull/cull_multitype.h
+qstat_cmdline.o: ../libs/cull/cull_dump_scan.h ../libs/cull/cull_lerrno.h
+qstat_cmdline.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+qstat_cmdline.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+qstat_cmdline.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_htable.h
+qstat_cmdline.o: ../libs/cull/cull_state.h ../libs/uti/sge_unistd.h
+qstat_cmdline.o: ../libs/uti/sge_io.h ../libs/uti/sge_tmpnam.h
+qstat_cmdline.o: ../clients/common/read_defaults.h ../libs/uti/setup_path.h
+qstat_cmdline.o: ../libs/uti/sge_env.h ../libs/uti/sge_error_class.h
+qstat_cmdline.o: ../libs/uti/sge_prog.h ../libs/uti/sge_arch.h
+qstat_cmdline.o: ../libs/uti/sge_uidgid.h ../libs/uti/sge_string.h
+qstat_cmdline.o: ../libs/sgeobj/sge_answer.h ../libs/sgeobj/sge_answer_AN_L.h
+qstat_cmdline.o: ../libs/sgeobj/sge_feature.h
+qstat_cmdline.o: ../libs/sgeobj/sge_feature_FES_L.h
+qstat_cmdline.o: ../clients/qstat/qstat_cmdline.h ../libs/gdi/sge_gdi.h
+qstat_cmdline.o: ../libs/uti/sge_hostname.h ../common/msg_common.h
+qstat_cmdline.o: ../clients/qstat/msg_qstat.h
+qstat_cmdline.o: ../clients/common/msg_clients_common.h
+qstat_xml.o: ../libs/rmon/sgermon.h ../libs/rmon/rmon.h
+qstat_xml.o: ../libs/rmon/rmon_monitoring_level.h ../libs/comm/cl_commlib.h
+qstat_xml.o: ../common/basis_types.h ../libs/comm/lists/cl_lists.h
+qstat_xml.o: ../libs/comm/lists/cl_errors.h
+qstat_xml.o: ../libs/comm/lists/cl_list_types.h
+qstat_xml.o: ../libs/comm/lists/cl_raw_list.h ../libs/comm/lists/cl_thread.h
+qstat_xml.o: ../libs/comm/lists/cl_thread_list.h
+qstat_xml.o: ../libs/comm/lists/cl_log_list.h
+qstat_xml.o: ../libs/comm/lists/cl_string_list.h ../libs/comm/cl_data_types.h
+qstat_xml.o: ../libs/comm/cl_xml_parsing.h ../libs/comm/cl_communication.h
+qstat_xml.o: ../libs/comm/cl_connection_list.h ../libs/uti/sge_htable.h
+qstat_xml.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+qstat_xml.o: ../common/symbols.h ../common/sge.h ../libs/gdi/sge_gdi.h
+qstat_xml.o: ../libs/cull/cull.h ../libs/cull/cull_listP.h
+qstat_xml.o: ../libs/cull/cull_list.h ../libs/cull/cull_hashP.h
+qstat_xml.o: ../libs/cull/pack.h ../libs/uti/sge_bitfield.h
+qstat_xml.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+qstat_xml.o: ../libs/cull/cull_what_elem.h ../libs/cull/cull_what_print.h
+qstat_xml.o: ../libs/cull/cull_db.h ../libs/cull/cull_multitype.h
+qstat_xml.o: ../libs/cull/cull_dump_scan.h ../libs/cull/cull_lerrno.h
+qstat_xml.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+qstat_xml.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+qstat_xml.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_htable.h
+qstat_xml.o: ../libs/cull/cull_list.h ../libs/cull/cull_state.h
+qstat_xml.o: ../libs/uti/sge_hostname.h ../libs/uti/sge_unistd.h
+qstat_xml.o: ../libs/uti/sge_time.h ../libs/sgeobj/sge_all_listsL.h
+qstat_xml.o: ../libs/sgeobj/sge_access_tree_PGR_L.h
+qstat_xml.o: ../libs/sgeobj/sge_boundaries.h
+qstat_xml.o: ../libs/sgeobj/sge_access_tree_USR_L.h
+qstat_xml.o: ../libs/sgeobj/sge_access_tree_JRL_L.h
+qstat_xml.o: ../libs/sgeobj/sge_ack_ACK_L.h
+qstat_xml.o: ../libs/sgeobj/sge_advance_reservation_AR_L.h
+qstat_xml.o: ../libs/sgeobj/sge_advance_reservation_ARA_L.h
+qstat_xml.o: ../libs/sgeobj/sge_answer_AN_L.h
+qstat_xml.o: ../libs/sgeobj/sge_attr_ASTR_L.h
+qstat_xml.o: ../libs/sgeobj/sge_attr_AULNG_L.h
+qstat_xml.o: ../libs/sgeobj/sge_attr_ABOOL_L.h
+qstat_xml.o: ../libs/sgeobj/sge_attr_ATIME_L.h
+qstat_xml.o: ../libs/sgeobj/sge_attr_AMEM_L.h
+qstat_xml.o: ../libs/sgeobj/sge_attr_AINTER_L.h
+qstat_xml.o: ../libs/sgeobj/sge_attr_ASTRING_L.h
+qstat_xml.o: ../libs/sgeobj/sge_attr_ASTRLIST_L.h
+qstat_xml.o: ../libs/sgeobj/sge_attr_AUSRLIST_L.h
+qstat_xml.o: ../libs/sgeobj/sge_attr_APRJLIST_L.h
+qstat_xml.o: ../libs/sgeobj/sge_attr_ACELIST_L.h
+qstat_xml.o: ../libs/sgeobj/sge_attr_ASOLIST_L.h
+qstat_xml.o: ../libs/sgeobj/sge_attr_AQTLIST_L.h
+qstat_xml.o: ../libs/sgeobj/sge_binding_BN_L.h
+qstat_xml.o: ../libs/sgeobj/sge_boundaries.h
+qstat_xml.o: ../libs/sgeobj/sge_calendar_CAL_L.h
+qstat_xml.o: ../libs/sgeobj/sge_calendar_CA_L.h
+qstat_xml.o: ../libs/sgeobj/sge_calendar_CQU_L.h
+qstat_xml.o: ../libs/sgeobj/sge_calendar_TMR_L.h
+qstat_xml.o: ../libs/sgeobj/sge_calendar_TM_L.h
+qstat_xml.o: ../libs/sgeobj/sge_centry_CE_L.h ../libs/sgeobj/sge_ckpt_CK_L.h
+qstat_xml.o: ../libs/sgeobj/sge_conf_CONF_L.h ../libs/sgeobj/sge_conf_CF_L.h
+qstat_xml.o: ../libs/sgeobj/sge_cqueue_CQ_L.h ../libs/sgeobj/sge_ct_SCT_L.h
+qstat_xml.o: ../libs/sgeobj/sge_ct_REF_L.h ../libs/sgeobj/sge_ct_CT_L.h
+qstat_xml.o: ../libs/sgeobj/sge_ct_CCT_L.h ../libs/sgeobj/sge_ct_CTI_L.h
+qstat_xml.o: ../libs/sgeobj/sge_cull_xml_XMLA_L.h
+qstat_xml.o: ../libs/sgeobj/sge_cull_xml_XMLS_L.h
+qstat_xml.o: ../libs/sgeobj/sge_cull_xml_XMLH_L.h
+qstat_xml.o: ../libs/sgeobj/sge_cull_xml_XMLE_L.h
+qstat_xml.o: ../libs/sgeobj/sge_cuser_CU_L.h
+qstat_xml.o: ../libs/sgeobj/sge_eejob_FCAT_L.h
+qstat_xml.o: ../libs/sgeobj/sge_eejob_SGEJ_L.h
+qstat_xml.o: ../libs/sgeobj/sge_event_EV_L.h ../libs/uti/sge_monitor.h
+qstat_xml.o: ../libs/sgeobj/sge_event_EVS_L.h ../libs/sgeobj/sge_event_ET_L.h
+qstat_xml.o: ../libs/sgeobj/sge_event_request_EVR_L.h
+qstat_xml.o: ../libs/sgeobj/sge_feature_FES_L.h
+qstat_xml.o: ../libs/sgeobj/sge_helper_QAJ_L.h
+qstat_xml.o: ../libs/sgeobj/sge_hgroup_HGRP_L.h
+qstat_xml.o: ../libs/sgeobj/sge_host_EH_L.h ../libs/sgeobj/sge_host_RU_L.h
+qstat_xml.o: ../libs/sgeobj/sge_host_AH_L.h ../libs/sgeobj/sge_host_SH_L.h
+qstat_xml.o: ../libs/sgeobj/sge_host_HL_L.h ../libs/sgeobj/sge_host_HS_L.h
+qstat_xml.o: ../libs/sgeobj/sge_href_HR_L.h ../libs/sgeobj/sge_id_ID_L.h
+qstat_xml.o: ../libs/sgeobj/sge_japi_JJ_L.h ../libs/sgeobj/sge_japi_JJAT_L.h
+qstat_xml.o: ../libs/sgeobj/sge_japi_NSV_L.h
+qstat_xml.o: ../libs/sgeobj/sge_ja_task_JAT_L.h ../libs/sgeobj/sge_job_AT_L.h
+qstat_xml.o: ../libs/sgeobj/sge_job_JB_L.h ../libs/sgeobj/sge_job_JG_L.h
+qstat_xml.o: ../libs/sgeobj/sge_job_PN_L.h ../libs/sgeobj/sge_job_ref_JRE_L.h
+qstat_xml.o: ../libs/sgeobj/sge_jsv_JSV_L.h ../libs/sgeobj/sge_krb_KRB_L.h
+qstat_xml.o: ../libs/sgeobj/sge_krb_KTGT_L.h
+qstat_xml.o: ../libs/sgeobj/sge_loadsensor_LS_L.h
+qstat_xml.o: ../libs/sgeobj/sge_mailrec_MR_L.h
+qstat_xml.o: ../libs/sgeobj/sge_manop_UM_L.h ../libs/sgeobj/sge_manop_UO_L.h
+qstat_xml.o: ../libs/sgeobj/sge_mesobj_QIM_L.h
+qstat_xml.o: ../libs/sgeobj/sge_message_SME_L.h
+qstat_xml.o: ../libs/sgeobj/sge_message_MES_L.h
+qstat_xml.o: ../libs/sgeobj/sge_multi_MA_L.h ../libs/sgeobj/sge_order_OR_L.h
+qstat_xml.o: ../libs/sgeobj/sge_order_OQ_L.h
+qstat_xml.o: ../libs/sgeobj/sge_order_RTIC_L.h
+qstat_xml.o: ../libs/sgeobj/sge_pack_PACK_L.h
+qstat_xml.o: ../libs/sgeobj/sge_parse_SPA_L.h
+qstat_xml.o: ../libs/sgeobj/sge_path_alias_PA_L.h
+qstat_xml.o: ../libs/sgeobj/sge_pe_PE_L.h ../libs/sgeobj/sge_pe_task_FPET_L.h
+qstat_xml.o: ../libs/sgeobj/sge_pe_task_PET_L.h
+qstat_xml.o: ../libs/sgeobj/sge_pe_task_PETR_L.h
+qstat_xml.o: ../libs/sgeobj/sge_permission_PERM_L.h
+qstat_xml.o: ../libs/sgeobj/sge_pref_PREF_L.h ../libs/sgeobj/sge_ptf_JL_L.h
+qstat_xml.o: ../libs/sgeobj/sge_ptf_JO_L.h ../libs/sgeobj/sge_ptf_JP_L.h
+qstat_xml.o: ../libs/sgeobj/sge_qeti_QETI_L.h ../libs/sgeobj/sge_qexec_RT_L.h
+qstat_xml.o: ../libs/sgeobj/sge_qinstance_QU_L.h
+qstat_xml.o: ../libs/sgeobj/sge_qref_QR_L.h ../libs/sgeobj/sge_range_RN_L.h
+qstat_xml.o: ../libs/sgeobj/sge_report_REP_L.h
+qstat_xml.o: ../libs/sgeobj/sge_report_JR_L.h
+qstat_xml.o: ../libs/sgeobj/sge_report_LIC_L.h
+qstat_xml.o: ../libs/sgeobj/sge_report_LR_L.h
+qstat_xml.o: ../libs/sgeobj/sge_resource_quota_RQS_L.h
+qstat_xml.o: ../libs/sgeobj/sge_resource_quota_RQR_L.h
+qstat_xml.o: ../libs/sgeobj/sge_resource_quota_RQRF_L.h
+qstat_xml.o: ../libs/sgeobj/sge_resource_quota_RQRL_L.h
+qstat_xml.o: ../libs/sgeobj/sge_resource_quota_RQL_L.h
+qstat_xml.o: ../libs/sgeobj/sge_resource_utilization_RDE_L.h
+qstat_xml.o: ../libs/sgeobj/sge_resource_utilization_RUE_L.h
+qstat_xml.o: ../libs/sgeobj/sge_schedd_conf_PARA_L.h
+qstat_xml.o: ../libs/sgeobj/sge_schedd_conf_SC_L.h
+qstat_xml.o: ../libs/sgeobj/sge_sec_SEC_L.h
+qstat_xml.o: ../libs/sgeobj/sge_select_queue_LDR_L.h
+qstat_xml.o: ../libs/sgeobj/sge_select_queue_QRL_L.h
+qstat_xml.o: ../libs/sgeobj/sge_sharetree_STN_L.h
+qstat_xml.o: ../libs/sgeobj/sge_spooling_SPC_L.h
+qstat_xml.o: ../libs/sgeobj/sge_spooling_SPR_L.h
+qstat_xml.o: ../libs/sgeobj/sge_spooling_SPT_L.h
+qstat_xml.o: ../libs/sgeobj/sge_spooling_SPTR_L.h
+qstat_xml.o: ../libs/sgeobj/sge_spooling_SPM_L.h
+qstat_xml.o: ../libs/sgeobj/sge_str_ST_L.h ../libs/sgeobj/sge_str_STU_L.h
+qstat_xml.o: ../libs/sgeobj/sge_subordinate_SO_L.h
+qstat_xml.o: ../libs/sgeobj/sge_suser_SU_L.h
+qstat_xml.o: ../libs/sgeobj/sge_time_event_TE_L.h
+qstat_xml.o: ../libs/sgeobj/sge_ulong_ULNG_L.h
+qstat_xml.o: ../libs/sgeobj/sge_usage_UA_L.h
+qstat_xml.o: ../libs/sgeobj/sge_userprj_PR_L.h
+qstat_xml.o: ../libs/sgeobj/sge_userprj_UU_L.h
+qstat_xml.o: ../libs/sgeobj/sge_userprj_UPU_L.h
+qstat_xml.o: ../libs/sgeobj/sge_userprj_UPP_L.h
+qstat_xml.o: ../libs/sgeobj/sge_userset_US_L.h
+qstat_xml.o: ../libs/sgeobj/sge_userset_UE_L.h
+qstat_xml.o: ../libs/sgeobj/sge_userset_JC_L.h ../libs/sgeobj/sge_var_VA_L.h
+qstat_xml.o: ../libs/sgeobj/sge_procL.h ../libs/sched/sge_sched.h
+qstat_xml.o: ../libs/sched/sge_select_queue.h ../libs/sched/sge_orders.h
+qstat_xml.o: ../libs/evc/sge_event_client.h ../libs/gdi/sge_gdi.h
+qstat_xml.o: ../libs/gdi/sge_gdi_ctx.h ../libs/uti/sge_env.h
+qstat_xml.o: ../libs/uti/sge_error_class.h ../libs/uti/sge_prog.h
+qstat_xml.o: ../libs/uti/sge_arch.h ../libs/uti/setup_path.h
+qstat_xml.o: ../libs/uti/sge_bootstrap.h ../libs/comm/commlib.h
+qstat_xml.o: ../libs/sgeobj/sge_conf.h ../libs/gdi/sge_gdi2.h
+qstat_xml.o: ../libs/sgeobj/sge_conf.h ../libs/gdi/sge_gdi_ctx.h
+qstat_xml.o: ../libs/comm/lists/cl_list_types.h ../libs/uti/sge_profiling.h
+qstat_xml.o: ../libs/uti/sge_uidgid.h ../libs/gdi/sge_gdi_packet.h
+qstat_xml.o: ../libs/sgeobj/sge_event.h ../libs/sched/valid_queue_user.h
+qstat_xml.o: ../libs/sched/sort_hosts.h ../libs/sched/sge_complex_schedd.h
+qstat_xml.o: ../libs/sched/sge_job_schedd.h ../libs/sched/sge_range_schedd.h
+qstat_xml.o: ../libs/sched/sge_pe_schedd.h ../libs/sched/sge_select_queue.h
+qstat_xml.o: ../libs/sched/debit.h ../libs/sched/subordinate_schedd.h
+qstat_xml.o: ../libs/sgeobj/parse.h ../clients/common/qstat_printing.h
+qstat_xml.o: ../clients/common/sge_qhost.h ../libs/sched/sge_schedd_text.h
+qstat_xml.o: ../libs/sched/sgeee.h
+qstat_xml.o: ../daemons/qmaster/sge_sched_process_events.h
+qstat_xml.o: ../libs/evc/sge_event_client.h
+qstat_xml.o: ../daemons/qmaster/sge_sched_prepare_data.h
+qstat_xml.o: ../libs/sgeobj/sge_object.h ../libs/mir/sge_mirror.h
+qstat_xml.o: ../libs/sgeobj/sge_object.h
+qstat_xml.o: ../daemons/qmaster/sge_sched_thread.h
+qstat_xml.o: ../libs/sgeobj/sge_answer.h ../clients/common/sge_qstat.h
+qstat_xml.o: ../libs/sgeobj/sge_cull_xml.h

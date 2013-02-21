@@ -1,0 +1,4 @@
+# DO NOT DELETE
+
+com_sun_grid_util_SGEUtil.o: ../libs/juti/com_sun_grid_util_SGEUtil.h
+com_sun_grid_util_SGEUtil.o: ../libs/juti/juti.h

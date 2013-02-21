@@ -1,0 +1,257 @@
+# DO NOT DELETE
+
+qrstat.o: ../common/basis_types.h ../common/sge.h ../libs/uti/sge_bootstrap.h
+qrstat.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+qrstat.o: ../libs/uti/setup_path.h ../libs/cull/cull_list.h
+qrstat.o: ../libs/cull/cull_hashP.h ../libs/cull/pack.h
+qrstat.o: ../libs/uti/sge_bitfield.h ../libs/uti/sge_env.h
+qrstat.o: ../libs/uti/sge_error_class.h ../libs/cull/cull.h
+qrstat.o: ../libs/cull/cull_listP.h ../libs/cull/cull_where.h
+qrstat.o: ../libs/cull/cull_what.h ../libs/cull/cull_what_elem.h
+qrstat.o: ../libs/cull/cull_what_print.h ../libs/cull/cull_db.h
+qrstat.o: ../libs/cull/cull_multitype.h ../libs/cull/cull_dump_scan.h
+qrstat.o: ../libs/cull/cull_lerrno.h ../libs/cull/cull_pack.h
+qrstat.o: ../libs/cull/cull_sort.h ../libs/cull/cull_tree.h
+qrstat.o: ../libs/cull/cull_hash.h ../libs/uti/sge_dstring.h
+qrstat.o: ../libs/uti/sge_htable.h ../libs/cull/cull_list.h
+qrstat.o: ../libs/cull/cull_state.h ../libs/gdi/sge_gdi.h
+qrstat.o: ../libs/uti/sge_hostname.h ../libs/uti/sge_unistd.h
+qrstat.o: ../libs/gdi/sge_gdi_ctx.h ../libs/uti/sge_prog.h
+qrstat.o: ../libs/uti/sge_arch.h ../libs/comm/commlib.h
+qrstat.o: ../libs/comm/cl_commlib.h ../libs/comm/lists/cl_lists.h
+qrstat.o: ../libs/comm/lists/cl_errors.h ../libs/comm/lists/cl_list_types.h
+qrstat.o: ../libs/comm/lists/cl_raw_list.h ../libs/comm/lists/cl_thread.h
+qrstat.o: ../libs/comm/lists/cl_thread_list.h
+qrstat.o: ../libs/comm/lists/cl_log_list.h
+qrstat.o: ../libs/comm/lists/cl_string_list.h ../libs/comm/cl_data_types.h
+qrstat.o: ../libs/comm/cl_xml_parsing.h ../libs/comm/cl_communication.h
+qrstat.o: ../libs/comm/cl_connection_list.h ../libs/uti/sge_htable.h
+qrstat.o: ../libs/gdi/sge_gdi.h ../libs/sgeobj/sge_conf.h
+qrstat.o: ../libs/sgeobj/sge_conf_CONF_L.h ../libs/sgeobj/sge_boundaries.h
+qrstat.o: ../libs/sgeobj/sge_conf_CF_L.h ../libs/gdi/sge_gdi2.h
+qrstat.o: ../libs/sgeobj/sge_conf.h ../libs/comm/lists/cl_list_types.h
+qrstat.o: ../libs/uti/sge_profiling.h ../libs/uti/sge_uidgid.h
+qrstat.o: ../libs/gdi/sge_gdi_packet.h ../libs/rmon/sgermon.h
+qrstat.o: ../libs/rmon/rmon.h ../libs/rmon/rmon_monitoring_level.h
+qrstat.o: ../libs/uti/sge_log.h ../libs/uti/msg_utilib.h
+qrstat.o: ../clients/common/read_defaults.h ../common/parse_qsub.h
+qrstat.o: ../common/usage.h ../common/sig_handlers.h
+qrstat.o: ../clients/qrstat/qrstat.h ../libs/gdi/sge_gdi_ctx.h
+qrstat.o: ../libs/sgeobj/parse.h ../libs/sgeobj/sge_parse_SPA_L.h
+qrstat.o: ../clients/qrstat/qrstat_report_handler.h
+qrstat.o: ../clients/qrstat/qrstat_filter.h
+qrstat.o: ../clients/qrstat/qrstat_report_handler_xml.h
+qrstat.o: ../clients/qrstat/qrstat_report_handler_stdout.h
+qrstat.o: ../libs/sgeobj/sge_answer.h ../libs/sgeobj/sge_answer_AN_L.h
+qrstat.o: ../libs/sgeobj/sge_str.h ../libs/sgeobj/sge_str_ST_L.h
+qrstat.o: ../libs/sgeobj/sge_str_STU_L.h ../libs/uti/sge_uidgid.h
+qrstat.o: ../libs/uti/sge_io.h ../libs/uti/sge_tmpnam.h
+qrstat.o: ../libs/uti/sge_string.h ../common/msg_common.h
+qrstat_filter.o: ../common/basis_types.h ../common/sge.h
+qrstat_filter.o: ../libs/rmon/sgermon.h ../libs/rmon/rmon.h
+qrstat_filter.o: ../libs/rmon/rmon_monitoring_level.h
+qrstat_filter.o: ../libs/comm/cl_commlib.h ../libs/comm/lists/cl_lists.h
+qrstat_filter.o: ../libs/comm/lists/cl_errors.h
+qrstat_filter.o: ../libs/comm/lists/cl_list_types.h
+qrstat_filter.o: ../libs/comm/lists/cl_raw_list.h
+qrstat_filter.o: ../libs/comm/lists/cl_thread.h
+qrstat_filter.o: ../libs/comm/lists/cl_thread_list.h
+qrstat_filter.o: ../libs/comm/lists/cl_log_list.h
+qrstat_filter.o: ../libs/comm/lists/cl_string_list.h
+qrstat_filter.o: ../libs/comm/cl_data_types.h ../libs/comm/cl_xml_parsing.h
+qrstat_filter.o: ../libs/comm/cl_communication.h
+qrstat_filter.o: ../libs/comm/cl_connection_list.h ../libs/uti/sge_htable.h
+qrstat_filter.o: ../libs/sgeobj/sge_answer.h ../libs/sgeobj/sge_answer_AN_L.h
+qrstat_filter.o: ../libs/sgeobj/sge_boundaries.h ../libs/cull/cull_list.h
+qrstat_filter.o: ../libs/cull/cull.h ../libs/cull/cull_listP.h
+qrstat_filter.o: ../libs/cull/cull_list.h ../libs/cull/cull_hashP.h
+qrstat_filter.o: ../libs/cull/pack.h ../libs/uti/sge_bitfield.h
+qrstat_filter.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+qrstat_filter.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+qrstat_filter.o: ../libs/cull/cull_what_elem.h ../libs/cull/cull_what_print.h
+qrstat_filter.o: ../libs/cull/cull_db.h ../libs/cull/cull_multitype.h
+qrstat_filter.o: ../libs/cull/cull_dump_scan.h ../libs/cull/cull_lerrno.h
+qrstat_filter.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+qrstat_filter.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+qrstat_filter.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_htable.h
+qrstat_filter.o: ../libs/cull/cull_state.h
+qrstat_filter.o: ../libs/sgeobj/sge_advance_reservation.h
+qrstat_filter.o: ../libs/sgeobj/sge_advance_reservation_AR_L.h
+qrstat_filter.o: ../libs/sgeobj/sge_advance_reservation_ARA_L.h
+qrstat_filter.o: ../libs/sgeobj/sge_str.h ../libs/sgeobj/sge_str_ST_L.h
+qrstat_filter.o: ../libs/sgeobj/sge_str_STU_L.h ../libs/sgeobj/sge_ulong.h
+qrstat_filter.o: ../libs/sgeobj/sge_ulong_ULNG_L.h
+qrstat_filter.o: ../clients/qrstat/qrstat_filter.h ../libs/gdi/sge_gdi_ctx.h
+qrstat_report_handler.o: ../common/basis_types.h ../common/sge.h
+qrstat_report_handler.o: ../libs/rmon/sgermon.h ../libs/rmon/rmon.h
+qrstat_report_handler.o: ../libs/rmon/rmon_monitoring_level.h
+qrstat_report_handler.o: ../libs/comm/cl_commlib.h
+qrstat_report_handler.o: ../libs/comm/lists/cl_lists.h
+qrstat_report_handler.o: ../libs/comm/lists/cl_errors.h
+qrstat_report_handler.o: ../libs/comm/lists/cl_list_types.h
+qrstat_report_handler.o: ../libs/comm/lists/cl_raw_list.h
+qrstat_report_handler.o: ../libs/comm/lists/cl_thread.h
+qrstat_report_handler.o: ../libs/comm/lists/cl_thread_list.h
+qrstat_report_handler.o: ../libs/comm/lists/cl_log_list.h
+qrstat_report_handler.o: ../libs/comm/lists/cl_string_list.h
+qrstat_report_handler.o: ../libs/comm/cl_data_types.h
+qrstat_report_handler.o: ../libs/comm/cl_xml_parsing.h
+qrstat_report_handler.o: ../libs/comm/cl_communication.h
+qrstat_report_handler.o: ../libs/comm/cl_connection_list.h
+qrstat_report_handler.o: ../libs/uti/sge_htable.h ../libs/sgeobj/sge_str.h
+qrstat_report_handler.o: ../libs/cull/cull.h ../libs/cull/cull_listP.h
+qrstat_report_handler.o: ../libs/cull/cull_list.h ../libs/cull/cull_hashP.h
+qrstat_report_handler.o: ../libs/cull/pack.h ../libs/uti/sge_bitfield.h
+qrstat_report_handler.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+qrstat_report_handler.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+qrstat_report_handler.o: ../libs/cull/cull_what_elem.h
+qrstat_report_handler.o: ../libs/cull/cull_what_print.h
+qrstat_report_handler.o: ../libs/cull/cull_db.h ../libs/cull/cull_multitype.h
+qrstat_report_handler.o: ../libs/cull/cull_dump_scan.h
+qrstat_report_handler.o: ../libs/cull/cull_lerrno.h ../libs/cull/cull_pack.h
+qrstat_report_handler.o: ../libs/cull/cull_sort.h ../libs/cull/cull_tree.h
+qrstat_report_handler.o: ../libs/cull/cull_hash.h ../libs/uti/sge_dstring.h
+qrstat_report_handler.o: ../libs/uti/sge_htable.h ../libs/cull/cull_list.h
+qrstat_report_handler.o: ../libs/cull/cull_state.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_str_ST_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_boundaries.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_str_STU_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_answer.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_answer_AN_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_advance_reservation.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_advance_reservation_AR_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_advance_reservation_ARA_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_centry.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_centry_CE_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_ct_SCT_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_ct_REF_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_ct_CT_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_ct_CCT_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_ct_CTI_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_job.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_job_JB_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_job_JG_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_job_PN_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_job_AT_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_job_ref_JRE_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_range.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_range_RN_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_mailrec.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_mailrec_MR_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_userset.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_userset_US_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_userset_UE_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_userset_JC_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_ulong.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_ulong_ULNG_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_qinstance.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_qinstance_QU_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_qref.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_qref_QR_L.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_mesobj.h
+qrstat_report_handler.o: ../libs/sgeobj/sge_mesobj_QIM_L.h
+qrstat_report_handler.o: ../libs/sgeobj/cull_parse_util.h
+qrstat_report_handler.o: ../clients/qrstat/qrstat_report_handler.h
+qrstat_report_handler.o: ../libs/gdi/sge_gdi_ctx.h
+qrstat_report_handler.o: ../clients/qrstat/qrstat_filter.h
+qrstat_report_handler.o: ../common/msg_common.h
+qrstat_report_handler_stdout.o: ../common/basis_types.h ../common/sge.h
+qrstat_report_handler_stdout.o: ../libs/rmon/sgermon.h ../libs/rmon/rmon.h
+qrstat_report_handler_stdout.o: ../libs/rmon/rmon_monitoring_level.h
+qrstat_report_handler_stdout.o: ../libs/comm/cl_commlib.h
+qrstat_report_handler_stdout.o: ../libs/comm/lists/cl_lists.h
+qrstat_report_handler_stdout.o: ../libs/comm/lists/cl_errors.h
+qrstat_report_handler_stdout.o: ../libs/comm/lists/cl_list_types.h
+qrstat_report_handler_stdout.o: ../libs/comm/lists/cl_raw_list.h
+qrstat_report_handler_stdout.o: ../libs/comm/lists/cl_thread.h
+qrstat_report_handler_stdout.o: ../libs/comm/lists/cl_thread_list.h
+qrstat_report_handler_stdout.o: ../libs/comm/lists/cl_log_list.h
+qrstat_report_handler_stdout.o: ../libs/comm/lists/cl_string_list.h
+qrstat_report_handler_stdout.o: ../libs/comm/cl_data_types.h
+qrstat_report_handler_stdout.o: ../libs/comm/cl_xml_parsing.h
+qrstat_report_handler_stdout.o: ../libs/comm/cl_communication.h
+qrstat_report_handler_stdout.o: ../libs/comm/cl_connection_list.h
+qrstat_report_handler_stdout.o: ../libs/uti/sge_htable.h
+qrstat_report_handler_stdout.o: ../libs/sgeobj/sge_answer.h
+qrstat_report_handler_stdout.o: ../libs/sgeobj/sge_answer_AN_L.h
+qrstat_report_handler_stdout.o: ../libs/sgeobj/sge_boundaries.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_list.h ../libs/cull/cull.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_listP.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_list.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_hashP.h ../libs/cull/pack.h
+qrstat_report_handler_stdout.o: ../libs/uti/sge_bitfield.h
+qrstat_report_handler_stdout.o: ../libs/uti/sge_dstring.h
+qrstat_report_handler_stdout.o: ../libs/uti/sge_stdlib.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_where.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_what.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_what_elem.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_what_print.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_db.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_multitype.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_dump_scan.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_lerrno.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_pack.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_sort.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_tree.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_hash.h
+qrstat_report_handler_stdout.o: ../libs/uti/sge_dstring.h
+qrstat_report_handler_stdout.o: ../libs/uti/sge_htable.h
+qrstat_report_handler_stdout.o: ../libs/cull/cull_state.h
+qrstat_report_handler_stdout.o: ../libs/sgeobj/sge_advance_reservation.h
+qrstat_report_handler_stdout.o: ../libs/sgeobj/sge_advance_reservation_AR_L.h
+qrstat_report_handler_stdout.o: ../libs/sgeobj/sge_advance_reservation_ARA_L.h
+qrstat_report_handler_stdout.o: ../clients/qrstat/qrstat_filter.h
+qrstat_report_handler_stdout.o: ../libs/gdi/sge_gdi_ctx.h
+qrstat_report_handler_stdout.o: ../clients/qrstat/qrstat_report_handler.h
+qrstat_report_handler_stdout.o: ../clients/qrstat/qrstat_report_handler_xml.h
+qrstat_report_handler_stdout.o: ../common/msg_common.h
+qrstat_report_handler_xml.o: ../common/basis_types.h ../common/sge.h
+qrstat_report_handler_xml.o: ../libs/rmon/sgermon.h ../libs/rmon/rmon.h
+qrstat_report_handler_xml.o: ../libs/rmon/rmon_monitoring_level.h
+qrstat_report_handler_xml.o: ../libs/comm/cl_commlib.h
+qrstat_report_handler_xml.o: ../libs/comm/lists/cl_lists.h
+qrstat_report_handler_xml.o: ../libs/comm/lists/cl_errors.h
+qrstat_report_handler_xml.o: ../libs/comm/lists/cl_list_types.h
+qrstat_report_handler_xml.o: ../libs/comm/lists/cl_raw_list.h
+qrstat_report_handler_xml.o: ../libs/comm/lists/cl_thread.h
+qrstat_report_handler_xml.o: ../libs/comm/lists/cl_thread_list.h
+qrstat_report_handler_xml.o: ../libs/comm/lists/cl_log_list.h
+qrstat_report_handler_xml.o: ../libs/comm/lists/cl_string_list.h
+qrstat_report_handler_xml.o: ../libs/comm/cl_data_types.h
+qrstat_report_handler_xml.o: ../libs/comm/cl_xml_parsing.h
+qrstat_report_handler_xml.o: ../libs/comm/cl_communication.h
+qrstat_report_handler_xml.o: ../libs/comm/cl_connection_list.h
+qrstat_report_handler_xml.o: ../libs/uti/sge_htable.h
+qrstat_report_handler_xml.o: ../libs/sgeobj/sge_answer.h
+qrstat_report_handler_xml.o: ../libs/sgeobj/sge_answer_AN_L.h
+qrstat_report_handler_xml.o: ../libs/sgeobj/sge_boundaries.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_list.h ../libs/cull/cull.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_listP.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_list.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_hashP.h ../libs/cull/pack.h
+qrstat_report_handler_xml.o: ../libs/uti/sge_bitfield.h
+qrstat_report_handler_xml.o: ../libs/uti/sge_dstring.h
+qrstat_report_handler_xml.o: ../libs/uti/sge_stdlib.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_where.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_what.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_what_elem.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_what_print.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_db.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_multitype.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_dump_scan.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_lerrno.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_pack.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_sort.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_tree.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_hash.h
+qrstat_report_handler_xml.o: ../libs/uti/sge_dstring.h
+qrstat_report_handler_xml.o: ../libs/uti/sge_htable.h
+qrstat_report_handler_xml.o: ../libs/cull/cull_state.h
+qrstat_report_handler_xml.o: ../libs/sgeobj/sge_advance_reservation.h
+qrstat_report_handler_xml.o: ../libs/sgeobj/sge_advance_reservation_AR_L.h
+qrstat_report_handler_xml.o: ../libs/sgeobj/sge_advance_reservation_ARA_L.h
+qrstat_report_handler_xml.o: ../clients/qrstat/qrstat_report_handler.h
+qrstat_report_handler_xml.o: ../libs/gdi/sge_gdi_ctx.h
+qrstat_report_handler_xml.o: ../clients/qrstat/qrstat_filter.h
+qrstat_report_handler_xml.o: ../clients/qrstat/qrstat_report_handler_xml.h
+qrstat_report_handler_xml.o: ../common/msg_common.h

@@ -1,0 +1,61 @@
+# DO NOT DELETE
+
+sge_event_client.o: ../libs/uti/sge_unistd.h ../common/basis_types.h
+sge_event_client.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+sge_event_client.o: ../libs/comm/commlib.h ../libs/comm/cl_commlib.h
+sge_event_client.o: ../libs/comm/lists/cl_lists.h
+sge_event_client.o: ../libs/comm/lists/cl_errors.h
+sge_event_client.o: ../libs/comm/lists/cl_list_types.h
+sge_event_client.o: ../libs/comm/lists/cl_raw_list.h
+sge_event_client.o: ../libs/comm/lists/cl_thread.h
+sge_event_client.o: ../libs/comm/lists/cl_thread_list.h
+sge_event_client.o: ../libs/comm/lists/cl_log_list.h
+sge_event_client.o: ../libs/comm/lists/cl_string_list.h
+sge_event_client.o: ../libs/comm/cl_data_types.h
+sge_event_client.o: ../libs/comm/cl_xml_parsing.h
+sge_event_client.o: ../libs/comm/cl_communication.h
+sge_event_client.o: ../libs/comm/cl_connection_list.h
+sge_event_client.o: ../libs/uti/sge_htable.h ../libs/comm/commproc.h
+sge_event_client.o: ../libs/uti/sge_prog.h ../libs/uti/sge_arch.h
+sge_event_client.o: ../libs/uti/sge_env.h ../libs/uti/sge_error_class.h
+sge_event_client.o: ../libs/cull/cull.h ../libs/cull/cull_listP.h
+sge_event_client.o: ../libs/cull/cull_list.h ../libs/cull/cull_hashP.h
+sge_event_client.o: ../libs/cull/pack.h ../libs/uti/sge_bitfield.h
+sge_event_client.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+sge_event_client.o: ../libs/cull/cull_what_elem.h
+sge_event_client.o: ../libs/cull/cull_what_print.h ../libs/cull/cull_db.h
+sge_event_client.o: ../libs/cull/cull_multitype.h
+sge_event_client.o: ../libs/cull/cull_dump_scan.h ../libs/cull/cull_lerrno.h
+sge_event_client.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+sge_event_client.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+sge_event_client.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_htable.h
+sge_event_client.o: ../libs/cull/cull_list.h ../libs/cull/cull_state.h
+sge_event_client.o: ../libs/rmon/sgermon.h ../libs/rmon/rmon.h
+sge_event_client.o: ../libs/rmon/rmon_monitoring_level.h
+sge_event_client.o: ../libs/uti/sge_profiling.h ../libs/gdi/qm_name.h
+sge_event_client.o: ../libs/uti/sge_log.h ../libs/uti/msg_utilib.h
+sge_event_client.o: ../libs/uti/sge_time.h ../libs/sgeobj/sge_answer.h
+sge_event_client.o: ../libs/sgeobj/sge_answer_AN_L.h
+sge_event_client.o: ../libs/sgeobj/sge_boundaries.h
+sge_event_client.o: ../libs/sgeobj/sge_report.h
+sge_event_client.o: ../libs/sgeobj/sge_report_REP_L.h
+sge_event_client.o: ../libs/sgeobj/sge_report_JR_L.h
+sge_event_client.o: ../libs/sgeobj/sge_report_LIC_L.h
+sge_event_client.o: ../libs/sgeobj/sge_report_LR_L.h
+sge_event_client.o: ../libs/sgeobj/sge_conf.h
+sge_event_client.o: ../libs/sgeobj/sge_conf_CONF_L.h
+sge_event_client.o: ../libs/sgeobj/sge_conf_CF_L.h ../libs/lck/sge_mtutil.h
+sge_event_client.o: ../libs/evc/sge_event_client.h ../libs/gdi/sge_gdi.h
+sge_event_client.o: ../libs/uti/sge_hostname.h ../libs/gdi/sge_gdi_ctx.h
+sge_event_client.o: ../libs/uti/setup_path.h ../libs/uti/sge_bootstrap.h
+sge_event_client.o: ../common/sge.h ../libs/gdi/sge_gdi2.h
+sge_event_client.o: ../libs/sgeobj/sge_conf.h ../libs/gdi/sge_gdi_ctx.h
+sge_event_client.o: ../libs/comm/lists/cl_list_types.h
+sge_event_client.o: ../libs/uti/sge_uidgid.h ../libs/gdi/sge_gdi_packet.h
+sge_event_client.o: ../libs/sgeobj/sge_event.h
+sge_event_client.o: ../libs/sgeobj/sge_event_EV_L.h ../libs/uti/sge_monitor.h
+sge_event_client.o: ../libs/sgeobj/sge_event_EVS_L.h
+sge_event_client.o: ../libs/sgeobj/sge_event_ET_L.h ../libs/sgeobj/sge_ack.h
+sge_event_client.o: ../libs/sgeobj/sge_ack_ACK_L.h ../libs/gdi/sge_gdi2.h
+sge_event_client.o: ../libs/sgeobj/sge_event.h ../libs/evc/msg_evclib.h
+sge_event_client.o: ../common/msg_common.h ../libs/gdi/msg_gdilib.h

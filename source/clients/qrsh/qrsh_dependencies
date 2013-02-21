@@ -1,0 +1,9 @@
+# DO NOT DELETE
+
+qrsh_starter.o: ../common/basis_types.h ../libs/uti/config_file.h
+qrsh_starter.o: ../libs/uti/sge_stdlib.h ../libs/uti/sge_string.h
+qrsh_starter.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+qrsh_starter.o: ../libs/uti/sge_unistd.h ../libs/uti/sge_uidgid.h
+qrsh_starter.o: ../libs/uti/sge_unistd.h ../libs/uti/sge_stdio.h
+qrsh_starter.o: ../common/msg_common.h ../daemons/common/msg_daemons_common.h
+qrsh_starter.o: ../clients/qrsh/msg_qrsh.h

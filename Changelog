@@ -1,0 +1,234 @@
+################################################################################
+# This is the Changelog for Open Grid Scheduler source code changes.           #
+#                                                                              #
+#                ===== PLEASE DO NOT DELETE THIS HEADER ====                   #
+################################################################################
+          1         2         3         4         5         6         7
+01234567890123456789012345678901234567890123456789012345678901234567890123456789
+RH-2012-04-25-0:  Enhancem.   Cygwin port
+
+RH-2012-04-23-3:  Cleanup     Misc. cleanups
+
+RH-2012-04-23-2:  Enhancem.   Enhance log file handling
+
+RH-2012-04-23-1:  Bugfix:     Fix buffer overflow in sgepasswd
+
+RH-2012-04-23-0:  Bugfix:     Security fix - code injection via LD_*
+
+RH-2012-04-15-0:  Bugfix:     file descriptors closed too soon in shepherd
+                              (from Brooks Davis, with cleanup from Ron Chen)
+
+RH-2012-04-13-2:  Cleanup     Remove arch.dist
+
+RH-2012-04-13-1:  Enhancem.   hwloc build changes
+
+RH-2012-04-13-0:  Enhancem.   Misc GUI Installer cleanup - part 1
+
+RH-2012-04-11-0:  Enhancem.   Preparing for the GE 2011.11 patch 1 release
+
+RH-2012-04-10-0:  Bugfix:     Merge in Sun's JG-2010-01-13-0:
+                              - execd does not verify the pe task start user in
+                                non CSP mode
+
+RH-2012-03-20-3:  Misc.       -Wno-strict-aliasing is needed for -Werror
+
+RH-2012-03-20-2:  Enhancem.   qmon is now optional
+
+RH-2012-03-20-1:  Enhancem.   LessTif support (from Fedora)
+
+RH-2012-03-20-0:  Enhancem.   Quick fix for Solaris 11
+
+RH-2012-03-18-0:  Enhancem.   Reduce the no. of X11 libs for libXltree link line
+
+RH-2012-03-17-5:  Bugfix:     Changes for OpenSSL API diff. 
+
+RH-2012-03-17-4:  Enhancem.   Fine-grained CheckBinaries()
+
+RH-2012-03-17-3:  Enhancem.   remove unused -R compiler flag in qtcsh
+
+RH-2012-03-17-2:  Enhancem.   include header file for NetBSD & FreeBSD
+
+RH-2012-03-17-1:  Enhancem.   Break warn extra error into a separate flag
+
+RH-2012-03-17-0:  Enhancem.   More aimk improvements
+
+RH-2012-03-16-3:  Enhancem.   improve sys #ifdef
+
+RH-2012-03-16-2:  Enhancem.   minor aimk cleanup
+
+RH-2012-03-16-1:  Enhancem.   added aimk flag: -sys-libssl
+
+RH-2012-03-16-0:  Enhancem.   Set $PATH in bdb_checkpoint.sh
+
+RH-2012-03-15-2:  Enhancem.   Misc. cleanup
+
+RH-2012-03-15-1:  Enhancem.   Cygwin cleanup
+
+RH-2012-03-15-0:  Enhancem.   sge_edit cleanup
+
+RH-2012-03-12-0:  Enhancem.   aimk cleanup
+
+RH-2012-02-15-0:  Enhancem.:  - cleanup inst_sge
+                              - added -sys-jemalloc
+
+RH-2012-01-21-1:  Bugfix:     lx -> linux in arch
+
+RH-2012-01-21-0:  Enhancem.   64-bit OSX port + OSX cleanup
+
+RH-2011-11-21-1:  Enhancem.   add -y option to auto-accept prompts
+                  From:       Justin Riley (with some minor changes by RH)
+
+RH-2011-11-21-0:  Enhancem.   set JAVA_LIB_ARCH to i386 if -32 flag was passed
+                  From:       Justin Riley
+
+RH-2011-11-19-0:  Bugfix:     Exported bash functions causes erroneous
+                              "environment" file
+                  Issue:      2173
+
+RH-2011-11-16-1:  Enhancem.   Cygwin port - Part 1
+
+-------------------------------------------------------------------------------
+
+RH-2011-11-16-0:  SVN:        Grid Engine 2011.11
+
+RH-2011-11-14-1:  Enhancem.   manpage update
+
+RH-2011-11-13-6:  Bugfix:     Minor fix for Hadoop setup.pl (from Kevin Squire)
+
+RH-2011-11-13-5:  Enhancem.   version string GE 2011.11
+
+RH-2011-11-13-4:  Enhancem.   import new qmon icons (from Alain Champenois)
+
+RH-2011-11-13-3:  Enhancem.   delete old qmon icons
+
+RH-2011-11-13-2:  Enhancem.   import hwloc-1.2.2
+
+RH-2011-11-13-1:  Enhancem.   Solaris build changes
+
+RH-2011-11-13-0:  Enhancem.   Better support for hwloc-1.3
+
+RH-2011-11-09-1:  Enhancem.   Transform gmake -> qmake
+
+RH-2011-11-09-0:  Enhancem.   Berkeley DB spooling enhancement
+
+RH-2011-11-08-16: Enhancem.   coding style cleanup
+
+RH-2011-11-08-16: Enhancem.   hwloc topology binding
+
+RH-2011-11-08-15: Bugfix:     Issue 2335
+
+RH-2011-11-08-14: Bugfix:     misc. fixes
+                              o remove extra white spaces
+                              o XML schema URL
+                              o va_end missing
+
+RH-2011-11-08-13: Enhancem.   check for ret value from AIX perfstat lib
+                              (from Ron Chen)
+
+RH-2011-11-08-13: Enhancem.   debug code in classic spooling under CLASSIC_DEBUG
+
+RH-2011-11-08-12: Enhancem.   PQS API cleanup
+
+RH-2011-11-08-11: Enhancem.   - code cleanup (Part 3)
+
+RH-2011-11-08-10: Bugfix:     Issue 3239
+
+RH-2011-11-08-9: Enhancem.    Job exit status - $SGE_JOBEXIT_STAT
+
+RH-2011-11-08-8: Enhancem.    configurable mailer user
+
+RH-2011-11-08-7: Enhancem.    removed old /proc group check
+
+RH-2011-11-08-6: Bugfix:      fix funny \b chars in shepherd trace
+
+RH-2011-11-08-5: Enhancem.    - classic spooling cleanup
+                              - more code cleanup (Part 2)
+
+RH-2011-11-08-5: Enhancem.    - code cleanup (Part 1)
+
+RH-2011-11-08-4: Bugfix:      new URL for XML Schema (Part 2)
+
+RH-2011-11-08-3: Bugfix:      new URL for XML Schema
+
+RH-2011-11-08-2: Enhancem.    - more arch string changes
+                               o "linux" for lx24, 26, 30 kernels
+                               o "aix" for aix 5.1 and up
+                               o changes for ARM Linux support
+                                 (preliminary support for arm64)
+
+RH-2011-11-08-1: Enhancem.    - aimk
+                               o stackprotect 
+                               o proper freetype include
+                               o changes for hwloc
+                               o changes for ARM Linux
+                               o arch string rework (lx -> linux, amd64 -> x64)
+
+RH-2011-11-08-0: Enhancem.    - deleted  gmake 3.78.1
+                              - imported gmake 3.82
+
+RH-2011-04-16-0: Enhancem.    aimk -werror
+
+RC-2011-04-16-0: Cleanup:     minor cleanup
+
+RC-2011-04-12-0: Cleanup:     removed get_processor_id()
+
+RH-2011-04-11-0: Cleanup:     cleanup
+
+RH-2011-04-06-0: Enhancem.    Fedora 14 compilation fix
+
+RC-2011-04-05-0: Cleanup:     more cleanups
+
+RH-2011-04-03-0: Enhancem.    lock cleanup         
+
+-------------------------------------------------------------------------------
+
+RH-2011-04-01-0: SVN:         OGS 6.2u5p2
+
+RC-2011-03-27-0: Cleanup:     more cleanups
+
+RC-2011-03-22-0: Bugfix:      Perl jsv throws error if job argument contains
+                              comma
+                 Issue:       3266
+
+RC-2011-03-19-0: Cleanup:     misc. cleanup
+
+RH-2011-03-18-0: Bugfix:      jsv logging does not work when multiple users
+                              submit jobs on same submit host
+                 Issue:       3228
+
+RH-2011-03-14-1: Bugfix:      free()-hook for glibc is also needed in our 
+                              jemalloc library
+                              (merged from Mozilla 493541 & SGE SH-2010-01-05-1)
+
+RH-2011-03-14-0: Bugfix:      rerun of a tightly integrated parallel job crashes
+                              qmaster after restart
+                              (merged from JG-2009-12-28-0)
+                 Bugster:     6912529
+                 Issue:       3216
+                 Review:      HP
+
+RH-2011-03-08-0: Cleanup:     LINUX Macro
+                 Review:      RC
+
+RH-2011-03-07-0: Enhancem.    checkin the S/390 port done by Rayson Ho
+                              and Uriel Carrasquilla
+                              (based on RC-2011-02-25)
+                 Review:      RC
+
+-------------------------------------------------------------------------------
+
+RH-2011-02-25-0: SVN:         created trunk, tags, branches (OGS 6.2u5p1)
+
+SD-2010-09-15-0: Bugfix:      slotwise preemption fails to unsuspend one job 
+                              per host
+                 SGE Issue:   3233
+
+RH-2010-09-09-0: Bugfix:      vmem error workaround
+
+RH-2010-08-22-0: Bugfix:      compilation error on Linux
+                 SGE Issue:   2980
+                 Ubuntu Bug:  496689
+
+-------------------------------------------------------
+
+RC-2010-08-18-0: SVN:         created from V62u5_TAG

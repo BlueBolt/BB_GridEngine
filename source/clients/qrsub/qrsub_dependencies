@@ -1,0 +1,42 @@
+# DO NOT DELETE
+
+qrsub.o: ../libs/gdi/sge_gdi_ctx.h ../libs/uti/sge_env.h
+qrsub.o: ../libs/uti/sge_error_class.h ../common/basis_types.h
+qrsub.o: ../libs/cull/cull.h ../libs/cull/cull_listP.h
+qrsub.o: ../libs/cull/cull_list.h ../libs/cull/cull_hashP.h
+qrsub.o: ../libs/cull/pack.h ../libs/uti/sge_bitfield.h
+qrsub.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+qrsub.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+qrsub.o: ../libs/cull/cull_what_elem.h ../libs/cull/cull_what_print.h
+qrsub.o: ../libs/cull/cull_db.h ../libs/cull/cull_multitype.h
+qrsub.o: ../libs/cull/cull_dump_scan.h ../libs/cull/cull_lerrno.h
+qrsub.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+qrsub.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+qrsub.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_htable.h
+qrsub.o: ../libs/cull/cull_list.h ../libs/cull/cull_state.h
+qrsub.o: ../libs/uti/sge_prog.h ../libs/uti/sge_arch.h
+qrsub.o: ../libs/uti/setup_path.h ../libs/uti/sge_bootstrap.h
+qrsub.o: ../libs/comm/commlib.h ../libs/comm/cl_commlib.h
+qrsub.o: ../libs/comm/lists/cl_lists.h ../libs/comm/lists/cl_errors.h
+qrsub.o: ../libs/comm/lists/cl_list_types.h ../libs/comm/lists/cl_raw_list.h
+qrsub.o: ../libs/comm/lists/cl_thread.h ../libs/comm/lists/cl_thread_list.h
+qrsub.o: ../libs/comm/lists/cl_log_list.h ../libs/comm/lists/cl_string_list.h
+qrsub.o: ../libs/comm/cl_data_types.h ../libs/comm/cl_xml_parsing.h
+qrsub.o: ../libs/comm/cl_communication.h ../libs/comm/cl_connection_list.h
+qrsub.o: ../libs/uti/sge_htable.h ../common/sge.h ../libs/gdi/sge_gdi.h
+qrsub.o: ../libs/uti/sge_hostname.h ../libs/uti/sge_unistd.h
+qrsub.o: ../libs/sgeobj/sge_conf.h ../libs/sgeobj/sge_conf_CONF_L.h
+qrsub.o: ../libs/sgeobj/sge_boundaries.h ../libs/sgeobj/sge_conf_CF_L.h
+qrsub.o: ../libs/gdi/sge_gdi2.h ../libs/sgeobj/sge_conf.h
+qrsub.o: ../libs/comm/lists/cl_list_types.h ../libs/uti/sge_profiling.h
+qrsub.o: ../libs/uti/sge_uidgid.h ../libs/gdi/sge_gdi_packet.h
+qrsub.o: ../libs/rmon/sgermon.h ../libs/rmon/rmon.h
+qrsub.o: ../libs/rmon/rmon_monitoring_level.h ../libs/sgeobj/sge_answer.h
+qrsub.o: ../libs/sgeobj/sge_answer_AN_L.h ../libs/uti/sge_log.h
+qrsub.o: ../libs/uti/msg_utilib.h ../clients/common/read_defaults.h
+qrsub.o: ../common/parse_qsub.h ../common/parse_job_cull.h ../common/usage.h
+qrsub.o: ../clients/common/msg_clients_common.h ../common/sig_handlers.h
+qrsub.o: ../libs/sgeobj/sge_advance_reservation.h
+qrsub.o: ../libs/sgeobj/sge_advance_reservation_AR_L.h
+qrsub.o: ../libs/sgeobj/sge_advance_reservation_ARA_L.h
+qrsub.o: ../clients/common/sge_qrsub.h ../libs/cull/cull.h

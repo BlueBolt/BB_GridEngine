@@ -1,0 +1,17 @@
+# DO NOT DELETE
+
+rmon_macros.o: ../libs/rmon/rmon.h ../libs/rmon/rmon_monitoring_level.h
+rmon_macros.o: ../libs/comm/cl_commlib.h ../common/basis_types.h
+rmon_macros.o: ../libs/comm/lists/cl_lists.h ../libs/comm/lists/cl_errors.h
+rmon_macros.o: ../libs/comm/lists/cl_list_types.h
+rmon_macros.o: ../libs/comm/lists/cl_raw_list.h
+rmon_macros.o: ../libs/comm/lists/cl_thread.h
+rmon_macros.o: ../libs/comm/lists/cl_thread_list.h
+rmon_macros.o: ../libs/comm/lists/cl_log_list.h
+rmon_macros.o: ../libs/comm/lists/cl_string_list.h
+rmon_macros.o: ../libs/comm/cl_data_types.h ../libs/comm/cl_xml_parsing.h
+rmon_macros.o: ../libs/comm/cl_communication.h
+rmon_macros.o: ../libs/comm/cl_connection_list.h ../libs/uti/sge_htable.h
+rmon_macros.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+rmon_macros.o: ../libs/lck/sge_mtutil.h ../libs/rmon/msg_rmon.h
+rmon_monitoring_level.o: ../libs/rmon/rmon_monitoring_level.h

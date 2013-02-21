@@ -1,0 +1,171 @@
+# DO NOT DELETE
+
+compile.o: ../libs/japi/drmaa.h
+drmaa.o: ../libs/lck/sge_mtutil.h ../libs/japi/drmaa.h
+drmaa.o: ../libs/japi/msg_drmaa.h ../common/basis_types.h ../libs/japi/japi.h
+drmaa.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+drmaa.o: ../libs/sgeobj/sge_japi_JJ_L.h ../libs/sgeobj/sge_boundaries.h
+drmaa.o: ../libs/cull/cull_list.h ../libs/cull/cull_hashP.h
+drmaa.o: ../libs/cull/pack.h ../libs/uti/sge_bitfield.h ../libs/cull/cull.h
+drmaa.o: ../libs/cull/cull_listP.h ../libs/cull/cull_list.h
+drmaa.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+drmaa.o: ../libs/cull/cull_what_elem.h ../libs/cull/cull_what_print.h
+drmaa.o: ../libs/cull/cull_db.h ../libs/cull/cull_multitype.h
+drmaa.o: ../libs/cull/cull_dump_scan.h ../libs/cull/cull_lerrno.h
+drmaa.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+drmaa.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+drmaa.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_htable.h
+drmaa.o: ../libs/cull/cull_state.h ../libs/sgeobj/sge_japi_JJAT_L.h
+drmaa.o: ../libs/sgeobj/sge_japi_NSV_L.h ../libs/japi/japiP.h
+drmaa.o: ../libs/sgeobj/sge_answer.h ../libs/sgeobj/sge_answer_AN_L.h
+drmaa.o: ../clients/common/read_defaults.h ../common/msg_common.h
+drmaa.o: ../common/parse_job_cull.h ../common/parse_qsub.h
+drmaa.o: ../common/sge_options.h ../libs/uti/sge_prog.h
+drmaa.o: ../libs/uti/sge_arch.h ../libs/uti/sge_env.h
+drmaa.o: ../libs/uti/sge_error_class.h ../common/symbols.h
+drmaa.o: ../libs/uti/setup_path.h ../libs/uti/sge_parse_args.h
+drmaa.o: ../libs/uti/sge_sl.h ../libs/uti/sge_string.h
+drmaa.o: ../libs/uti/sge_uidgid.h ../libs/uti/sge_unistd.h
+drmaa.o: ../libs/uti/sge_profiling.h ../libs/rmon/sgermon.h
+drmaa.o: ../libs/rmon/rmon.h ../libs/rmon/rmon_monitoring_level.h
+drmaa.o: ../libs/comm/cl_commlib.h ../libs/comm/lists/cl_lists.h
+drmaa.o: ../libs/comm/lists/cl_errors.h ../libs/comm/lists/cl_list_types.h
+drmaa.o: ../libs/comm/lists/cl_raw_list.h ../libs/comm/lists/cl_thread.h
+drmaa.o: ../libs/comm/lists/cl_thread_list.h ../libs/comm/lists/cl_log_list.h
+drmaa.o: ../libs/comm/lists/cl_string_list.h ../libs/comm/cl_data_types.h
+drmaa.o: ../libs/comm/cl_xml_parsing.h ../libs/comm/cl_communication.h
+drmaa.o: ../libs/comm/cl_connection_list.h ../libs/uti/sge_htable.h
+drmaa.o: ../libs/sgeobj/sge_path_alias.h ../libs/sgeobj/sge_path_alias_PA_L.h
+drmaa.o: ../libs/sgeobj/sge_job.h ../libs/sgeobj/sge_job_JB_L.h
+drmaa.o: ../libs/sgeobj/sge_job_JG_L.h ../libs/sgeobj/sge_job_PN_L.h
+drmaa.o: ../libs/sgeobj/sge_job_AT_L.h ../libs/sgeobj/sge_job_ref_JRE_L.h
+drmaa.o: ../libs/sgeobj/parse.h ../libs/sgeobj/sge_parse_SPA_L.h
+drmaa.o: ../libs/sgeobj/sge_mailrec.h ../libs/sgeobj/sge_mailrec_MR_L.h
+drmaa.o: ../libs/sgeobj/sge_range.h ../libs/sgeobj/sge_range_RN_L.h
+drmaa.o: ../libs/sgeobj/sge_ulong.h ../libs/sgeobj/sge_ulong_ULNG_L.h
+drmaa.o: ../libs/sgeobj/sge_var.h ../libs/sgeobj/sge_var_VA_L.h
+drmaa.o: ../libs/sgeobj/sge_ja_task.h ../libs/sgeobj/sge_ja_task_JAT_L.h
+drmaa.o: ../libs/sgeobj/sge_str.h ../libs/sgeobj/sge_str_ST_L.h
+drmaa.o: ../libs/sgeobj/sge_str_STU_L.h ../libs/gdi/sge_qtcsh.h
+drmaa.o: ../libs/gdi/sge_gdi_ctx.h ../libs/uti/sge_bootstrap.h
+drmaa.o: ../libs/comm/commlib.h ../common/sge.h ../libs/gdi/sge_gdi.h
+drmaa.o: ../libs/uti/sge_hostname.h ../libs/sgeobj/sge_conf.h
+drmaa.o: ../libs/sgeobj/sge_conf_CONF_L.h ../libs/sgeobj/sge_conf_CF_L.h
+drmaa.o: ../libs/gdi/sge_gdi2.h ../libs/sgeobj/sge_conf.h
+drmaa.o: ../libs/comm/lists/cl_list_types.h ../libs/gdi/sge_gdi_packet.h
+example.o: ../libs/japi/drmaa.h
+japi.o: ../libs/lck/sge_mtutil.h ../libs/japi/drmaa.h ../libs/japi/japi.h
+japi.o: ../libs/uti/sge_dstring.h ../common/basis_types.h
+japi.o: ../libs/uti/sge_stdlib.h ../libs/sgeobj/sge_japi_JJ_L.h
+japi.o: ../libs/sgeobj/sge_boundaries.h ../libs/cull/cull_list.h
+japi.o: ../libs/cull/cull_hashP.h ../libs/cull/pack.h
+japi.o: ../libs/uti/sge_bitfield.h ../libs/cull/cull.h
+japi.o: ../libs/cull/cull_listP.h ../libs/cull/cull_list.h
+japi.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+japi.o: ../libs/cull/cull_what_elem.h ../libs/cull/cull_what_print.h
+japi.o: ../libs/cull/cull_db.h ../libs/cull/cull_multitype.h
+japi.o: ../libs/cull/cull_dump_scan.h ../libs/cull/cull_lerrno.h
+japi.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+japi.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+japi.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_htable.h
+japi.o: ../libs/cull/cull_state.h ../libs/sgeobj/sge_japi_JJAT_L.h
+japi.o: ../libs/sgeobj/sge_japi_NSV_L.h ../libs/japi/msg_japi.h
+japi.o: ../common/sge.h ../libs/sgeobj/sge_answer.h
+japi.o: ../libs/sgeobj/sge_answer_AN_L.h ../libs/uti/sge_profiling.h
+japi.o: ../libs/sgeobj/sge_conf.h ../libs/sgeobj/sge_conf_CONF_L.h
+japi.o: ../libs/sgeobj/sge_conf_CF_L.h ../libs/japi/japiP.h
+japi.o: ../libs/rmon/sgermon.h ../libs/rmon/rmon.h
+japi.o: ../libs/rmon/rmon_monitoring_level.h ../libs/comm/cl_commlib.h
+japi.o: ../libs/comm/lists/cl_lists.h ../libs/comm/lists/cl_errors.h
+japi.o: ../libs/comm/lists/cl_list_types.h ../libs/comm/lists/cl_raw_list.h
+japi.o: ../libs/comm/lists/cl_thread.h ../libs/comm/lists/cl_thread_list.h
+japi.o: ../libs/comm/lists/cl_log_list.h ../libs/comm/lists/cl_string_list.h
+japi.o: ../libs/comm/cl_data_types.h ../libs/comm/cl_xml_parsing.h
+japi.o: ../libs/comm/cl_communication.h ../libs/comm/cl_connection_list.h
+japi.o: ../libs/uti/sge_htable.h ../libs/uti/sge_prog.h
+japi.o: ../libs/uti/sge_arch.h ../libs/uti/sge_env.h
+japi.o: ../libs/uti/sge_error_class.h ../libs/uti/sge_time.h
+japi.o: ../libs/uti/sge_log.h ../libs/uti/msg_utilib.h
+japi.o: ../libs/uti/sge_signal.h ../libs/uti/sge_uidgid.h
+japi.o: ../libs/uti/sge_unistd.h ../libs/uti/sge_string.h
+japi.o: ../libs/uti/sge_bootstrap.h ../libs/uti/setup_path.h
+japi.o: ../libs/uti/sge_hostname.h ../libs/comm/commlib.h
+japi.o: ../libs/evc/sge_event_client.h ../libs/gdi/sge_gdi.h
+japi.o: ../libs/uti/sge_hostname.h ../libs/gdi/sge_gdi_ctx.h
+japi.o: ../libs/gdi/sge_gdi2.h ../libs/sgeobj/sge_conf.h
+japi.o: ../libs/gdi/sge_gdi_ctx.h ../libs/gdi/sge_gdi_packet.h
+japi.o: ../libs/comm/lists/cl_list_types.h ../libs/sgeobj/sge_event.h
+japi.o: ../libs/sgeobj/sge_event_EV_L.h ../libs/uti/sge_monitor.h
+japi.o: ../libs/sgeobj/sge_event_EVS_L.h ../libs/sgeobj/sge_event_ET_L.h
+japi.o: ../libs/evm/sge_event_master.h ../libs/sgeobj/sge_event.h
+japi.o: ../libs/gdi/sge_gdi.h ../libs/gdi/sge_gdiP.h
+japi.o: ../libs/gdi/sge_security.h ../libs/gdi/sge_gdiP.h
+japi.o: ../daemons/qmaster/sge_qmaster_timed_event.h
+japi.o: ../libs/gdi/sge_gdi_packet.h ../libs/sgeobj/sge_cqueue.h
+japi.o: ../libs/sgeobj/sge_cqueue_CQ_L.h ../libs/sgeobj/sge_feature.h
+japi.o: ../libs/sgeobj/sge_feature_FES_L.h ../libs/sgeobj/sge_id.h
+japi.o: ../libs/sgeobj/sge_id_ID_L.h ../libs/sgeobj/sge_job.h
+japi.o: ../libs/sgeobj/sge_job_JB_L.h ../libs/sgeobj/sge_job_JG_L.h
+japi.o: ../libs/sgeobj/sge_job_PN_L.h ../libs/sgeobj/sge_job_AT_L.h
+japi.o: ../libs/sgeobj/sge_job_ref_JRE_L.h ../libs/sgeobj/sge_ja_task.h
+japi.o: ../libs/sgeobj/sge_ja_task_JAT_L.h ../libs/sgeobj/sge_object.h
+japi.o: ../libs/sgeobj/sge_qinstance.h ../libs/sgeobj/sge_qinstance_QU_L.h
+japi.o: ../libs/sgeobj/sge_qinstance_state.h ../libs/sgeobj/sge_range.h
+japi.o: ../libs/sgeobj/sge_range_RN_L.h ../libs/sgeobj/sge_report.h
+japi.o: ../libs/sgeobj/sge_report_REP_L.h ../libs/sgeobj/sge_report_JR_L.h
+japi.o: ../libs/sgeobj/sge_report_LIC_L.h ../libs/sgeobj/sge_report_LR_L.h
+japi.o: ../libs/sgeobj/sge_str.h ../libs/sgeobj/sge_str_ST_L.h
+japi.o: ../libs/sgeobj/sge_str_STU_L.h ../libs/sgeobj/sge_answer.h
+japi.o: ../libs/sgeobj/sge_usage.h ../libs/sgeobj/sge_usage_UA_L.h
+japi.o: ../common/msg_common.h
+test_drmaa.o: ../libs/japi/drmaa.h ../libs/japi/japi.h ../libs/japi/drmaa.h
+test_drmaa.o: ../libs/uti/sge_dstring.h ../common/basis_types.h
+test_drmaa.o: ../libs/uti/sge_stdlib.h ../libs/sgeobj/sge_japi_JJ_L.h
+test_drmaa.o: ../libs/sgeobj/sge_boundaries.h ../libs/cull/cull_list.h
+test_drmaa.o: ../libs/cull/cull_hashP.h ../libs/cull/pack.h
+test_drmaa.o: ../libs/uti/sge_bitfield.h ../libs/cull/cull.h
+test_drmaa.o: ../libs/cull/cull_listP.h ../libs/cull/cull_list.h
+test_drmaa.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+test_drmaa.o: ../libs/cull/cull_what_elem.h ../libs/cull/cull_what_print.h
+test_drmaa.o: ../libs/cull/cull_db.h ../libs/cull/cull_multitype.h
+test_drmaa.o: ../libs/cull/cull_dump_scan.h ../libs/cull/cull_lerrno.h
+test_drmaa.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+test_drmaa.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+test_drmaa.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_htable.h
+test_drmaa.o: ../libs/cull/cull_state.h ../libs/sgeobj/sge_japi_JJAT_L.h
+test_drmaa.o: ../libs/sgeobj/sge_japi_NSV_L.h ../libs/japi/japiP.h
+test_drmaa.o: ../libs/gdi/sge_gdi.h ../libs/sgeobj/sge_job.h
+test_drmaa.o: ../libs/uti/sge_htable.h ../libs/sgeobj/sge_job_JB_L.h
+test_drmaa.o: ../libs/sgeobj/sge_job_JG_L.h ../libs/sgeobj/sge_job_PN_L.h
+test_drmaa.o: ../libs/sgeobj/sge_job_AT_L.h
+test_drmaa.o: ../libs/sgeobj/sge_job_ref_JRE_L.h ../libs/sgeobj/sge_answer.h
+test_drmaa.o: ../libs/uti/sge_profiling.h ../libs/uti/sge_stdio.h
+test_drmaa.o: ../libs/comm/commlib.h ../libs/comm/cl_commlib.h
+test_drmaa.o: ../libs/comm/lists/cl_lists.h ../libs/comm/lists/cl_errors.h
+test_drmaa.o: ../libs/comm/lists/cl_list_types.h
+test_drmaa.o: ../libs/comm/lists/cl_raw_list.h ../libs/comm/lists/cl_thread.h
+test_drmaa.o: ../libs/comm/lists/cl_thread_list.h
+test_drmaa.o: ../libs/comm/lists/cl_log_list.h
+test_drmaa.o: ../libs/comm/lists/cl_string_list.h
+test_drmaa.o: ../libs/comm/cl_data_types.h ../libs/comm/cl_xml_parsing.h
+test_drmaa.o: ../libs/comm/cl_communication.h
+test_drmaa.o: ../libs/comm/cl_connection_list.h ../clients/common/show_job.h
+test_drmaa.o: ../libs/rmon/rmon_monitoring_level.h ../libs/rmon/sgermon.h
+test_drmaa.o: ../libs/rmon/rmon.h ../libs/gdi/sge_gdi_ctx.h
+test_drmaa.o: ../libs/uti/sge_env.h ../libs/uti/sge_error_class.h
+test_drmaa.o: ../libs/uti/sge_prog.h ../libs/uti/sge_arch.h
+test_drmaa.o: ../libs/uti/setup_path.h ../libs/uti/sge_bootstrap.h
+test_drmaa.o: ../libs/comm/commlib.h ../common/sge.h ../libs/gdi/sge_gdi.h
+test_drmaa.o: ../libs/uti/sge_hostname.h ../libs/uti/sge_unistd.h
+test_drmaa.o: ../libs/sgeobj/sge_conf.h ../libs/sgeobj/sge_conf_CONF_L.h
+test_drmaa.o: ../libs/sgeobj/sge_conf_CF_L.h ../libs/gdi/sge_gdi2.h
+test_drmaa.o: ../libs/sgeobj/sge_conf.h ../libs/comm/lists/cl_list_types.h
+test_drmaa.o: ../libs/uti/sge_profiling.h ../libs/uti/sge_uidgid.h
+test_drmaa.o: ../libs/gdi/sge_gdi_packet.h ../common/msg_common.h
+test_drmaa_issue1768.o: ../libs/japi/drmaa.h
+test_drmaa_issue1832.o: ../libs/japi/drmaa.h
+test_drmaa_issue1892.o: ../libs/japi/drmaa.h
+test_drmaa_mcpu.o: ../libs/japi/drmaa.h
+test_drmaa_no_bin.o: ../libs/japi/drmaa.h
+test_drmaa_perf.o: ../libs/japi/drmaa.h
+test_drmaa_sync.o: ../libs/japi/drmaa.h

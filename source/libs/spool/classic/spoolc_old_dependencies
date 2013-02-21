@@ -1,0 +1,68 @@
+# DO NOT DELETE
+
+read_write_job.o: ../common/basis_types.h ../common/sge.h
+read_write_job.o: ../libs/uti/sge_log.h ../libs/uti/msg_utilib.h
+read_write_job.o: ../libs/sgeobj/sge_ja_task.h ../libs/uti/sge_dstring.h
+read_write_job.o: ../libs/uti/sge_stdlib.h ../libs/sgeobj/sge_ja_task_JAT_L.h
+read_write_job.o: ../libs/sgeobj/sge_boundaries.h ../libs/cull/cull_list.h
+read_write_job.o: ../libs/cull/cull_hashP.h ../libs/cull/pack.h
+read_write_job.o: ../libs/uti/sge_bitfield.h ../libs/cull/cull.h
+read_write_job.o: ../libs/cull/cull_listP.h ../libs/cull/cull_list.h
+read_write_job.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+read_write_job.o: ../libs/cull/cull_what_elem.h
+read_write_job.o: ../libs/cull/cull_what_print.h ../libs/cull/cull_db.h
+read_write_job.o: ../libs/cull/cull_multitype.h ../libs/cull/cull_dump_scan.h
+read_write_job.o: ../libs/cull/cull_lerrno.h ../libs/cull/cull_pack.h
+read_write_job.o: ../libs/cull/cull_sort.h ../libs/cull/cull_tree.h
+read_write_job.o: ../libs/cull/cull_hash.h ../libs/uti/sge_dstring.h
+read_write_job.o: ../libs/uti/sge_htable.h ../libs/cull/cull_state.h
+read_write_job.o: ../libs/rmon/sgermon.h ../libs/rmon/rmon.h
+read_write_job.o: ../libs/rmon/rmon_monitoring_level.h
+read_write_job.o: ../libs/comm/cl_commlib.h ../libs/comm/lists/cl_lists.h
+read_write_job.o: ../libs/comm/lists/cl_errors.h
+read_write_job.o: ../libs/comm/lists/cl_list_types.h
+read_write_job.o: ../libs/comm/lists/cl_raw_list.h
+read_write_job.o: ../libs/comm/lists/cl_thread.h
+read_write_job.o: ../libs/comm/lists/cl_thread_list.h
+read_write_job.o: ../libs/comm/lists/cl_log_list.h
+read_write_job.o: ../libs/comm/lists/cl_string_list.h
+read_write_job.o: ../libs/comm/cl_data_types.h ../libs/comm/cl_xml_parsing.h
+read_write_job.o: ../libs/comm/cl_communication.h
+read_write_job.o: ../libs/comm/cl_connection_list.h ../libs/uti/sge_htable.h
+read_write_job.o: ../libs/cull/cull_file.h ../libs/uti/sge_spool.h
+read_write_job.o: ../libs/spool/sge_dirent.h ../libs/sgeobj/sge_str.h
+read_write_job.o: ../libs/sgeobj/sge_str_ST_L.h
+read_write_job.o: ../libs/sgeobj/sge_str_STU_L.h
+read_write_job.o: ../daemons/qmaster/sge_job_qmaster.h ../libs/gdi/sge_gdiP.h
+read_write_job.o: ../libs/gdi/sge_gdi.h ../libs/uti/sge_hostname.h
+read_write_job.o: ../libs/uti/sge_unistd.h ../libs/sgeobj/sge_event.h
+read_write_job.o: ../libs/sgeobj/sge_event_EV_L.h ../libs/uti/sge_monitor.h
+read_write_job.o: ../libs/sgeobj/sge_event_EVS_L.h
+read_write_job.o: ../libs/sgeobj/sge_event_ET_L.h
+read_write_job.o: ../daemons/qmaster/sge_qmaster_timed_event.h
+read_write_job.o: ../libs/gdi/sge_gdi_ctx.h ../libs/uti/sge_env.h
+read_write_job.o: ../libs/uti/sge_error_class.h ../libs/uti/sge_prog.h
+read_write_job.o: ../libs/uti/sge_arch.h ../libs/uti/setup_path.h
+read_write_job.o: ../libs/uti/sge_bootstrap.h ../libs/comm/commlib.h
+read_write_job.o: ../libs/sgeobj/sge_conf.h ../libs/sgeobj/sge_conf_CONF_L.h
+read_write_job.o: ../libs/sgeobj/sge_conf_CF_L.h ../libs/gdi/sge_gdi2.h
+read_write_job.o: ../libs/sgeobj/sge_conf.h
+read_write_job.o: ../libs/comm/lists/cl_list_types.h
+read_write_job.o: ../libs/uti/sge_profiling.h ../libs/uti/sge_uidgid.h
+read_write_job.o: ../libs/gdi/sge_gdi_packet.h ../libs/gdi/sge_gdi_packet.h
+read_write_job.o: ../libs/sgeobj/sge_event.h ../libs/sgeobj/sge_job.h
+read_write_job.o: ../libs/sgeobj/sge_job_JB_L.h ../libs/sgeobj/sge_job_JG_L.h
+read_write_job.o: ../libs/sgeobj/sge_job_PN_L.h ../libs/sgeobj/sge_job_AT_L.h
+read_write_job.o: ../libs/sgeobj/sge_job_ref_JRE_L.h
+read_write_job.o: ../libs/sgeobj/sge_answer.h
+read_write_job.o: ../libs/sgeobj/sge_answer_AN_L.h ../libs/sgeobj/sge_suser.h
+read_write_job.o: ../libs/sgeobj/sge_suser_SU_L.h
+read_write_job.o: ../libs/sgeobj/sge_pe_task.h
+read_write_job.o: ../libs/sgeobj/sge_pe_task_PET_L.h
+read_write_job.o: ../libs/sgeobj/sge_pe_task_PETR_L.h
+read_write_job.o: ../libs/sgeobj/sge_pe_task_FPET_L.h ../libs/sgeobj/sge_pe.h
+read_write_job.o: ../libs/sgeobj/sge_pe_PE_L.h ../libs/uti/sge_time.h
+read_write_job.o: ../libs/uti/sge_profiling.h ../libs/sgeobj/sge_object.h
+read_write_job.o: ../common/msg_common.h
+read_write_job.o: ../libs/spool/classic/msg_spoollib_classic.h
+read_write_job.o: ../libs/spool/classic/read_write_job.h

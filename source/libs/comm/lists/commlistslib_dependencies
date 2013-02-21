@@ -1,0 +1,102 @@
+# DO NOT DELETE
+
+cl_errors.o: ../common/basis_types.h ../libs/comm/lists/cl_errors.h
+cl_errors.o: ../libs/comm/lists/msg_commlistslib.h
+cl_log_list.o: ../libs/comm/lists/cl_lists.h ../libs/comm/lists/cl_errors.h
+cl_log_list.o: ../libs/comm/lists/cl_list_types.h
+cl_log_list.o: ../libs/comm/lists/cl_raw_list.h
+cl_log_list.o: ../libs/comm/lists/cl_thread.h
+cl_log_list.o: ../libs/comm/lists/cl_thread_list.h
+cl_log_list.o: ../libs/comm/lists/cl_log_list.h
+cl_log_list.o: ../libs/comm/lists/cl_string_list.h
+cl_log_list.o: ../libs/comm/lists/cl_util.h ../common/basis_types.h
+cl_parameter_list.o: ../libs/comm/lists/cl_parameter_list.h
+cl_parameter_list.o: ../libs/comm/lists/cl_lists.h
+cl_parameter_list.o: ../libs/comm/lists/cl_errors.h
+cl_parameter_list.o: ../libs/comm/lists/cl_list_types.h
+cl_parameter_list.o: ../libs/comm/lists/cl_raw_list.h
+cl_parameter_list.o: ../libs/comm/lists/cl_thread.h
+cl_parameter_list.o: ../libs/comm/lists/cl_thread_list.h
+cl_parameter_list.o: ../libs/comm/lists/cl_log_list.h
+cl_parameter_list.o: ../libs/comm/lists/cl_string_list.h
+cl_raw_list.o: ../libs/comm/lists/cl_lists.h ../libs/comm/lists/cl_errors.h
+cl_raw_list.o: ../libs/comm/lists/cl_list_types.h
+cl_raw_list.o: ../libs/comm/lists/cl_raw_list.h
+cl_raw_list.o: ../libs/comm/lists/cl_thread.h
+cl_raw_list.o: ../libs/comm/lists/cl_thread_list.h
+cl_raw_list.o: ../libs/comm/lists/cl_log_list.h
+cl_raw_list.o: ../libs/comm/lists/cl_string_list.h
+cl_string_list.o: ../libs/comm/lists/cl_string_list.h
+cl_string_list.o: ../libs/comm/lists/cl_lists.h
+cl_string_list.o: ../libs/comm/lists/cl_errors.h
+cl_string_list.o: ../libs/comm/lists/cl_list_types.h
+cl_string_list.o: ../libs/comm/lists/cl_raw_list.h
+cl_string_list.o: ../libs/comm/lists/cl_thread.h
+cl_string_list.o: ../libs/comm/lists/cl_thread_list.h
+cl_string_list.o: ../libs/comm/lists/cl_log_list.h
+cl_thread.o: ../libs/comm/lists/cl_lists.h ../libs/comm/lists/cl_errors.h
+cl_thread.o: ../libs/comm/lists/cl_list_types.h
+cl_thread.o: ../libs/comm/lists/cl_raw_list.h ../libs/comm/lists/cl_thread.h
+cl_thread.o: ../libs/comm/lists/cl_thread_list.h
+cl_thread.o: ../libs/comm/lists/cl_log_list.h
+cl_thread.o: ../libs/comm/lists/cl_string_list.h
+cl_thread_list.o: ../libs/comm/lists/cl_lists.h
+cl_thread_list.o: ../libs/comm/lists/cl_errors.h
+cl_thread_list.o: ../libs/comm/lists/cl_list_types.h
+cl_thread_list.o: ../libs/comm/lists/cl_raw_list.h
+cl_thread_list.o: ../libs/comm/lists/cl_thread.h
+cl_thread_list.o: ../libs/comm/lists/cl_thread_list.h
+cl_thread_list.o: ../libs/comm/lists/cl_log_list.h
+cl_thread_list.o: ../libs/comm/lists/cl_string_list.h
+cl_util.o: ../libs/comm/lists/cl_util.h ../common/basis_types.h
+cl_util.o: ../libs/comm/lists/cl_errors.h
+test_cl_errors.o: ../libs/comm/lists/cl_lists.h
+test_cl_errors.o: ../libs/comm/lists/cl_errors.h
+test_cl_errors.o: ../libs/comm/lists/cl_list_types.h
+test_cl_errors.o: ../libs/comm/lists/cl_raw_list.h
+test_cl_errors.o: ../libs/comm/lists/cl_thread.h
+test_cl_errors.o: ../libs/comm/lists/cl_thread_list.h
+test_cl_errors.o: ../libs/comm/lists/cl_log_list.h
+test_cl_errors.o: ../libs/comm/lists/cl_string_list.h
+test_cl_log_list.o: ../libs/comm/lists/cl_lists.h
+test_cl_log_list.o: ../libs/comm/lists/cl_errors.h
+test_cl_log_list.o: ../libs/comm/lists/cl_list_types.h
+test_cl_log_list.o: ../libs/comm/lists/cl_raw_list.h
+test_cl_log_list.o: ../libs/comm/lists/cl_thread.h
+test_cl_log_list.o: ../libs/comm/lists/cl_thread_list.h
+test_cl_log_list.o: ../libs/comm/lists/cl_log_list.h
+test_cl_log_list.o: ../libs/comm/lists/cl_string_list.h
+test_cl_parameter_list.o: ../libs/comm/lists/cl_parameter_list.h
+test_cl_parameter_list.o: ../libs/comm/lists/cl_lists.h
+test_cl_parameter_list.o: ../libs/comm/lists/cl_errors.h
+test_cl_parameter_list.o: ../libs/comm/lists/cl_list_types.h
+test_cl_parameter_list.o: ../libs/comm/lists/cl_raw_list.h
+test_cl_parameter_list.o: ../libs/comm/lists/cl_thread.h
+test_cl_parameter_list.o: ../libs/comm/lists/cl_thread_list.h
+test_cl_parameter_list.o: ../libs/comm/lists/cl_log_list.h
+test_cl_parameter_list.o: ../libs/comm/lists/cl_string_list.h
+test_cl_raw_list.o: ../libs/comm/lists/cl_lists.h
+test_cl_raw_list.o: ../libs/comm/lists/cl_errors.h
+test_cl_raw_list.o: ../libs/comm/lists/cl_list_types.h
+test_cl_raw_list.o: ../libs/comm/lists/cl_raw_list.h
+test_cl_raw_list.o: ../libs/comm/lists/cl_thread.h
+test_cl_raw_list.o: ../libs/comm/lists/cl_thread_list.h
+test_cl_raw_list.o: ../libs/comm/lists/cl_log_list.h
+test_cl_raw_list.o: ../libs/comm/lists/cl_string_list.h
+test_cl_thread.o: ../libs/comm/lists/cl_lists.h
+test_cl_thread.o: ../libs/comm/lists/cl_errors.h
+test_cl_thread.o: ../libs/comm/lists/cl_list_types.h
+test_cl_thread.o: ../libs/comm/lists/cl_raw_list.h
+test_cl_thread.o: ../libs/comm/lists/cl_thread.h
+test_cl_thread.o: ../libs/comm/lists/cl_thread_list.h
+test_cl_thread.o: ../libs/comm/lists/cl_log_list.h
+test_cl_thread.o: ../libs/comm/lists/cl_string_list.h
+test_cl_thread_list.o: ../libs/comm/lists/cl_lists.h
+test_cl_thread_list.o: ../libs/comm/lists/cl_errors.h
+test_cl_thread_list.o: ../libs/comm/lists/cl_list_types.h
+test_cl_thread_list.o: ../libs/comm/lists/cl_raw_list.h
+test_cl_thread_list.o: ../libs/comm/lists/cl_thread.h
+test_cl_thread_list.o: ../libs/comm/lists/cl_thread_list.h
+test_cl_thread_list.o: ../libs/comm/lists/cl_log_list.h
+test_cl_thread_list.o: ../libs/comm/lists/cl_string_list.h
+test_cl_util.o: ../libs/comm/lists/cl_util.h ../common/basis_types.h

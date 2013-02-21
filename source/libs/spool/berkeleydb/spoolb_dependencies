@@ -1,0 +1,139 @@
+# DO NOT DELETE
+
+sge_bdb.o: ../libs/rmon/sgermon.h ../libs/uti/sge_log.h
+sge_bdb.o: ../common/basis_types.h ../libs/uti/msg_utilib.h
+sge_bdb.o: ../libs/uti/sge_profiling.h ../libs/uti/sge_dstring.h
+sge_bdb.o: ../libs/uti/sge_stdlib.h ../libs/uti/sge_string.h
+sge_bdb.o: ../libs/uti/sge_unistd.h ../libs/cull/cull.h
+sge_bdb.o: ../libs/cull/cull_listP.h ../libs/cull/cull_list.h
+sge_bdb.o: ../libs/cull/cull_hashP.h ../libs/cull/pack.h
+sge_bdb.o: ../libs/uti/sge_bitfield.h ../libs/cull/cull_where.h
+sge_bdb.o: ../libs/cull/cull_what.h ../libs/cull/cull_what_elem.h
+sge_bdb.o: ../libs/cull/cull_what_print.h ../libs/cull/cull_db.h
+sge_bdb.o: ../libs/cull/cull_multitype.h ../libs/cull/cull_dump_scan.h
+sge_bdb.o: ../libs/cull/cull_lerrno.h ../libs/cull/cull_pack.h
+sge_bdb.o: ../libs/cull/cull_sort.h ../libs/cull/cull_tree.h
+sge_bdb.o: ../libs/cull/cull_hash.h ../libs/uti/sge_dstring.h
+sge_bdb.o: ../libs/uti/sge_htable.h ../libs/cull/cull_list.h
+sge_bdb.o: ../libs/cull/cull_state.h ../libs/sgeobj/sge_answer.h
+sge_bdb.o: ../libs/sgeobj/sge_answer_AN_L.h ../libs/sgeobj/sge_boundaries.h
+sge_bdb.o: ../libs/cull/cull.h ../libs/sgeobj/sge_cqueue.h
+sge_bdb.o: ../libs/sgeobj/sge_cqueue_CQ_L.h ../libs/sgeobj/sge_ja_task.h
+sge_bdb.o: ../libs/sgeobj/sge_ja_task_JAT_L.h ../libs/sgeobj/sge_job.h
+sge_bdb.o: ../libs/uti/sge_htable.h ../libs/sgeobj/sge_job_JB_L.h
+sge_bdb.o: ../libs/sgeobj/sge_job_JG_L.h ../libs/sgeobj/sge_job_PN_L.h
+sge_bdb.o: ../libs/sgeobj/sge_job_AT_L.h ../libs/sgeobj/sge_job_ref_JRE_L.h
+sge_bdb.o: ../libs/sgeobj/sge_object.h ../libs/sgeobj/sge_str.h
+sge_bdb.o: ../libs/sgeobj/sge_str_ST_L.h ../libs/sgeobj/sge_str_STU_L.h
+sge_bdb.o: ../common/msg_common.h
+sge_bdb.o: ../libs/spool/berkeleydb/msg_spoollib_berkeleydb.h
+sge_bdb.o: ../libs/spool/berkeleydb/sge_bdb.h
+sge_bdb.o: ../libs/spool/berkeleydb/sge_bdb_types.h
+sge_bdb_types.o: ../common/basis_types.h ../libs/rmon/sgermon.h
+sge_bdb_types.o: ../libs/uti/sge_log.h ../libs/uti/msg_utilib.h
+sge_bdb_types.o: ../libs/lck/sge_mtutil.h
+sge_bdb_types.o: ../libs/spool/berkeleydb/msg_spoollib_berkeleydb.h
+sge_bdb_types.o: ../libs/spool/berkeleydb/sge_bdb_types.h
+sge_bdb_types.o: ../libs/uti/sge_dstring.h
+sge_spooling_berkeleydb.o: ../libs/rmon/sgermon.h ../libs/uti/config_file.h
+sge_spooling_berkeleydb.o: ../common/basis_types.h ../libs/uti/sge_dstring.h
+sge_spooling_berkeleydb.o: ../libs/uti/sge_log.h ../libs/uti/msg_utilib.h
+sge_spooling_berkeleydb.o: ../libs/uti/sge_profiling.h
+sge_spooling_berkeleydb.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+sge_spooling_berkeleydb.o: ../libs/uti/sge_string.h ../libs/uti/sge_unistd.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_answer.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_answer_AN_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_boundaries.h
+sge_spooling_berkeleydb.o: ../libs/cull/cull_list.h ../libs/cull/cull.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_object.h
+sge_spooling_berkeleydb.o: ../libs/cull/cull_list.h ../libs/cull/cull_hashP.h
+sge_spooling_berkeleydb.o: ../libs/cull/pack.h ../libs/uti/sge_bitfield.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_cqueue.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_cqueue_CQ_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_host.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_host_EH_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_host_RU_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_host_AH_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_host_SH_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_host_HL_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_host_HS_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_job.h ../libs/uti/sge_htable.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_job_JB_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_job_JG_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_job_PN_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_job_AT_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_job_ref_JRE_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_str.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_str_ST_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_str_STU_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_ja_task.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_ja_task_JAT_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_pe_task.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_pe_task_PET_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_pe_task_PETR_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_pe_task_FPET_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_qinstance.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_qinstance_QU_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_suser.h ../libs/gdi/sge_gdiP.h
+sge_spooling_berkeleydb.o: ../libs/gdi/sge_gdi.h ../libs/uti/sge_hostname.h
+sge_spooling_berkeleydb.o: ../libs/uti/sge_unistd.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_suser_SU_L.h
+sge_spooling_berkeleydb.o: ../libs/spool/sge_spooling_utilities.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_object.h ../common/msg_common.h
+sge_spooling_berkeleydb.o: ../libs/spool/msg_spoollib.h
+sge_spooling_berkeleydb.o: ../libs/spool/berkeleydb/msg_spoollib_berkeleydb.h
+sge_spooling_berkeleydb.o: ../libs/spool/berkeleydb/sge_bdb.h
+sge_spooling_berkeleydb.o: ../libs/cull/cull.h ../libs/cull/cull_listP.h
+sge_spooling_berkeleydb.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+sge_spooling_berkeleydb.o: ../libs/cull/cull_what_elem.h
+sge_spooling_berkeleydb.o: ../libs/cull/cull_what_print.h
+sge_spooling_berkeleydb.o: ../libs/cull/cull_db.h
+sge_spooling_berkeleydb.o: ../libs/cull/cull_multitype.h
+sge_spooling_berkeleydb.o: ../libs/cull/cull_dump_scan.h
+sge_spooling_berkeleydb.o: ../libs/cull/cull_lerrno.h
+sge_spooling_berkeleydb.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+sge_spooling_berkeleydb.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+sge_spooling_berkeleydb.o: ../libs/uti/sge_htable.h ../libs/cull/cull_state.h
+sge_spooling_berkeleydb.o: ../libs/spool/berkeleydb/sge_bdb_types.h
+sge_spooling_berkeleydb.o: ../libs/spool/berkeleydb/sge_spooling_berkeleydb.h
+sge_spooling_berkeleydb.o: ../libs/spool/sge_spooling.h
+sge_spooling_berkeleydb.o: ../libs/mir/sge_mirror.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_event.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_event_EV_L.h
+sge_spooling_berkeleydb.o: ../libs/uti/sge_monitor.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_event_EVS_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_event_ET_L.h
+sge_spooling_berkeleydb.o: ../libs/evc/sge_event_client.h
+sge_spooling_berkeleydb.o: ../libs/gdi/sge_gdi_ctx.h ../libs/uti/sge_env.h
+sge_spooling_berkeleydb.o: ../libs/uti/sge_error_class.h
+sge_spooling_berkeleydb.o: ../libs/uti/sge_prog.h ../libs/uti/sge_arch.h
+sge_spooling_berkeleydb.o: ../libs/uti/setup_path.h
+sge_spooling_berkeleydb.o: ../libs/uti/sge_bootstrap.h ../libs/comm/commlib.h
+sge_spooling_berkeleydb.o: ../libs/comm/cl_commlib.h
+sge_spooling_berkeleydb.o: ../libs/comm/lists/cl_lists.h
+sge_spooling_berkeleydb.o: ../libs/comm/lists/cl_errors.h
+sge_spooling_berkeleydb.o: ../libs/comm/lists/cl_list_types.h
+sge_spooling_berkeleydb.o: ../libs/comm/lists/cl_raw_list.h
+sge_spooling_berkeleydb.o: ../libs/comm/lists/cl_thread.h
+sge_spooling_berkeleydb.o: ../libs/comm/lists/cl_thread_list.h
+sge_spooling_berkeleydb.o: ../libs/comm/lists/cl_log_list.h
+sge_spooling_berkeleydb.o: ../libs/comm/lists/cl_string_list.h
+sge_spooling_berkeleydb.o: ../libs/comm/cl_data_types.h
+sge_spooling_berkeleydb.o: ../libs/comm/cl_xml_parsing.h
+sge_spooling_berkeleydb.o: ../libs/comm/cl_communication.h
+sge_spooling_berkeleydb.o: ../libs/comm/cl_connection_list.h ../common/sge.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_conf.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_conf_CONF_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_conf_CF_L.h
+sge_spooling_berkeleydb.o: ../libs/gdi/sge_gdi2.h ../libs/sgeobj/sge_conf.h
+sge_spooling_berkeleydb.o: ../libs/gdi/sge_gdi_ctx.h
+sge_spooling_berkeleydb.o: ../libs/comm/lists/cl_list_types.h
+sge_spooling_berkeleydb.o: ../libs/uti/sge_profiling.h
+sge_spooling_berkeleydb.o: ../libs/uti/sge_uidgid.h
+sge_spooling_berkeleydb.o: ../libs/gdi/sge_gdi_packet.h
+sge_spooling_berkeleydb.o: ../libs/spool/sge_spooling.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_spooling_SPC_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_spooling_SPR_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_spooling_SPT_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_spooling_SPTR_L.h
+sge_spooling_berkeleydb.o: ../libs/sgeobj/sge_spooling_SPM_L.h

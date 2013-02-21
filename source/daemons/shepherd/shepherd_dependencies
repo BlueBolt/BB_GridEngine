@@ -1,0 +1,201 @@
+# DO NOT DELETE
+
+am_chdir.o: ../libs/uti/sge_unistd.h ../common/basis_types.h
+am_chdir.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+am_chdir.o: ../daemons/shepherd/am_chdir.h
+builtin_starter.o: ../libs/uti/sge_string.h ../libs/uti/sge_dstring.h
+builtin_starter.o: ../common/basis_types.h ../libs/uti/sge_stdlib.h
+builtin_starter.o: ../libs/uti/sge_stdio.h ../libs/uti/sge_stdlib.h
+builtin_starter.o: ../libs/uti/sge_signal.h ../libs/uti/sge_unistd.h
+builtin_starter.o: ../libs/uti/sge_arch.h ../daemons/common/setosjobid.h
+builtin_starter.o: ../daemons/shepherd/sge_fileio.h ../libs/sgeobj/sge_var.h
+builtin_starter.o: ../libs/sgeobj/sge_var_VA_L.h
+builtin_starter.o: ../libs/sgeobj/sge_boundaries.h ../libs/cull/cull_list.h
+builtin_starter.o: ../libs/cull/cull_hashP.h ../libs/cull/pack.h
+builtin_starter.o: ../libs/uti/sge_bitfield.h ../libs/cull/cull.h
+builtin_starter.o: ../libs/cull/cull_listP.h ../libs/cull/cull_list.h
+builtin_starter.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+builtin_starter.o: ../libs/cull/cull_what_elem.h
+builtin_starter.o: ../libs/cull/cull_what_print.h ../libs/cull/cull_db.h
+builtin_starter.o: ../libs/cull/cull_multitype.h
+builtin_starter.o: ../libs/cull/cull_dump_scan.h ../libs/cull/cull_lerrno.h
+builtin_starter.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+builtin_starter.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+builtin_starter.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_htable.h
+builtin_starter.o: ../libs/cull/cull_state.h ../common/msg_common.h
+builtin_starter.o: ../daemons/shepherd/builtin_starter.h
+builtin_starter.o: ../daemons/common/err_trace.h
+builtin_starter.o: ../daemons/shepherd/setrlimits.h
+builtin_starter.o: ../daemons/execd/get_path.h ../common/execution_states.h
+builtin_starter.o: ../daemons/common/qlogin_starter.h
+builtin_starter.o: ../libs/uti/config_file.h ../libs/uti/sge_uidgid.h
+builtin_starter.o: ../libs/uti/sge_unistd.h
+setjoblimit.o: ../libs/cull/cull.h ../libs/cull/cull_listP.h
+setjoblimit.o: ../libs/cull/cull_list.h ../libs/uti/sge_bitfield.h
+setjoblimit.o: ../common/basis_types.h ../libs/cull/cull_where.h
+setjoblimit.o: ../libs/cull/cull_what.h ../libs/uti/sge_dstring.h
+setjoblimit.o: ../libs/uti/sge_stdlib.h ../libs/cull/cull_what_elem.h
+setjoblimit.o: ../libs/cull/cull_what_print.h ../libs/cull/cull_db.h
+setjoblimit.o: ../libs/cull/pack.h ../libs/cull/cull_multitype.h
+setjoblimit.o: ../libs/cull/cull_dump_scan.h ../libs/cull/cull_lerrno.h
+setjoblimit.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+setjoblimit.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+setjoblimit.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_htable.h
+setjoblimit.o: ../libs/cull/cull_list.h ../libs/cull/cull_hashP.h
+setjoblimit.o: ../libs/cull/cull_state.h ../daemons/execd/ptf.h
+setjoblimit.o: ../daemons/shepherd/setjoblimit.h
+setrlimits.o: ../common/basis_types.h ../libs/uti/sge_parse_num_par.h
+setrlimits.o: ../libs/cull/cull_list.h ../libs/uti/config_file.h
+setrlimits.o: ../daemons/shepherd/setrlimits.h ../daemons/common/err_trace.h
+setrlimits.o: ../daemons/shepherd/setjoblimit.h ../libs/cull/cull.h
+setrlimits.o: ../libs/cull/cull_listP.h ../libs/uti/sge_bitfield.h
+setrlimits.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+setrlimits.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+setrlimits.o: ../libs/cull/cull_what_elem.h ../libs/cull/cull_what_print.h
+setrlimits.o: ../libs/cull/cull_db.h ../libs/cull/pack.h
+setrlimits.o: ../libs/cull/cull_multitype.h ../libs/cull/cull_dump_scan.h
+setrlimits.o: ../libs/cull/cull_lerrno.h ../libs/cull/cull_pack.h
+setrlimits.o: ../libs/cull/cull_sort.h ../libs/cull/cull_tree.h
+setrlimits.o: ../libs/cull/cull_hash.h ../libs/uti/sge_dstring.h
+setrlimits.o: ../libs/uti/sge_htable.h ../libs/cull/cull_list.h
+setrlimits.o: ../libs/cull/cull_hashP.h ../libs/cull/cull_state.h
+setrlimits.o: ../daemons/execd/ptf.h ../libs/uti/sge_uidgid.h
+setrlimits.o: ../libs/uti/sge_unistd.h ../libs/uti/sge_os.h
+setrlimits.o: ../libs/uti/sge_getloadavg.h ../libs/uti/sge_loadmem.h
+setrlimits.o: ../libs/uti/sge_nprocs.h ../libs/uti/sge_nice.h
+setrlimits.o: ../libs/gdi/sge_gdi_ctx.h ../libs/uti/sge_env.h
+setrlimits.o: ../libs/uti/sge_error_class.h ../libs/uti/sge_prog.h
+setrlimits.o: ../libs/uti/sge_arch.h ../libs/uti/setup_path.h
+setrlimits.o: ../libs/uti/sge_bootstrap.h ../libs/comm/commlib.h
+setrlimits.o: ../libs/comm/cl_commlib.h ../libs/comm/lists/cl_lists.h
+setrlimits.o: ../libs/comm/lists/cl_errors.h
+setrlimits.o: ../libs/comm/lists/cl_list_types.h
+setrlimits.o: ../libs/comm/lists/cl_raw_list.h ../libs/comm/lists/cl_thread.h
+setrlimits.o: ../libs/comm/lists/cl_thread_list.h
+setrlimits.o: ../libs/comm/lists/cl_log_list.h
+setrlimits.o: ../libs/comm/lists/cl_string_list.h
+setrlimits.o: ../libs/comm/cl_data_types.h ../libs/comm/cl_xml_parsing.h
+setrlimits.o: ../libs/comm/cl_communication.h
+setrlimits.o: ../libs/comm/cl_connection_list.h ../libs/uti/sge_htable.h
+setrlimits.o: ../common/sge.h ../libs/gdi/sge_gdi.h
+setrlimits.o: ../libs/uti/sge_hostname.h ../libs/sgeobj/sge_conf.h
+setrlimits.o: ../libs/sgeobj/sge_conf_CONF_L.h
+setrlimits.o: ../libs/sgeobj/sge_boundaries.h ../libs/sgeobj/sge_conf_CF_L.h
+setrlimits.o: ../libs/gdi/sge_gdi2.h ../libs/sgeobj/sge_conf.h
+setrlimits.o: ../libs/comm/lists/cl_list_types.h ../libs/uti/sge_profiling.h
+setrlimits.o: ../libs/gdi/sge_gdi_packet.h
+sge_fileio.o: ../common/basis_types.h ../libs/uti/config_file.h
+sge_fileio.o: ../daemons/common/err_trace.h ../common/execution_states.h
+sge_fileio.o: ../libs/uti/sge_stdio.h ../libs/uti/sge_uidgid.h
+sge_fileio.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+sge_fileio.o: ../libs/uti/sge_unistd.h ../common/msg_common.h
+sge_pset.o: ../libs/uti/sge_uidgid.h ../libs/uti/sge_dstring.h
+sge_pset.o: ../common/basis_types.h ../libs/uti/sge_stdlib.h
+sge_pset.o: ../libs/uti/sge_unistd.h ../libs/uti/sge_nprocs.h
+sge_pset.o: ../daemons/shepherd/sge_pset.h ../libs/uti/config_file.h
+sge_pset.o: ../common/execution_states.h ../daemons/common/err_trace.h
+sge_pset.o: ../libs/uti/sge_stdio.h
+sge_shepconf.o: ../daemons/shepherd/sge_shepconf.h ../libs/uti/sge_dstring.h
+sge_shepconf.o: ../common/basis_types.h ../libs/uti/sge_stdlib.h
+sge_shepconf.o: ../libs/uti/config_file.h ../daemons/shepherd/signal_queue.h
+sge_shepconf.o: ../libs/uti/sge_signal.h ../libs/uti/sge_string.h
+sge_shepconf.o: ../daemons/common/err_trace.h
+sge_shepherd_ijs.o: ../common/basis_types.h ../daemons/common/err_trace.h
+sge_shepherd_ijs.o: ../libs/uti/sge_stdlib.h ../libs/uti/sge_dstring.h
+sge_shepherd_ijs.o: ../libs/uti/sge_pty.h ../common/sge_ijs_comm.h
+sge_shepherd_ijs.o: ../libs/comm/cl_data_types.h
+sge_shepherd_ijs.o: ../libs/comm/lists/cl_lists.h
+sge_shepherd_ijs.o: ../libs/comm/lists/cl_errors.h
+sge_shepherd_ijs.o: ../libs/comm/lists/cl_list_types.h
+sge_shepherd_ijs.o: ../libs/comm/lists/cl_raw_list.h
+sge_shepherd_ijs.o: ../libs/comm/lists/cl_thread.h
+sge_shepherd_ijs.o: ../libs/comm/lists/cl_thread_list.h
+sge_shepherd_ijs.o: ../libs/comm/lists/cl_log_list.h
+sge_shepherd_ijs.o: ../libs/comm/lists/cl_string_list.h
+sge_shepherd_ijs.o: ../libs/comm/cl_xml_parsing.h ../libs/comm/cl_commlib.h
+sge_shepherd_ijs.o: ../libs/comm/cl_communication.h
+sge_shepherd_ijs.o: ../libs/comm/cl_connection_list.h
+sge_shepherd_ijs.o: ../libs/uti/sge_htable.h ../common/sge_ijs_threads.h
+sge_shepherd_ijs.o: ../libs/uti/sge_io.h ../libs/uti/sge_tmpnam.h
+sge_shepherd_ijs.o: ../daemons/shepherd/sge_fileio.h ../libs/uti/sge_uidgid.h
+sge_shepherd_ijs.o: ../libs/uti/sge_unistd.h ../libs/uti/sge_signal.h
+sge_shepherd_ijs.o: ../daemons/shepherd/shepherd.h
+shepherd_binding.o: ../libs/uti/sge_binding_hlp.h ../libs/uti/sge_dstring.h
+shepherd_binding.o: ../libs/uti/sge_binding_parse.h ../libs/cull/cull.h
+shepherd_binding.o: ../libs/cull/cull_listP.h ../libs/cull/cull_list.h
+shepherd_binding.o: ../libs/uti/sge_bitfield.h ../common/basis_types.h
+shepherd_binding.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+shepherd_binding.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+shepherd_binding.o: ../libs/cull/cull_what_elem.h
+shepherd_binding.o: ../libs/cull/cull_what_print.h ../libs/cull/cull_db.h
+shepherd_binding.o: ../libs/cull/pack.h ../libs/cull/cull_multitype.h
+shepherd_binding.o: ../libs/cull/cull_dump_scan.h ../libs/cull/cull_lerrno.h
+shepherd_binding.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+shepherd_binding.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+shepherd_binding.o: ../libs/uti/sge_htable.h ../libs/cull/cull_list.h
+shepherd_binding.o: ../libs/cull/cull_hashP.h ../libs/cull/cull_state.h
+shepherd_binding.o: ../libs/uti/binding_api.h
+shepherd_binding.o: ../daemons/shepherd/shepherd_binding.h
+shepherd_binding.o: ../libs/uti/config_file.h ../libs/uti/sge_string.h
+shepherd_binding.o: ../daemons/common/err_trace.h
+shepherd.o: ../libs/uti/sge_binding_hlp.h ../libs/uti/sge_dstring.h
+shepherd.o: ../libs/uti/sge_binding_parse.h ../libs/cull/cull.h
+shepherd.o: ../libs/cull/cull_listP.h ../libs/cull/cull_list.h
+shepherd.o: ../libs/uti/sge_bitfield.h ../common/basis_types.h
+shepherd.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+shepherd.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+shepherd.o: ../libs/cull/cull_what_elem.h ../libs/cull/cull_what_print.h
+shepherd.o: ../libs/cull/cull_db.h ../libs/cull/pack.h
+shepherd.o: ../libs/cull/cull_multitype.h ../libs/cull/cull_dump_scan.h
+shepherd.o: ../libs/cull/cull_lerrno.h ../libs/cull/cull_pack.h
+shepherd.o: ../libs/cull/cull_sort.h ../libs/cull/cull_tree.h
+shepherd.o: ../libs/cull/cull_hash.h ../libs/uti/sge_htable.h
+shepherd.o: ../libs/cull/cull_list.h ../libs/cull/cull_hashP.h
+shepherd.o: ../libs/cull/cull_state.h ../daemons/shepherd/shepherd_binding.h
+shepherd.o: ../libs/uti/config_file.h ../libs/uti/sge_stdlib.h
+shepherd.o: ../libs/uti/sge_stdio.h ../libs/uti/sge_uidgid.h
+shepherd.o: ../libs/uti/sge_unistd.h ../daemons/common/err_trace.h
+shepherd.o: ../daemons/shepherd/setrlimits.h
+shepherd.o: ../daemons/shepherd/signal_queue.h ../common/execution_states.h
+shepherd.o: ../libs/uti/sge_signal.h ../libs/uti/sge_time.h
+shepherd.o: ../libs/uti/sge_parse_num_par.h ../daemons/execd/sgedefs.h
+shepherd.o: ../daemons/execd/exec_ifm.h ../daemons/common/pdc.h
+shepherd.o: ../daemons/common/procfs.h ../daemons/shepherd/builtin_starter.h
+shepherd.o: ../libs/uti/sge_afsutil.h ../daemons/common/qlogin_starter.h
+shepherd.o: ../libs/sgeobj/sge_feature.h ../libs/sgeobj/sge_feature_FES_L.h
+shepherd.o: ../libs/sgeobj/sge_boundaries.h ../libs/uti/sge_os.h
+shepherd.o: ../libs/uti/sge_getloadavg.h ../libs/uti/sge_loadmem.h
+shepherd.o: ../libs/uti/sge_nprocs.h ../libs/uti/sge_nice.h
+shepherd.o: ../libs/gdi/sge_gdi_ctx.h ../libs/uti/sge_env.h
+shepherd.o: ../libs/uti/sge_error_class.h ../libs/uti/sge_prog.h
+shepherd.o: ../libs/uti/sge_arch.h ../libs/uti/setup_path.h
+shepherd.o: ../libs/uti/sge_bootstrap.h ../libs/comm/commlib.h
+shepherd.o: ../libs/comm/cl_commlib.h ../libs/comm/lists/cl_lists.h
+shepherd.o: ../libs/comm/lists/cl_errors.h ../libs/comm/lists/cl_list_types.h
+shepherd.o: ../libs/comm/lists/cl_raw_list.h ../libs/comm/lists/cl_thread.h
+shepherd.o: ../libs/comm/lists/cl_thread_list.h
+shepherd.o: ../libs/comm/lists/cl_log_list.h
+shepherd.o: ../libs/comm/lists/cl_string_list.h ../libs/comm/cl_data_types.h
+shepherd.o: ../libs/comm/cl_xml_parsing.h ../libs/comm/cl_communication.h
+shepherd.o: ../libs/comm/cl_connection_list.h ../libs/uti/sge_htable.h
+shepherd.o: ../common/sge.h ../libs/gdi/sge_gdi.h ../libs/uti/sge_hostname.h
+shepherd.o: ../libs/sgeobj/sge_conf.h ../libs/sgeobj/sge_conf_CONF_L.h
+shepherd.o: ../libs/sgeobj/sge_conf_CF_L.h ../libs/gdi/sge_gdi2.h
+shepherd.o: ../libs/sgeobj/sge_conf.h ../libs/comm/lists/cl_list_types.h
+shepherd.o: ../libs/uti/sge_profiling.h ../libs/uti/sge_uidgid.h
+shepherd.o: ../libs/gdi/sge_gdi_packet.h ../daemons/shepherd/sge_pset.h
+shepherd.o: ../daemons/shepherd/sge_shepconf.h ../common/sge_mt_init.h
+shepherd.o: ../common/msg_common.h ../libs/gdi/version.h
+shepherd.o: ../daemons/shepherd/sge_fileio.h ../libs/uti/sge_stdio.h
+shepherd.o: ../libs/sgeobj/sge_job.h ../libs/sgeobj/sge_job_JB_L.h
+shepherd.o: ../libs/sgeobj/sge_job_JG_L.h ../libs/sgeobj/sge_job_PN_L.h
+shepherd.o: ../libs/sgeobj/sge_job_AT_L.h ../libs/sgeobj/sge_job_ref_JRE_L.h
+shepherd.o: ../libs/sgeobj/sge_report.h ../libs/sgeobj/sge_report_REP_L.h
+shepherd.o: ../libs/sgeobj/sge_report_JR_L.h
+shepherd.o: ../libs/sgeobj/sge_report_LIC_L.h
+shepherd.o: ../libs/sgeobj/sge_report_LR_L.h ../libs/uti/sge_pty.h
+shepherd.o: ../common/sge_ijs_threads.h ../common/sge_ijs_comm.h
+shepherd.o: ../daemons/shepherd/sge_shepherd_ijs.h
+shepherd.o: ../daemons/shepherd/shepherd.h
+signal_queue.o: ../daemons/shepherd/signal_queue.h
+signal_queue.o: ../daemons/common/err_trace.h ../libs/uti/sge_signal.h

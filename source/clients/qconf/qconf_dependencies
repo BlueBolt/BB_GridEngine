@@ -1,0 +1,343 @@
+# DO NOT DELETE
+
+parse_qconf.o: ../libs/uti/sge_stdio.h ../common/basis_types.h
+parse_qconf.o: ../libs/uti/sge_unistd.h ../libs/uti/sge_dstring.h
+parse_qconf.o: ../libs/uti/sge_stdlib.h ../common/sge.h
+parse_qconf.o: ../common/sge_options.h ../libs/uti/sge_prog.h
+parse_qconf.o: ../libs/uti/sge_arch.h ../libs/uti/sge_env.h
+parse_qconf.o: ../libs/uti/sge_error_class.h ../libs/cull/cull.h
+parse_qconf.o: ../libs/cull/cull_listP.h ../libs/cull/cull_list.h
+parse_qconf.o: ../libs/cull/cull_hashP.h ../libs/cull/pack.h
+parse_qconf.o: ../libs/uti/sge_bitfield.h ../libs/cull/cull_where.h
+parse_qconf.o: ../libs/cull/cull_what.h ../libs/cull/cull_what_elem.h
+parse_qconf.o: ../libs/cull/cull_what_print.h ../libs/cull/cull_db.h
+parse_qconf.o: ../libs/cull/cull_multitype.h ../libs/cull/cull_dump_scan.h
+parse_qconf.o: ../libs/cull/cull_lerrno.h ../libs/cull/cull_pack.h
+parse_qconf.o: ../libs/cull/cull_sort.h ../libs/cull/cull_tree.h
+parse_qconf.o: ../libs/cull/cull_hash.h ../libs/uti/sge_dstring.h
+parse_qconf.o: ../libs/uti/sge_htable.h ../libs/cull/cull_list.h
+parse_qconf.o: ../libs/cull/cull_state.h ../libs/sgeobj/sge_pe.h
+parse_qconf.o: ../libs/sgeobj/sge_pe_PE_L.h ../libs/sgeobj/sge_boundaries.h
+parse_qconf.o: ../libs/uti/sge_string.h ../libs/sgeobj/sge_event.h
+parse_qconf.o: ../libs/sgeobj/sge_event_EV_L.h ../libs/uti/sge_monitor.h
+parse_qconf.o: ../libs/sgeobj/sge_event_EVS_L.h
+parse_qconf.o: ../libs/sgeobj/sge_event_ET_L.h ../libs/sgeobj/sge_id.h
+parse_qconf.o: ../libs/sgeobj/sge_id_ID_L.h ../libs/sgeobj/sge_answer.h
+parse_qconf.o: ../libs/sgeobj/sge_answer_AN_L.h ../common/usage.h
+parse_qconf.o: ../libs/comm/commlib.h ../libs/comm/cl_commlib.h
+parse_qconf.o: ../libs/comm/lists/cl_lists.h ../libs/comm/lists/cl_errors.h
+parse_qconf.o: ../libs/comm/lists/cl_list_types.h
+parse_qconf.o: ../libs/comm/lists/cl_raw_list.h
+parse_qconf.o: ../libs/comm/lists/cl_thread.h
+parse_qconf.o: ../libs/comm/lists/cl_thread_list.h
+parse_qconf.o: ../libs/comm/lists/cl_log_list.h
+parse_qconf.o: ../libs/comm/lists/cl_string_list.h
+parse_qconf.o: ../libs/comm/cl_data_types.h ../libs/comm/cl_xml_parsing.h
+parse_qconf.o: ../libs/comm/cl_communication.h
+parse_qconf.o: ../libs/comm/cl_connection_list.h ../libs/uti/sge_htable.h
+parse_qconf.o: ../libs/sgeobj/config.h ../libs/sgeobj/cull_parse_util.h
+parse_qconf.o: ../clients/qconf/sge_client_access.h ../libs/gdi/sge_gdi_ctx.h
+parse_qconf.o: ../libs/uti/setup_path.h ../libs/uti/sge_bootstrap.h
+parse_qconf.o: ../libs/gdi/sge_gdi.h ../libs/uti/sge_hostname.h
+parse_qconf.o: ../libs/uti/sge_unistd.h ../libs/sgeobj/sge_conf.h
+parse_qconf.o: ../libs/sgeobj/sge_conf_CONF_L.h
+parse_qconf.o: ../libs/sgeobj/sge_conf_CF_L.h ../libs/gdi/sge_gdi2.h
+parse_qconf.o: ../libs/sgeobj/sge_conf.h ../libs/comm/lists/cl_list_types.h
+parse_qconf.o: ../libs/uti/sge_profiling.h ../libs/uti/sge_uidgid.h
+parse_qconf.o: ../libs/gdi/sge_gdi_packet.h ../clients/qconf/parse_qconf.h
+parse_qconf.o: ../libs/spool/sge_spooling_utilities.h
+parse_qconf.o: ../libs/sgeobj/sge_object.h ../libs/sgeobj/sge_host.h
+parse_qconf.o: ../libs/sgeobj/sge_host_EH_L.h ../libs/sgeobj/sge_host_RU_L.h
+parse_qconf.o: ../libs/sgeobj/sge_host_AH_L.h ../libs/sgeobj/sge_host_SH_L.h
+parse_qconf.o: ../libs/sgeobj/sge_host_HL_L.h ../libs/sgeobj/sge_host_HS_L.h
+parse_qconf.o: ../libs/sgeobj/sge_sharetree.h
+parse_qconf.o: ../libs/sgeobj/sge_sharetree_STN_L.h
+parse_qconf.o: ../libs/sgeobj/sge_userset.h ../libs/sgeobj/sge_userset_US_L.h
+parse_qconf.o: ../libs/sgeobj/sge_userset_UE_L.h
+parse_qconf.o: ../libs/sgeobj/sge_userset_JC_L.h ../libs/rmon/sgermon.h
+parse_qconf.o: ../libs/rmon/rmon.h ../libs/rmon/rmon_monitoring_level.h
+parse_qconf.o: ../libs/uti/sge_log.h ../libs/uti/msg_utilib.h
+parse_qconf.o: ../libs/sgeobj/sge_str.h ../libs/sgeobj/sge_str_ST_L.h
+parse_qconf.o: ../libs/sgeobj/sge_str_STU_L.h ../libs/uti/sge_spool.h
+parse_qconf.o: ../libs/uti/sge_io.h ../libs/uti/sge_tmpnam.h
+parse_qconf.o: ../libs/sgeobj/sge_schedd_conf.h
+parse_qconf.o: ../libs/sgeobj/sge_schedd_conf_PARA_L.h
+parse_qconf.o: ../libs/sgeobj/sge_schedd_conf_SC_L.h
+parse_qconf.o: ../libs/sgeobj/sge_userprj.h ../libs/sgeobj/sge_userprj_PR_L.h
+parse_qconf.o: ../libs/sgeobj/sge_userprj_UU_L.h
+parse_qconf.o: ../libs/sgeobj/sge_userprj_UPU_L.h
+parse_qconf.o: ../libs/sgeobj/sge_userprj_UPP_L.h ../libs/sgeobj/sge_manop.h
+parse_qconf.o: ../libs/sgeobj/sge_manop_UM_L.h
+parse_qconf.o: ../libs/sgeobj/sge_manop_UO_L.h ../libs/sgeobj/sge_calendar.h
+parse_qconf.o: ../libs/sgeobj/sge_calendar_CAL_L.h
+parse_qconf.o: ../libs/sgeobj/sge_calendar_CA_L.h
+parse_qconf.o: ../libs/sgeobj/sge_calendar_CQU_L.h
+parse_qconf.o: ../libs/sgeobj/sge_calendar_TMR_L.h
+parse_qconf.o: ../libs/sgeobj/sge_calendar_TM_L.h ../libs/sgeobj/sge_hgroup.h
+parse_qconf.o: ../libs/sgeobj/sge_hgroup_HGRP_L.h ../libs/sgeobj/sge_ckpt.h
+parse_qconf.o: ../libs/sgeobj/sge_ckpt_CK_L.h
+parse_qconf.o: ../clients/common/sge_hgroup_qconf.h
+parse_qconf.o: ../clients/common/sge_centry_qconf.h
+parse_qconf.o: ../clients/common/sge_cqueue_qconf.h
+parse_qconf.o: ../clients/common/sge_resource_quota_qconf.h
+parse_qconf.o: ../libs/uti/sge_edit.h ../libs/sgeobj/sge_cqueue.h
+parse_qconf.o: ../libs/sgeobj/sge_cqueue_CQ_L.h
+parse_qconf.o: ../libs/sgeobj/sge_resource_quota.h
+parse_qconf.o: ../libs/sgeobj/sge_resource_quota_RQS_L.h
+parse_qconf.o: ../libs/sgeobj/sge_resource_quota_RQR_L.h
+parse_qconf.o: ../libs/sgeobj/sge_resource_quota_RQRF_L.h
+parse_qconf.o: ../libs/sgeobj/sge_resource_quota_RQRL_L.h
+parse_qconf.o: ../libs/sgeobj/sge_resource_quota_RQL_L.h
+parse_qconf.o: ../libs/sgeobj/sge_href.h ../libs/sgeobj/sge_href_HR_L.h
+parse_qconf.o: ../libs/sgeobj/sge_qref.h ../libs/sgeobj/sge_qref_QR_L.h
+parse_qconf.o: ../libs/sgeobj/sge_centry.h ../libs/sgeobj/sge_centry_CE_L.h
+parse_qconf.o: ../libs/sgeobj/sge_ct_SCT_L.h ../libs/sgeobj/sge_ct_REF_L.h
+parse_qconf.o: ../libs/sgeobj/sge_ct_CT_L.h ../libs/sgeobj/sge_ct_CCT_L.h
+parse_qconf.o: ../libs/sgeobj/sge_ct_CTI_L.h ../libs/sgeobj/sge_attr.h
+parse_qconf.o: ../libs/sgeobj/sge_attr_ASTR_L.h
+parse_qconf.o: ../libs/sgeobj/sge_attr_AULNG_L.h
+parse_qconf.o: ../libs/sgeobj/sge_attr_ABOOL_L.h
+parse_qconf.o: ../libs/sgeobj/sge_attr_ATIME_L.h
+parse_qconf.o: ../libs/sgeobj/sge_attr_AMEM_L.h
+parse_qconf.o: ../libs/sgeobj/sge_attr_AINTER_L.h
+parse_qconf.o: ../libs/sgeobj/sge_attr_ASTRING_L.h
+parse_qconf.o: ../libs/sgeobj/sge_attr_ASTRLIST_L.h
+parse_qconf.o: ../libs/sgeobj/sge_attr_AUSRLIST_L.h
+parse_qconf.o: ../libs/sgeobj/sge_attr_APRJLIST_L.h
+parse_qconf.o: ../libs/sgeobj/sge_attr_ACELIST_L.h
+parse_qconf.o: ../libs/sgeobj/sge_attr_ASOLIST_L.h
+parse_qconf.o: ../libs/sgeobj/sge_attr_AQTLIST_L.h
+parse_qconf.o: ../libs/sgeobj/sge_qinstance_state.h
+parse_qconf.o: ../libs/spool/flatfile/sge_flatfile.h
+parse_qconf.o: ../libs/spool/flatfile/sge_flatfile_obj.h
+parse_qconf.o: ../libs/sgeobj/sge_userprj.h ../libs/sgeobj/sge_cqueue.h
+parse_qconf.o: ../libs/sgeobj/sge_utility.h ../libs/sgeobj/sge_answer.h
+parse_qconf.o: ../libs/gdi/sge_gdi.h ../common/msg_common.h
+parse_qconf.o: ../clients/common/msg_clients_common.h
+parse_qconf.o: ../clients/qconf/msg_qconf.h
+qconf.o: ../libs/uti/sge_unistd.h ../libs/sgeobj/sge_all_listsL.h
+qconf.o: ../common/basis_types.h ../libs/cull/cull.h
+qconf.o: ../libs/cull/cull_listP.h ../libs/cull/cull_list.h
+qconf.o: ../libs/cull/cull_hashP.h ../libs/cull/pack.h
+qconf.o: ../libs/uti/sge_bitfield.h ../libs/uti/sge_dstring.h
+qconf.o: ../libs/uti/sge_stdlib.h ../libs/cull/cull_where.h
+qconf.o: ../libs/cull/cull_what.h ../libs/cull/cull_what_elem.h
+qconf.o: ../libs/cull/cull_what_print.h ../libs/cull/cull_db.h
+qconf.o: ../libs/cull/cull_multitype.h ../libs/cull/cull_dump_scan.h
+qconf.o: ../libs/cull/cull_lerrno.h ../libs/cull/cull_pack.h
+qconf.o: ../libs/cull/cull_sort.h ../libs/cull/cull_tree.h
+qconf.o: ../libs/cull/cull_hash.h ../libs/uti/sge_dstring.h
+qconf.o: ../libs/uti/sge_htable.h ../libs/cull/cull_list.h
+qconf.o: ../libs/cull/cull_state.h ../libs/sgeobj/sge_access_tree_PGR_L.h
+qconf.o: ../libs/sgeobj/sge_boundaries.h
+qconf.o: ../libs/sgeobj/sge_access_tree_USR_L.h
+qconf.o: ../libs/sgeobj/sge_access_tree_JRL_L.h
+qconf.o: ../libs/sgeobj/sge_ack_ACK_L.h
+qconf.o: ../libs/sgeobj/sge_advance_reservation_AR_L.h
+qconf.o: ../libs/sgeobj/sge_advance_reservation_ARA_L.h
+qconf.o: ../libs/sgeobj/sge_answer_AN_L.h ../libs/sgeobj/sge_attr_ASTR_L.h
+qconf.o: ../libs/sgeobj/sge_attr_AULNG_L.h ../libs/sgeobj/sge_attr_ABOOL_L.h
+qconf.o: ../libs/sgeobj/sge_attr_ATIME_L.h ../libs/sgeobj/sge_attr_AMEM_L.h
+qconf.o: ../libs/sgeobj/sge_attr_AINTER_L.h
+qconf.o: ../libs/sgeobj/sge_attr_ASTRING_L.h
+qconf.o: ../libs/sgeobj/sge_attr_ASTRLIST_L.h
+qconf.o: ../libs/sgeobj/sge_attr_AUSRLIST_L.h
+qconf.o: ../libs/sgeobj/sge_attr_APRJLIST_L.h
+qconf.o: ../libs/sgeobj/sge_attr_ACELIST_L.h
+qconf.o: ../libs/sgeobj/sge_attr_ASOLIST_L.h
+qconf.o: ../libs/sgeobj/sge_attr_AQTLIST_L.h
+qconf.o: ../libs/sgeobj/sge_binding_BN_L.h ../libs/sgeobj/sge_boundaries.h
+qconf.o: ../libs/sgeobj/sge_calendar_CAL_L.h
+qconf.o: ../libs/sgeobj/sge_calendar_CA_L.h
+qconf.o: ../libs/sgeobj/sge_calendar_CQU_L.h
+qconf.o: ../libs/sgeobj/sge_calendar_TMR_L.h
+qconf.o: ../libs/sgeobj/sge_calendar_TM_L.h ../libs/sgeobj/sge_centry_CE_L.h
+qconf.o: ../libs/sgeobj/sge_ckpt_CK_L.h ../libs/sgeobj/sge_conf_CONF_L.h
+qconf.o: ../libs/sgeobj/sge_conf_CF_L.h ../libs/sgeobj/sge_cqueue_CQ_L.h
+qconf.o: ../libs/sgeobj/sge_ct_SCT_L.h ../libs/sgeobj/sge_ct_REF_L.h
+qconf.o: ../libs/sgeobj/sge_ct_CT_L.h ../libs/sgeobj/sge_ct_CCT_L.h
+qconf.o: ../libs/sgeobj/sge_ct_CTI_L.h ../libs/sgeobj/sge_cull_xml_XMLA_L.h
+qconf.o: ../libs/sgeobj/sge_cull_xml_XMLS_L.h
+qconf.o: ../libs/sgeobj/sge_cull_xml_XMLH_L.h
+qconf.o: ../libs/sgeobj/sge_cull_xml_XMLE_L.h ../libs/sgeobj/sge_cuser_CU_L.h
+qconf.o: ../libs/sgeobj/sge_eejob_FCAT_L.h ../libs/sgeobj/sge_eejob_SGEJ_L.h
+qconf.o: ../libs/sgeobj/sge_event_EV_L.h ../libs/uti/sge_monitor.h
+qconf.o: ../libs/sgeobj/sge_event_EVS_L.h ../libs/sgeobj/sge_event_ET_L.h
+qconf.o: ../libs/sgeobj/sge_event_request_EVR_L.h
+qconf.o: ../libs/sgeobj/sge_feature_FES_L.h ../libs/sgeobj/sge_helper_QAJ_L.h
+qconf.o: ../libs/sgeobj/sge_hgroup_HGRP_L.h ../libs/sgeobj/sge_host_EH_L.h
+qconf.o: ../libs/sgeobj/sge_host_RU_L.h ../libs/sgeobj/sge_host_AH_L.h
+qconf.o: ../libs/sgeobj/sge_host_SH_L.h ../libs/sgeobj/sge_host_HL_L.h
+qconf.o: ../libs/sgeobj/sge_host_HS_L.h ../libs/sgeobj/sge_href_HR_L.h
+qconf.o: ../libs/sgeobj/sge_id_ID_L.h ../libs/sgeobj/sge_japi_JJ_L.h
+qconf.o: ../libs/sgeobj/sge_japi_JJAT_L.h ../libs/sgeobj/sge_japi_NSV_L.h
+qconf.o: ../libs/sgeobj/sge_ja_task_JAT_L.h ../libs/sgeobj/sge_job_AT_L.h
+qconf.o: ../libs/sgeobj/sge_job_JB_L.h ../libs/sgeobj/sge_job_JG_L.h
+qconf.o: ../libs/sgeobj/sge_job_PN_L.h ../libs/sgeobj/sge_job_ref_JRE_L.h
+qconf.o: ../libs/sgeobj/sge_jsv_JSV_L.h ../libs/sgeobj/sge_krb_KRB_L.h
+qconf.o: ../libs/sgeobj/sge_krb_KTGT_L.h ../libs/sgeobj/sge_loadsensor_LS_L.h
+qconf.o: ../libs/sgeobj/sge_mailrec_MR_L.h ../libs/sgeobj/sge_manop_UM_L.h
+qconf.o: ../libs/sgeobj/sge_manop_UO_L.h ../libs/sgeobj/sge_mesobj_QIM_L.h
+qconf.o: ../libs/sgeobj/sge_message_SME_L.h
+qconf.o: ../libs/sgeobj/sge_message_MES_L.h ../libs/sgeobj/sge_multi_MA_L.h
+qconf.o: ../libs/sgeobj/sge_order_OR_L.h ../libs/sgeobj/sge_order_OQ_L.h
+qconf.o: ../libs/sgeobj/sge_order_RTIC_L.h ../libs/sgeobj/sge_pack_PACK_L.h
+qconf.o: ../libs/sgeobj/sge_parse_SPA_L.h
+qconf.o: ../libs/sgeobj/sge_path_alias_PA_L.h ../libs/sgeobj/sge_pe_PE_L.h
+qconf.o: ../libs/sgeobj/sge_pe_task_FPET_L.h
+qconf.o: ../libs/sgeobj/sge_pe_task_PET_L.h
+qconf.o: ../libs/sgeobj/sge_pe_task_PETR_L.h
+qconf.o: ../libs/sgeobj/sge_permission_PERM_L.h
+qconf.o: ../libs/sgeobj/sge_pref_PREF_L.h ../libs/sgeobj/sge_ptf_JL_L.h
+qconf.o: ../libs/sgeobj/sge_ptf_JO_L.h ../libs/sgeobj/sge_ptf_JP_L.h
+qconf.o: ../libs/sgeobj/sge_qeti_QETI_L.h ../libs/sgeobj/sge_qexec_RT_L.h
+qconf.o: ../libs/sgeobj/sge_qinstance_QU_L.h ../libs/sgeobj/sge_qref_QR_L.h
+qconf.o: ../libs/sgeobj/sge_range_RN_L.h ../libs/sgeobj/sge_report_REP_L.h
+qconf.o: ../libs/sgeobj/sge_report_JR_L.h ../libs/sgeobj/sge_report_LIC_L.h
+qconf.o: ../libs/sgeobj/sge_report_LR_L.h
+qconf.o: ../libs/sgeobj/sge_resource_quota_RQS_L.h
+qconf.o: ../libs/sgeobj/sge_resource_quota_RQR_L.h
+qconf.o: ../libs/sgeobj/sge_resource_quota_RQRF_L.h
+qconf.o: ../libs/sgeobj/sge_resource_quota_RQRL_L.h
+qconf.o: ../libs/sgeobj/sge_resource_quota_RQL_L.h
+qconf.o: ../libs/sgeobj/sge_resource_utilization_RDE_L.h
+qconf.o: ../libs/sgeobj/sge_resource_utilization_RUE_L.h
+qconf.o: ../libs/sgeobj/sge_schedd_conf_PARA_L.h
+qconf.o: ../libs/sgeobj/sge_schedd_conf_SC_L.h ../libs/sgeobj/sge_sec_SEC_L.h
+qconf.o: ../libs/sgeobj/sge_select_queue_LDR_L.h
+qconf.o: ../libs/sgeobj/sge_select_queue_QRL_L.h
+qconf.o: ../libs/sgeobj/sge_sharetree_STN_L.h
+qconf.o: ../libs/sgeobj/sge_spooling_SPC_L.h
+qconf.o: ../libs/sgeobj/sge_spooling_SPR_L.h
+qconf.o: ../libs/sgeobj/sge_spooling_SPT_L.h
+qconf.o: ../libs/sgeobj/sge_spooling_SPTR_L.h
+qconf.o: ../libs/sgeobj/sge_spooling_SPM_L.h ../libs/sgeobj/sge_str_ST_L.h
+qconf.o: ../libs/sgeobj/sge_str_STU_L.h ../libs/sgeobj/sge_subordinate_SO_L.h
+qconf.o: ../libs/sgeobj/sge_suser_SU_L.h ../libs/sgeobj/sge_time_event_TE_L.h
+qconf.o: ../libs/sgeobj/sge_ulong_ULNG_L.h ../libs/sgeobj/sge_usage_UA_L.h
+qconf.o: ../libs/sgeobj/sge_userprj_PR_L.h ../libs/sgeobj/sge_userprj_UU_L.h
+qconf.o: ../libs/sgeobj/sge_userprj_UPU_L.h
+qconf.o: ../libs/sgeobj/sge_userprj_UPP_L.h ../libs/sgeobj/sge_userset_US_L.h
+qconf.o: ../libs/sgeobj/sge_userset_UE_L.h ../libs/sgeobj/sge_userset_JC_L.h
+qconf.o: ../libs/sgeobj/sge_var_VA_L.h ../libs/sgeobj/sge_procL.h
+qconf.o: ../common/usage.h ../clients/qconf/parse_qconf.h
+qconf.o: ../libs/spool/sge_spooling_utilities.h ../libs/sgeobj/sge_object.h
+qconf.o: ../libs/gdi/sge_gdi_ctx.h ../libs/uti/sge_env.h
+qconf.o: ../libs/uti/sge_error_class.h ../libs/uti/sge_prog.h
+qconf.o: ../libs/uti/sge_arch.h ../libs/uti/setup_path.h
+qconf.o: ../libs/uti/sge_bootstrap.h ../libs/comm/commlib.h
+qconf.o: ../libs/comm/cl_commlib.h ../libs/comm/lists/cl_lists.h
+qconf.o: ../libs/comm/lists/cl_errors.h ../libs/comm/lists/cl_list_types.h
+qconf.o: ../libs/comm/lists/cl_raw_list.h ../libs/comm/lists/cl_thread.h
+qconf.o: ../libs/comm/lists/cl_thread_list.h ../libs/comm/lists/cl_log_list.h
+qconf.o: ../libs/comm/lists/cl_string_list.h ../libs/comm/cl_data_types.h
+qconf.o: ../libs/comm/cl_xml_parsing.h ../libs/comm/cl_communication.h
+qconf.o: ../libs/comm/cl_connection_list.h ../libs/uti/sge_htable.h
+qconf.o: ../common/sge.h ../libs/gdi/sge_gdi.h ../libs/uti/sge_hostname.h
+qconf.o: ../libs/sgeobj/sge_conf.h ../libs/gdi/sge_gdi2.h
+qconf.o: ../libs/sgeobj/sge_conf.h ../libs/comm/lists/cl_list_types.h
+qconf.o: ../libs/uti/sge_profiling.h ../libs/uti/sge_uidgid.h
+qconf.o: ../libs/gdi/sge_gdi_packet.h ../common/sig_handlers.h
+qconf.o: ../libs/rmon/sgermon.h ../libs/rmon/rmon.h
+qconf.o: ../libs/rmon/rmon_monitoring_level.h ../libs/uti/sge_log.h
+qconf.o: ../libs/uti/msg_utilib.h ../clients/common/msg_clients_common.h
+qconf.o: ../common/msg_common.h ../libs/sgeobj/sge_answer.h
+qconf.o: ../common/sge_mt_init.h ../libs/sgeobj/sge_feature.h
+qconf.o: ../libs/gdi/sge_gdi.h
+sge_client_access.o: ../libs/cull/cull.h ../libs/cull/cull_listP.h
+sge_client_access.o: ../libs/cull/cull_list.h ../common/basis_types.h
+sge_client_access.o: ../libs/cull/cull_hashP.h ../libs/cull/pack.h
+sge_client_access.o: ../libs/uti/sge_bitfield.h ../libs/uti/sge_dstring.h
+sge_client_access.o: ../libs/uti/sge_stdlib.h ../libs/cull/cull_where.h
+sge_client_access.o: ../libs/cull/cull_what.h ../libs/cull/cull_what_elem.h
+sge_client_access.o: ../libs/cull/cull_what_print.h ../libs/cull/cull_db.h
+sge_client_access.o: ../libs/cull/cull_multitype.h
+sge_client_access.o: ../libs/cull/cull_dump_scan.h ../libs/cull/cull_lerrno.h
+sge_client_access.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+sge_client_access.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+sge_client_access.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_htable.h
+sge_client_access.o: ../libs/cull/cull_list.h ../libs/cull/cull_state.h
+sge_client_access.o: ../clients/qconf/sge_client_access.h
+sge_client_access.o: ../libs/gdi/sge_gdi_ctx.h ../libs/uti/sge_env.h
+sge_client_access.o: ../libs/uti/sge_error_class.h ../libs/uti/sge_prog.h
+sge_client_access.o: ../libs/uti/sge_arch.h ../libs/uti/setup_path.h
+sge_client_access.o: ../libs/uti/sge_bootstrap.h ../libs/comm/commlib.h
+sge_client_access.o: ../libs/comm/cl_commlib.h ../libs/comm/lists/cl_lists.h
+sge_client_access.o: ../libs/comm/lists/cl_errors.h
+sge_client_access.o: ../libs/comm/lists/cl_list_types.h
+sge_client_access.o: ../libs/comm/lists/cl_raw_list.h
+sge_client_access.o: ../libs/comm/lists/cl_thread.h
+sge_client_access.o: ../libs/comm/lists/cl_thread_list.h
+sge_client_access.o: ../libs/comm/lists/cl_log_list.h
+sge_client_access.o: ../libs/comm/lists/cl_string_list.h
+sge_client_access.o: ../libs/comm/cl_data_types.h
+sge_client_access.o: ../libs/comm/cl_xml_parsing.h
+sge_client_access.o: ../libs/comm/cl_communication.h
+sge_client_access.o: ../libs/comm/cl_connection_list.h
+sge_client_access.o: ../libs/uti/sge_htable.h ../common/sge.h
+sge_client_access.o: ../libs/gdi/sge_gdi.h ../libs/uti/sge_hostname.h
+sge_client_access.o: ../libs/uti/sge_unistd.h ../libs/sgeobj/sge_conf.h
+sge_client_access.o: ../libs/sgeobj/sge_conf_CONF_L.h
+sge_client_access.o: ../libs/sgeobj/sge_boundaries.h
+sge_client_access.o: ../libs/sgeobj/sge_conf_CF_L.h ../libs/gdi/sge_gdi2.h
+sge_client_access.o: ../libs/sgeobj/sge_conf.h
+sge_client_access.o: ../libs/comm/lists/cl_list_types.h
+sge_client_access.o: ../libs/uti/sge_profiling.h ../libs/uti/sge_uidgid.h
+sge_client_access.o: ../libs/gdi/sge_gdi_packet.h ../libs/rmon/sgermon.h
+sge_client_access.o: ../libs/rmon/rmon.h ../libs/rmon/rmon_monitoring_level.h
+sge_client_access.o: ../libs/uti/sge_log.h ../libs/uti/msg_utilib.h
+sge_client_access.o: ../libs/uti/sge_string.h ../libs/sgeobj/sge_answer.h
+sge_client_access.o: ../libs/sgeobj/sge_answer_AN_L.h
+sge_client_access.o: ../libs/sgeobj/sge_userset.h
+sge_client_access.o: ../libs/sgeobj/sge_userset_US_L.h
+sge_client_access.o: ../libs/sgeobj/sge_userset_UE_L.h
+sge_client_access.o: ../libs/sgeobj/sge_userset_JC_L.h ../libs/gdi/sge_gdi.h
+sge_client_access.o: ../clients/qconf/msg_qconf.h
+sge_cuser_qconf.o: ../common/sge.h ../libs/rmon/sgermon.h ../libs/rmon/rmon.h
+sge_cuser_qconf.o: ../libs/rmon/rmon_monitoring_level.h
+sge_cuser_qconf.o: ../libs/comm/cl_commlib.h ../common/basis_types.h
+sge_cuser_qconf.o: ../libs/comm/lists/cl_lists.h
+sge_cuser_qconf.o: ../libs/comm/lists/cl_errors.h
+sge_cuser_qconf.o: ../libs/comm/lists/cl_list_types.h
+sge_cuser_qconf.o: ../libs/comm/lists/cl_raw_list.h
+sge_cuser_qconf.o: ../libs/comm/lists/cl_thread.h
+sge_cuser_qconf.o: ../libs/comm/lists/cl_thread_list.h
+sge_cuser_qconf.o: ../libs/comm/lists/cl_log_list.h
+sge_cuser_qconf.o: ../libs/comm/lists/cl_string_list.h
+sge_cuser_qconf.o: ../libs/comm/cl_data_types.h ../libs/comm/cl_xml_parsing.h
+sge_cuser_qconf.o: ../libs/comm/cl_communication.h
+sge_cuser_qconf.o: ../libs/comm/cl_connection_list.h ../libs/uti/sge_htable.h
+sge_cuser_qconf.o: ../libs/sgeobj/sge_conf.h ../libs/sgeobj/sge_conf_CONF_L.h
+sge_cuser_qconf.o: ../libs/sgeobj/sge_boundaries.h ../libs/cull/cull_list.h
+sge_cuser_qconf.o: ../libs/cull/cull.h ../libs/cull/cull_listP.h
+sge_cuser_qconf.o: ../libs/cull/cull_list.h ../libs/cull/cull_hashP.h
+sge_cuser_qconf.o: ../libs/cull/pack.h ../libs/uti/sge_bitfield.h
+sge_cuser_qconf.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdlib.h
+sge_cuser_qconf.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+sge_cuser_qconf.o: ../libs/cull/cull_what_elem.h
+sge_cuser_qconf.o: ../libs/cull/cull_what_print.h ../libs/cull/cull_db.h
+sge_cuser_qconf.o: ../libs/cull/cull_multitype.h
+sge_cuser_qconf.o: ../libs/cull/cull_dump_scan.h ../libs/cull/cull_lerrno.h
+sge_cuser_qconf.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+sge_cuser_qconf.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+sge_cuser_qconf.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_htable.h
+sge_cuser_qconf.o: ../libs/cull/cull_state.h ../libs/sgeobj/sge_conf_CF_L.h
+sge_cuser_qconf.o: ../libs/uti/sge_log.h ../libs/uti/msg_utilib.h
+sge_cuser_qconf.o: ../libs/uti/sge_unistd.h ../libs/sgeobj/sge_answer.h
+sge_cuser_qconf.o: ../libs/sgeobj/sge_answer_AN_L.h
+sge_cuser_qconf.o: ../libs/sgeobj/sge_cuser.h ../libs/sgeobj/sge_cuser_CU_L.h
+sge_cuser_qconf.o: ../clients/qconf/sge_cuser_qconf.h
+sge_cuser_qconf.o: ../libs/gdi/sge_gdi_ctx.h ../libs/uti/sge_env.h
+sge_cuser_qconf.o: ../libs/uti/sge_error_class.h ../libs/uti/sge_prog.h
+sge_cuser_qconf.o: ../libs/uti/sge_arch.h ../libs/uti/setup_path.h
+sge_cuser_qconf.o: ../libs/uti/sge_bootstrap.h ../libs/comm/commlib.h
+sge_cuser_qconf.o: ../libs/gdi/sge_gdi.h ../libs/uti/sge_hostname.h
+sge_cuser_qconf.o: ../libs/gdi/sge_gdi2.h ../libs/sgeobj/sge_conf.h
+sge_cuser_qconf.o: ../libs/comm/lists/cl_list_types.h
+sge_cuser_qconf.o: ../libs/uti/sge_profiling.h ../libs/uti/sge_uidgid.h
+sge_cuser_qconf.o: ../libs/gdi/sge_gdi_packet.h
+sge_cuser_qconf.o: ../clients/qconf/parse_qconf.h
+sge_cuser_qconf.o: ../libs/spool/sge_spooling_utilities.h
+sge_cuser_qconf.o: ../libs/sgeobj/sge_object.h ../libs/uti/sge_edit.h
+sge_cuser_qconf.o: ../libs/gdi/sge_gdi.h ../common/msg_common.h
+sge_cuser_qconf.o: ../clients/qconf/msg_qconf.h
