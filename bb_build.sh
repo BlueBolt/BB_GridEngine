@@ -4,17 +4,22 @@
 #	basic compiler script for building Grid Engine
 #
 #
-
-./aimk -no-secure -spool-classic -no-dump -no-gui-inst -no-qmake -only-depend
-./aimk -no-secure -spool-classic -no-dump -no-gui-inst -no-qmake depend
-./aimk -no-secure -spool-classic -no-dump -no-gui-inst -no-qmake
+dir=`dirname $0`
+#JAVA_HOME=/net/pinot/disk1/playpen/dev/OpenGridScheduler/3rdparty/jdk1.6.0_39
+cd "$dir/source"
+./aimk -no-secure -spool-classic -no-dump -no-gui-inst -only-depend
+./scripts/zerodepend
+./aimk -no-secure -spool-classic -no-dump -no-gui-inst depend
+./aimk -no-secure -spool-classic -no-dump -no-gui-inst 
 
 echo
 echo "#-------------- Build Complete ---------------#"
 echo "#---------Starting Package Creation ----------#"
 echo
 
-export SGE_ROOT=$PWD/DIST/BGE_2011.11p1b1
+version=`cat libs/gdi/version.c |grep "char GDI_VERSION"|awk -F "[\",]" '{print $2}'`
+
+export SGE_ROOT=$PWD/../DIST/$version
 mkdir -p $SGE_ROOT
 scripts/distinst -all -local -noexit
 
