@@ -3,3 +3,4 @@
 *.old
 DIST
 BUILD
+*build
