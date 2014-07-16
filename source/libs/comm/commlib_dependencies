@@ -180,9 +180,38 @@ cl_ssl_framework.o: ../libs/comm/lists/cl_string_list.h
 cl_ssl_framework.o: ../libs/comm/cl_data_types.h
 cl_ssl_framework.o: ../libs/comm/cl_xml_parsing.h ../libs/uti/sge_htable.h
 cl_ssl_framework.o: ../libs/uti/sge_dstring.h ../common/basis_types.h
-cl_ssl_framework.o: ../libs/uti/sge_stdlib.h ../libs/comm/cl_ssl_framework.h
+cl_ssl_framework.o: ../libs/uti/sge_stdlib.h ../libs/comm/cl_fd_list.h
+cl_ssl_framework.o: ../libs/comm/cl_ssl_framework.h
 cl_ssl_framework.o: ../libs/comm/cl_communication.h ../libs/comm/cl_commlib.h
-cl_ssl_framework.o: ../libs/comm/msg_commlib.h
+cl_ssl_framework.o: ../libs/comm/msg_commlib.h ../libs/uti/sge_unistd.h
+cl_ssl_framework.o: ../libs/uti/sge_os.h ../libs/uti/sge_getloadavg.h
+cl_ssl_framework.o: ../libs/uti/sge_loadmem.h ../libs/uti/sge_nprocs.h
+cl_ssl_framework.o: ../libs/uti/sge_nice.h ../libs/gdi/sge_gdi_ctx.h
+cl_ssl_framework.o: ../libs/uti/sge_env.h ../libs/uti/sge_error_class.h
+cl_ssl_framework.o: ../libs/cull/cull.h ../libs/cull/cull_listP.h
+cl_ssl_framework.o: ../libs/cull/cull_list.h ../libs/cull/cull_hashP.h
+cl_ssl_framework.o: ../libs/cull/pack.h ../libs/uti/sge_bitfield.h
+cl_ssl_framework.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+cl_ssl_framework.o: ../libs/cull/cull_what_elem.h
+cl_ssl_framework.o: ../libs/cull/cull_what_print.h ../libs/cull/cull_db.h
+cl_ssl_framework.o: ../libs/cull/cull_multitype.h
+cl_ssl_framework.o: ../libs/cull/cull_dump_scan.h ../libs/cull/cull_lerrno.h
+cl_ssl_framework.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+cl_ssl_framework.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+cl_ssl_framework.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_htable.h
+cl_ssl_framework.o: ../libs/cull/cull_list.h ../libs/cull/cull_state.h
+cl_ssl_framework.o: ../libs/uti/sge_prog.h ../libs/uti/sge_arch.h
+cl_ssl_framework.o: ../libs/uti/setup_path.h ../libs/uti/sge_bootstrap.h
+cl_ssl_framework.o: ../libs/comm/commlib.h ../common/sge.h
+cl_ssl_framework.o: ../libs/gdi/sge_gdi.h ../libs/uti/sge_hostname.h
+cl_ssl_framework.o: ../libs/sgeobj/sge_conf.h
+cl_ssl_framework.o: ../libs/sgeobj/sge_conf_CONF_L.h
+cl_ssl_framework.o: ../libs/sgeobj/sge_boundaries.h
+cl_ssl_framework.o: ../libs/sgeobj/sge_conf_CF_L.h ../libs/gdi/sge_gdi2.h
+cl_ssl_framework.o: ../libs/sgeobj/sge_conf.h
+cl_ssl_framework.o: ../libs/comm/lists/cl_list_types.h
+cl_ssl_framework.o: ../libs/uti/sge_profiling.h ../libs/uti/sge_uidgid.h
+cl_ssl_framework.o: ../libs/gdi/sge_gdi_packet.h
 cl_tcp_framework.o: ../libs/comm/cl_tcp_framework.h
 cl_tcp_framework.o: ../libs/comm/lists/cl_lists.h
 cl_tcp_framework.o: ../libs/comm/lists/cl_errors.h

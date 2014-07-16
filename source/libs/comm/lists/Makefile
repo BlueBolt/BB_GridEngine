@@ -59,7 +59,7 @@ COMMLISTSLIB_TEST_SRC = \
 
 COMMLISTSLIB_OBJS = $(COMMLISTSLIB_SRC:.c=.o)
 
-COMMLISTSBIN_DEPEND = $(UTILIB) $(LCKLIB) $(RMONLIB)
+COMMLISTSBIN_DEPEND = $(UTILIB) $(LCKLIB) $(RMONLIB) $(SGELIB) 
 
 COMMLISTSLIB_TEST_OBJS = $(COMMLISTSLIB_TEST_SRC:.c=.o)
 ###############################################################################
@@ -121,19 +121,19 @@ cl_thread_list.o: $(COMMLISTSLIB_DIR)/cl_thread_list.c
 
 
 test_cl_raw_list: test_cl_raw_list.o $(COMMLISTSLIB) $(COMMLISTSBIN_DEPEND)
-	$(CC) -o test_cl_raw_list $(LFLAGS) test_cl_raw_list.o $(COMMLISTSLIB) $(LIBS)
+	$(CC) -o test_cl_raw_list $(LFLAGS) test_cl_raw_list.o $(COMMLISTSLIB) $(SGELIB) $(LIBS)
 test_cl_parameter_list: test_cl_parameter_list.o $(COMMLISTSLIB) $(COMMLISTSBIN_DEPEND)
-	$(CC) -o test_cl_parameter_list $(LFLAGS) test_cl_parameter_list.o $(COMMLISTSLIB) $(LIBS)
+	$(CC) -o test_cl_parameter_list $(LFLAGS) test_cl_parameter_list.o $(COMMLISTSLIB) $(SGELIB) $(LIBS)
 test_cl_util: test_cl_util.o $(COMMLISTSLIB) $(COMMLISTSBIN_DEPEND)
-	$(CC) -o test_cl_util $(LFLAGS) test_cl_util.o $(COMMLISTSLIB) $(LIBS)
+	$(CC) -o test_cl_util $(LFLAGS) test_cl_util.o $(COMMLISTSLIB) $(SGELIB) $(LIBS)
 test_cl_errors: test_cl_errors.o $(COMMLISTSLIB) $(COMMLISTSBIN_DEPEND)
-	$(CC) -o test_cl_errors $(LFLAGS) test_cl_errors.o $(COMMLISTSLIB) $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB) $(LIBS)
+	$(CC) -o test_cl_errors $(LFLAGS) test_cl_errors.o $(COMMLISTSLIB) $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB) $(SGELIB) $(LIBS)
 test_cl_log_list: test_cl_log_list.o $(COMMLISTSLIB) $(COMMLISTSBIN_DEPEND)
-	$(CC) -o test_cl_log_list $(LFLAGS) test_cl_log_list.o $(COMMLISTSLIB) $(UTILIB) $(LCKLIB) $(RMONLIB) $(LIBS)
+	$(CC) -o test_cl_log_list $(LFLAGS) test_cl_log_list.o $(COMMLISTSLIB) $(UTILIB) $(LCKLIB) $(RMONLIB) $(SGELIB) $(LIBS)
 test_cl_thread: test_cl_thread.o $(COMMLISTSLIB) $(COMMLISTSBIN_DEPEND)
-	$(CC) -o test_cl_thread $(LFLAGS) test_cl_thread.o $(COMMLISTSLIB) $(LIBS)
+	$(CC) -o test_cl_thread $(LFLAGS) test_cl_thread.o $(COMMLISTSLIB) $(SGELIB) $(LIBS)
 test_cl_thread_list: test_cl_thread_list.o $(COMMLISTSLIB) $(COMMLISTSBIN_DEPEND)
-	$(CC) -o test_cl_thread_list $(LFLAGS) test_cl_thread_list.o $(COMMLISTSLIB) $(LIBS)
+	$(CC) -o test_cl_thread_list $(LFLAGS) test_cl_thread_list.o $(COMMLISTSLIB) $(SGELIB) $(LIBS)
 
 test_cl_raw_list.o: $(COMMLISTSLIB_DIR)/test_cl_raw_list.c
 	$(CC) $(CFLAGS) -c $(COMMLISTSLIB_DIR)/test_cl_raw_list.c

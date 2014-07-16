@@ -198,8 +198,8 @@ simple_scheduler: simple_scheduler.o sig_handlers.o $(SCHEDLIB) $(GDILIB) $(CULL
 test_resource_utilization: test_resource_utilization.o sge_mt_init.o $(SCHEDLIB) $(SGEOBJDLIB) $(SGEOBJLIB) $(GDILIB) $(CULLLIB) $(UTILIB) $(WINGRIDLIB_DEP) $(COMMLIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB)
 	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_resource_utilization $(LFLAGS) test_resource_utilization.o sge_mt_init.o $(SCHEDLIB) $(GDILIB) $(SGEOBJLIB) $(SGEOBJDLIB) $(CULLLIB) $(DLLIB) $(COMMLIB) $(COMMLISTSLIB) $(UTILIB) $(WINGRIDLIB) $(LCKLIB) $(RMONLIB) $(LIBS) $(SECLIB)
 
-test_eval_performance: test_eval_performance.o $(SCHEDLIB) $(SGEOBJLIB) $(SGEOBJDLIB) $(CULLLIB) $(UTILIB) $(WINGRIDLIB_DEP) $(RMONLIB) $(COMMLIB) $(COMMLISTSLIB) $(LCKLIB)
-	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_eval_performance $(LFLAGS) test_eval_performance.o $(SCHEDLIB) $(SGEOBJLIB) $(SGEOBJDLIB) $(CULLLIB) $(COMMLIB) $(COMMLISTSLIB) $(UTILIB) $(WINGRIDLIB) $(RMONLIB) $(DLLIB) $(LCKLIB) $(SECLIB) $(LIBS)
+test_eval_performance: test_eval_performance.o $(SCHEDLIB) $(SGEOBJLIB) $(SGEOBJDLIB) $(CULLLIB) $(UTILIB) $(WINGRIDLIB_DEP) $(RMONLIB) $(COMMLIB) $(COMMLISTSLIB) $(LCKLIB) $(GDILIB)
+	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_eval_performance $(LFLAGS) test_eval_performance.o $(SCHEDLIB) $(SGEOBJLIB) $(SGEOBJDLIB) $(CULLLIB) $(COMMLIB) $(COMMLISTSLIB) $(UTILIB) $(WINGRIDLIB) $(RMONLIB) $(DLLIB) $(LCKLIB) $(SECLIB) $(GDILIB) $(LIBS)
 
 simple_scheduler.o: $(SCHEDLIB_DIR)/simple_scheduler.c
 	$(CC) $(CFLAGS) -c $(SCHEDLIB_DIR)/simple_scheduler.c
@@ -210,8 +210,8 @@ test_resource_utilization.o: $(SCHEDLIB_DIR)/test_resource_utilization.c
 test_eval_performance.o: $(SCHEDLIB_DIR)/test_eval_performance.c 
 	$(CC) -o test_eval_performance.o $(CFLAGS) $(SHARED_CFLAGS) -c $(SCHEDLIB_DIR)/test_eval_performance.c
 
-test_sge_load_formula: test_sge_load_formula.o $(SCHEDLIB) $(SGEOBJLIB) $(SGEOBJDLIB) $(CULLLIB) $(UTILIB) $(WINGRIDLIB_DEP) $(RMONLIB) $(COMMLIB) $(COMMLISTSLIB) $(LCKLIB)
-	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_load_formula $(LFLAGS) test_sge_load_formula.o $(SCHEDLIB) $(SGEOBJLIB) $(SGEOBJDLIB) $(CULLLIB) $(COMMLIB) $(COMMLISTSLIB) $(UTILIB) $(WINGRIDLIB) $(RMONLIB) $(DLLIB) $(LCKLIB) $(SECLIB) $(LIBS)
+test_sge_load_formula: test_sge_load_formula.o $(SCHEDLIB) $(SGEOBJLIB) $(SGEOBJDLIB) $(CULLLIB) $(UTILIB) $(WINGRIDLIB_DEP) $(RMONLIB) $(COMMLIB) $(COMMLISTSLIB) $(LCKLIB) $(GDILIB)
+	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_load_formula $(LFLAGS) test_sge_load_formula.o $(SCHEDLIB) $(SGEOBJLIB) $(SGEOBJDLIB) $(CULLLIB) $(COMMLIB) $(COMMLISTSLIB) $(UTILIB) $(WINGRIDLIB) $(RMONLIB) $(DLLIB) $(LCKLIB) $(SECLIB) $(GDILIB) $(LIBS)
 
 test_sge_load_formula.o: $(SCHEDLIB_DIR)/test_sge_load_formula.c
 	$(CC) $(CFLAGS) -c $(SCHEDLIB_DIR)/test_sge_load_formula.c

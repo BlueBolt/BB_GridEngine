@@ -304,8 +304,8 @@ _FontLists_*.zh.*.fixed_font:\
 !! %S    the file suffix
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! remove comments for big toolbar icons and comment the following line
-Qmon*pixmapFilePath:   %R/qmon/PIXMAPS/%N.xpm
-!!Qmon*pixmapFilePath:  %R/qmon/PIXMAPS/big/%N.xpm:%R/qmon/PIXMAPS/%N.xpm
+!! Qmon*pixmapFilePath:   %R/qmon/PIXMAPS/%N.xpm
+Qmon*pixmapFilePath:  %R/qmon/PIXMAPS/big/%N.xpm:%R/qmon/PIXMAPS/%N.xpm
 Qmon*contextHelpFile:  qmon_help
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
