@@ -17,8 +17,12 @@ export PATH=$PATH:$JAVA_HOME/bin:$ANT_HOME/bin
 cd "$dir/source"
 ./aimk -no-gui-inst -only-depend 
 ./scripts/zerodepend
-./aimk -no-gui-inst -shared-libs depend
-./aimk -no-gui-inst -shared-libs
+
+./aimk -no-gui-inst depend
+./aimk -no-gui-inst
+# comment the above two lines and uncoment the bleow lines to compile as shared libs
+# ./aimk -no-gui-inst -shared-libs depend
+# ./aimk -no-gui-inst -shared-libs
 
 echo
 echo "#-------------- Build Complete ---------------#"
@@ -29,7 +33,9 @@ version=`cat libs/gdi/version.c |grep "char GDI_VERSION"|awk -F "[\",]" '{print 
 
 export SGE_ROOT=$PWD/../DIST/$version
 mkdir -p $SGE_ROOT
-scripts/distinst -all -local -noexit
+scripts/distinst -allall -local -noexit
+cp -rf ../docs $SGE_ROOT/
+scripts/mk_dist -vdir $SGE_ROOT -version BBGE_$version -basedir $PWD/../DIST/ -common -bin linux-x64
 
 echo "#------------- Package Finished --------------#"
 
