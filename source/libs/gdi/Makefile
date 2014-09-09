@@ -75,6 +75,9 @@ libgdi.a:	$(GDILIB_OBJS)
 	$(RANLIB) libgdi.a
 
 libgdi$(SHAREDEXT): $(GDILIB_OBJS) $(SGEOBJDLIB) $(COMMLIB) $(COMMLISTSLIB) $(CULLLIB) $(UTILIB) $(RMONLIB)
+	@echo
+	@echo ---------------- $@
+	@echo
 	$(SHAREDLD) $(SHARED_LFLAGS) -o libgdi$(SHAREDEXT) $(GDILIB_OBJS) -lsgeobjd -lcomm -lcommlists -lcull -luti -lrmon $(LIBS) -lc
 
 ###############################################################################

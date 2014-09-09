@@ -3,3 +3,6 @@
 *.old
 DIST
 BUILD
+*build
+CLASSES
+LINUXX64

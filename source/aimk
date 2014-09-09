@@ -377,8 +377,8 @@ set INTERACTTARGETS   = "qmake qtcsh"
 set SEC               = 1
 set SECFLAGS          = "-DSECURE -I$OPENSSL_HOME/include"
 set SECLIB            = ""
-set SECLIBS_STATIC    = "$OPENSSL_HOME/lib/libssl.a $OPENSSL_HOME/lib/libcrypto.a"
-set KLFLAGS           = "-L$OPENSSL_HOME/lib"
+set SECLIBS_STATIC    = "$OPENSSL_HOME/lib64/libssl.a $OPENSSL_HOME/lib64/libcrypto.a"
+set KLFLAGS           = "-L$OPENSSL_HOME/lib64 -lkrb5 -lz"
 
 # AIX
 set PERFSTAT          = 1
@@ -1646,7 +1646,7 @@ case LINUX*:
    set JAVA_ARCH = "linux"
 
    # due to -rpath relative_path the LD_LIBRARY_PATH not needed anymore
-   set RUNPATH       = -Wl,-rpath,'\$$ORIGIN'/../../lib/$buildarch
+   set RUNPATH       = -Wl,-rpath,'\$$ORIGIN'/../../lib/$buildarch,-rpath,"$SOURCE/3rdparty/hwloc/$HWLOC_DIRECTORY/$COMPILE_ARCH/src/.libs/"
    set LFLAGS        = "$LFLAGS $RUNPATH"
    set SHARED_LFLAGS = "$SHARED_LFLAGS $RUNPATH"
 
@@ -2800,7 +2800,7 @@ if ( "$MAKEHWLOC" == 1 ) then
            ! -r $SOURCE/3rdparty/hwloc/$HWLOC_DIRECTORY/$COMPILE_ARCH/Makefile ) then
          mkdir -p $SOURCE/3rdparty/hwloc/$HWLOC_DIRECTORY/$COMPILE_ARCH
          cd $SOURCE/3rdparty/hwloc/$HWLOC_DIRECTORY/$COMPILE_ARCH
-         env CFLAGS="$HWLOC_CFLAGS" ../configure --enable-static --disable-shared $HWLOC_CFLAGS_EXTRA
+         env CFLAGS="$HWLOC_CFLAGS" ../configure --enable-static --enable-shared $HWLOC_CFLAGS_EXTRA
       endif
 
       cd $SOURCE/3rdparty/hwloc/$HWLOC_DIRECTORY/$COMPILE_ARCH
@@ -2911,6 +2911,9 @@ else if ( "$ADD_SUN_COPYRIGHT" == 1 ) then
 endif
 
 if ( "$CORE" == 1 && "$JAVA" != 2 ) then
+   
+   #set echo
+   
    if ( "$COMPILE_DIR" == "" ) then
       cd $COMPILE_ARCH
    else
@@ -2956,6 +2959,8 @@ if ( "$CORE" == 1 && "$JAVA" != 2 ) then
    endif
 
    echo _________C_O_R_E__S_Y_S_T_E_M_____________
+
+
    $MAKE $MAKEOPT -f $MAKEFILE "MAKE=$MAKE" "CC=$CC" \
          "LD_WRAPPER=$LD_WRAPPER" \
          "CFLAGS=$CFLAGS $CORE_INCLUDE" \
@@ -3241,7 +3246,7 @@ if ( "$QTCSH" == 1) then
       setenv $SHARED_PATH_NAME ${SOURCE}/${COMPILE_ARCH}
    endif
 
-   set SGE_LIBS = "-lsge -lpthread"
+   set SGE_LIBS = "-lsge -lpthread -ltermcap"
 
    if ( "$COMPILE_ARCH" == "NECSX5" ) then
       set SGE_LIBS = "$SGE_LIBS -lfnmatch"

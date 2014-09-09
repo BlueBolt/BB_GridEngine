@@ -3,7 +3,7 @@
 ###############################################################################
 REMOTE_DIR = ..
 
-REMOTE_TARGETS = rlogin rsh rshd libsgeremote.a
+REMOTE_TARGETS = rlogin rsh rshd libsgeremote$(LIBEXT)
 
 REMOTE_CFLAGS = -UKERBEROS
 
@@ -26,9 +26,9 @@ RSHD_ADD_OBJS = \
             $(SGE_ARCH_DIR)/sge_parse_num_par.o
 
 
-RSHD_ADD_LIBS = -L$(SGE_ARCH_DIR) -luti $(WINGRIDLIB) -lcommlists -llck -lrmon
+RSHD_ADD_LIBS = -L$(SGE_ARCH_DIR) -luti $(WINGRIDLIB) -lcommlists -llck -lrmon -lsge
 
-RSHD_LIB_DEPENDS = $(SGE_ARCH_DIR)/libuti$(LIBEXT) $(SGE_ARCH_DIR)/liblck$(LIBEXT) $(SGE_ARCH_DIR)/librmon$(LIBEXT) $(SGE_ARCH_DIR)/$(WINGRIDLIB_DEP)
+RSHD_LIB_DEPENDS = $(SGE_ARCH_DIR)/libuti$(LIBEXT) $(SGE_ARCH_DIR)/liblck$(LIBEXT) $(SGE_ARCH_DIR)/libsge$(LIBEXT) $(SGE_ARCH_DIR)/librmon$(LIBEXT) $(SGE_ARCH_DIR)/$(WINGRIDLIB_DEP)
 
 RLOGIN_OBJS = rlogin.o
 
@@ -58,7 +58,7 @@ rlogin.o: $(REMOTE_DIR)/rlogin.c
 		$(CC) $(CFLAGS) $(REMOTE_CFLAGS) $(GCC_NODUPLWARN) -c $(REMOTE_DIR)/rlogin.c
 
 rsh:   $(RSH_OBJS)
-		$(CC) -o $@ $(LFLAGS) $(RSH_OBJS) $(LIBS)
+		$(CC) -o $@ $(LFLAGS) $(RSH_OBJS)  $(LIBS)
 
 rsh.o: $(REMOTE_DIR)/rsh.c
 		$(CC) $(CFLAGS) $(REMOTE_CFLAGS) -c $(REMOTE_DIR)/rsh.c

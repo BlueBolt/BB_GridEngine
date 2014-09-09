@@ -47,7 +47,7 @@ LCKLIB_SRC = \
 
 LCKLIB_OBJS = $(LCKLIB_SRC:.c=.o)
 
-LCKLIB_TEST_ADD_LIBS = $(COMMLISTSLIB) $(RMONLIB) $(UTILIB) $(WINGRIDLIB) $(LCKLIB) $(LIBS)
+LCKLIB_TEST_ADD_LIBS = $(COMMLISTSLIB) $(RMONLIB) $(UTILIB) $(WINGRIDLIB) $(LCKLIB) $(SGELIB)  $(LIBS)
 
 # defines does not work at this time
 LCKLIB_TEST_LIB_DEPENDS = liblck.a librmon.a libcommlists.a libuti.a

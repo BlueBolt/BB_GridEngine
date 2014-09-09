@@ -32,7 +32,7 @@ sge_spooling_loader.o: ../libs/cull/cull_lerrno.h ../libs/cull/cull_pack.h
 sge_spooling_loader.o: ../libs/cull/cull_sort.h ../libs/cull/cull_tree.h
 sge_spooling_loader.o: ../libs/cull/cull_hash.h ../libs/uti/sge_dstring.h
 sge_spooling_loader.o: ../libs/uti/sge_htable.h ../libs/cull/cull_state.h
-sge_spooling_loader.o: ../libs/spool/flatfile/sge_spooling_flatfile.h
+sge_spooling_loader.o: ../libs/spool/dynamic/sge_spooling_dynamic.h
 sge_spooling_loader.o: ../libs/spool/sge_spooling.h ../libs/mir/sge_mirror.h
 sge_spooling_loader.o: ../libs/gdi/sge_gdi.h ../libs/uti/sge_hostname.h
 sge_spooling_loader.o: ../libs/uti/sge_unistd.h ../libs/sgeobj/sge_object.h
