@@ -6,7 +6,8 @@
 #
 dir=`dirname $0`
 
-export GE_DEPENDECIES_PATH=../3rdparty
+# change this if the 3rdparty dependices are in a different location
+export GE_DEPENDECIES_PATH=$(readlink -f ../3rdparty) 
 
 export JAVA_HOME=${GE_DEPENDECIES_PATH}/jdk1.6.0_39
 export ANT_HOME=${GE_DEPENDECIES_PATH}/apache-ant-1.8.4
