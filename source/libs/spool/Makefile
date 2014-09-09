@@ -102,8 +102,8 @@ sge_dirent.o   : $(SPOOLLIB_DIR)/sge_dirent.c
 
 #---------------------------------------------------------------------
 # test programs
-test_performance: test_performance.o sig_handlers.o $(SPOOLING_DEPS) $(SPOOLLIB) $(SGEOBJLIB) $(SGEOBJDLIB) $(SCHEDLIB) $(LCKLIB) $(CULLLIB) $(COMMLIB) $(COMMLISTSLIB) $(UTILIB) $(RMONLIB) $(WINGRIDLIB_DEP)
-	$(CC) -o test_performance $(LFLAGS) test_performance.o sig_handlers.o $(SPOOLING_LIBS) $(SPOOLLIB) $(SGEOBJLIB) $(SGEOBJDLIB) $(SCHEDLIB) $(LCKLIB) $(CULLLIB) $(COMMLIB) $(COMMLISTSLIB) $(UTILIB) $(RMONLIB) $(WINGRIDLIB) $(DLLIB) $(LIBS)
+test_performance: test_performance.o sig_handlers.o $(SPOOLING_DEPS) $(SPOOLLIB) $(SGEOBJLIB) $(SGEOBJDLIB) $(SCHEDLIB) $(LCKLIB) $(CULLLIB) $(COMMLIB) $(COMMLISTSLIB) $(UTILIB) $(RMONLIB) $(WINGRIDLIB_DEP) $(GDILIB)
+	$(CC) -o test_performance $(LFLAGS) test_performance.o sig_handlers.o $(SPOOLING_LIBS) $(SPOOLLIB) $(SGEOBJLIB) $(SGEOBJDLIB) $(SCHEDLIB) $(LCKLIB) $(CULLLIB) $(COMMLIB) $(COMMLISTSLIB) $(UTILIB) $(RMONLIB) $(WINGRIDLIB) $(DLLIB) $(GDILIB) $(LIBS)
 
 test_performance.o: $(SPOOLLIB_DIR)/test_performance.c
 	$(CC) $(CFLAGS) -c $(SPOOLLIB_DIR)/test_performance.c
@@ -114,14 +114,14 @@ test_sge_spooling: test_sge_spooling.o sig_handlers.o $(SPOOLING_DEPS) $(SGEOBJL
 test_sge_spooling.o: $(SPOOLLIB_DIR)/test_sge_spooling.c
 	$(CC) $(CFLAGS) -c $(SPOOLLIB_DIR)/test_sge_spooling.c
 
-test_sge_spooling_utilities: test_sge_spooling_utilities.o $(SPOOLING_DEPS) $(SGEOBJLIB) $(SGEOBJDLIB) $(MIRLIB) $(EVCLIB) $(GDILIB) $(SCHEDLIB) $(LCKLIB) $(CULLLIB) $(COMMLIB) $(COMMLISTSLIB) $(UTILIB) $(RMONLIB) $(WINGRIDLIB_DEP)
-	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_spooling_utilities $(LFLAGS) test_sge_spooling_utilities.o $(SPOOLING_LIBS) $(SCHEDLIB)  $(MIRLIB) $(EVCLIB) $(GDILIB) $(SGEOBJLIB) $(SGEOBJDLIB) $(COMMLIB) $(COMMLISTSLIB) $(CULLLIB) $(UTILIB) $(RMONLIB) $(WINGRIDLIB) $(LCKLIB) $(SECLIB) $(SLIBS) $(LIBS) $(DLLIB)
+test_sge_spooling_utilities: test_sge_spooling_utilities.o $(SPOOLING_DEPS) $(SGEOBJLIB) $(SGEOBJDLIB) $(SGELIB) $(MIRLIB) $(EVCLIB) $(GDILIB) $(SCHEDLIB) $(LCKLIB) $(CULLLIB) $(COMMLIB) $(COMMLISTSLIB) $(UTILIB) $(RMONLIB) $(WINGRIDLIB_DEP)
+	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_spooling_utilities $(LFLAGS) test_sge_spooling_utilities.o $(SPOOLING_LIBS) $(SCHEDLIB)  $(MIRLIB) $(EVCLIB) $(GDILIB) $(SGEOBJLIB) $(SGEOBJDLIB)  $(SGELIB) $(COMMLIB) $(COMMLISTSLIB) $(CULLLIB) $(UTILIB) $(RMONLIB) $(WINGRIDLIB) $(LCKLIB) $(SECLIB) $(SLIBS) $(LIBS) $(DLLIB)
 
 test_sge_spooling_utilities.o: $(SPOOLLIB_DIR)/test_sge_spooling_utilities.c
 	$(CC) $(CFLAGS) -c $(SPOOLLIB_DIR)/test_sge_spooling_utilities.c
 
-test_spooling_mt: test_spooling_mt.o $(SPOOLING_DEPS) $(SGEOBJLIB) $(SGEOBJDLIB) $(MIRLIB) $(EVCLIB) $(GDILIB) $(SCHEDLIB) $(LCKLIB) $(CULLLIB) $(COMMLIB) $(COMMLISTSLIB) $(UTILIB) $(RMONLIB) $(WINGRIDLIB_DEP)
-	$(CC) $(CFLAGS) -o test_spooling_mt $(LFLAGS) test_spooling_mt.o $(SPOOLING_LIBS) $(SCHEDLIB)  $(MIRLIB) $(EVCLIB) $(GDILIB) $(SGEOBJLIB) $(SGEOBJDLIB) $(COMMLIB) $(COMMLISTSLIB) $(CULLLIB) $(UTILIB) $(RMONLIB) $(WINGRIDLIB) $(LCKLIB) $(SECLIB) $(SLIBS) $(LIBS) $(DLLIB)
+test_spooling_mt: test_spooling_mt.o $(SPOOLING_DEPS) $(SGEOBJLIB) $(SGEOBJDLIB) $(MIRLIB) $(EVCLIB) $(GDILIB) $(SCHEDLIB) $(LCKLIB) $(CULLLIB) $(SGELIB) $(COMMLIB) $(COMMLISTSLIB) $(UTILIB) $(RMONLIB) $(WINGRIDLIB_DEP)
+	$(CC) $(CFLAGS) -o test_spooling_mt $(LFLAGS) test_spooling_mt.o $(SPOOLING_LIBS) $(SCHEDLIB)  $(MIRLIB) $(EVCLIB) $(GDILIB) $(SGEOBJLIB) $(SGEOBJDLIB) $(COMMLIB) $(COMMLISTSLIB) $(CULLLIB) $(SGELIB) $(UTILIB) $(RMONLIB) $(WINGRIDLIB) $(LCKLIB) $(SECLIB) $(SLIBS) $(LIBS) $(DLLIB)
 
 test_spooling_mt.o: $(SPOOLLIB_DIR)/test_spooling_mt.c
 	$(CC) $(CFLAGS) -c $(SPOOLLIB_DIR)/test_spooling_mt.c

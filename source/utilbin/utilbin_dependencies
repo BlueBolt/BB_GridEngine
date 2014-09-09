@@ -302,6 +302,29 @@ qping.o: ../libs/gdi/sge_gdi_packet_pb_cull.h ../libs/uti/sge_string.h
 qping.o: ../clients/common/msg_clients_common.h
 range.o: ../utilbin/msg_utilbin.h ../common/basis_types.h
 range.o: ../libs/uti/sge_language.h
+sge_passwd.o: ../libs/uti/sge_arch.h ../libs/uti/sge_log.h
+sge_passwd.o: ../common/basis_types.h ../libs/uti/msg_utilib.h
+sge_passwd.o: ../libs/uti/sge_unistd.h ../libs/uti/sge_dstring.h
+sge_passwd.o: ../libs/uti/sge_stdlib.h ../libs/uti/sge_uidgid.h
+sge_passwd.o: ../libs/uti/sge_unistd.h ../libs/uti/sge_profiling.h
+sge_passwd.o: ../libs/uti/sge_bootstrap.h ../libs/uti/setup_path.h
+sge_passwd.o: ../libs/cull/cull_list.h ../libs/cull/cull_hashP.h
+sge_passwd.o: ../libs/cull/pack.h ../libs/uti/sge_bitfield.h
+sge_passwd.o: ../libs/uti/sge_env.h ../libs/uti/sge_error_class.h
+sge_passwd.o: ../libs/cull/cull.h ../libs/cull/cull_listP.h
+sge_passwd.o: ../libs/cull/cull_where.h ../libs/cull/cull_what.h
+sge_passwd.o: ../libs/cull/cull_what_elem.h ../libs/cull/cull_what_print.h
+sge_passwd.o: ../libs/cull/cull_db.h ../libs/cull/cull_multitype.h
+sge_passwd.o: ../libs/cull/cull_dump_scan.h ../libs/cull/cull_lerrno.h
+sge_passwd.o: ../libs/cull/cull_pack.h ../libs/cull/cull_sort.h
+sge_passwd.o: ../libs/cull/cull_tree.h ../libs/cull/cull_hash.h
+sge_passwd.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_htable.h
+sge_passwd.o: ../libs/cull/cull_list.h ../libs/cull/cull_state.h
+sge_passwd.o: ../libs/uti/setup_path.h ../libs/uti/sge_prog.h
+sge_passwd.o: ../libs/uti/sge_arch.h ../libs/uti/sge_stdio.h
+sge_passwd.o: ../libs/uti/sge_string.h ../libs/uti/sge_stdlib.h
+sge_passwd.o: ../utilbin/sge_passwd.h ../utilbin/msg_utilbin.h
+sge_passwd.o: ../libs/gdi/msg_gdilib.h
 sge_share_mon.o: ../libs/uti/sge_dstring.h ../libs/uti/sge_stdio.h
 sge_share_mon.o: ../common/basis_types.h ../libs/gdi/sge_gdi_ctx.h
 sge_share_mon.o: ../libs/uti/sge_env.h ../libs/uti/sge_error_class.h

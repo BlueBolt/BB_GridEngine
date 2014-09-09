@@ -279,27 +279,27 @@ binding_api.o:  $(UTILIB_DIR)/binding_api.c
 ###############################################################################
 # test targets
 ###############################################################################
-test_sge_bitfield: test_sge_bitfield.o $(UTILIB) $(RMONLIB)
+test_sge_bitfield: test_sge_bitfield.o $(UTILIB) $(RMONLIB)  $(SGELIB) 
 #	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_bitfield $(LFLAGS) test_sge_bitfield.o $(UTILIB) $(RMONLIB) -lmalloc $(LIBS)
-	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_bitfield $(LFLAGS) test_sge_bitfield.o $(UTILIB) $(RMONLIB) $(LIBS)
+	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_bitfield $(LFLAGS) test_sge_bitfield.o $(UTILIB) $(RMONLIB)  $(SGELIB) $(LIBS)
 
 test_sge_bitfield.o: $(UTILIB_DIR)/test_sge_bitfield.c
 	$(CC) $(CFLAGS) -c $(UTILIB_DIR)/test_sge_bitfield.c
 
-test_sge_dstring: test_sge_dstring.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB)
-	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_dstring $(LFLAGS) test_sge_dstring.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB) $(LIBS)
+test_sge_dstring: test_sge_dstring.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB) $(SGELIB) 
+	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_dstring $(LFLAGS) test_sge_dstring.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB)  $(SGELIB) $(LIBS)
 
 test_sge_dstring.o: $(UTILIB_DIR)/test_sge_dstring.c
 	$(CC) $(CFLAGS) -c $(UTILIB_DIR)/test_sge_dstring.c
 
-test_sge_profiling: test_sge_profiling.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB)
-	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_profiling $(LFLAGS) test_sge_profiling.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB) $(LIBS)
+test_sge_profiling: test_sge_profiling.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB)  $(SGELIB) 
+	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_profiling $(LFLAGS) test_sge_profiling.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB) $(SGELIB) $(LIBS)
 
 test_sge_profiling.o: $(UTILIB_DIR)/test_sge_profiling.c
 	$(CC) $(CFLAGS) -c $(UTILIB_DIR)/test_sge_profiling.c
 
-test_sge_uidgid: test_sge_uidgid.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB) $(WINGRIDLIB_DEP)
-	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_uidgid $(LFLAGS) test_sge_uidgid.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB) $(WINGRIDLIB) $(LIBS)
+test_sge_uidgid: test_sge_uidgid.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB) $(WINGRIDLIB_DEP)  $(SGELIB) 
+	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_uidgid $(LFLAGS) test_sge_uidgid.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB) $(WINGRIDLIB) $(SGELIB)  $(LIBS)
 
 test_sge_uidgid.o: $(UTILIB_DIR)/test_sge_uidgid.c
 	$(CC) $(CFLAGS) -c $(UTILIB_DIR)/test_sge_uidgid.c
@@ -310,20 +310,20 @@ test_threads: test_threads.o
 test_threads.o: $(UTILIB_DIR)/test_threads.c
 	$(CC) $(CFLAGS) -c $(UTILIB_DIR)/test_threads.c
 
-test_sge_sl: test_sge_sl.o $(UTILIB) $(COMMLISTSBIN) $(LCKLIB) $(RMONLIB)
-	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_sl $(LFLAGS) test_sge_sl.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB) $(LIBS)
+test_sge_sl: test_sge_sl.o $(UTILIB) $(COMMLISTSBIN) $(LCKLIB) $(RMONLIB)  $(SGELIB) 
+	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_sl $(LFLAGS) test_sge_sl.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB)  $(SGELIB) $(LIBS)
 
 test_sge_sl.o: $(UTILIB_DIR)/test_sge_sl.c
 	$(CC) $(CFLAGS) -c $(UTILIB_DIR)/test_sge_sl.c
 
-test_sge_tq: test_sge_tq.o $(UTILIB) $(COMMLISTSBIN) $(LCKLIB) $(RMONLIB)
-	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_tq $(LFLAGS) test_sge_tq.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB) $(LIBS)
+test_sge_tq: test_sge_tq.o $(UTILIB) $(COMMLISTSBIN) $(LCKLIB) $(RMONLIB) $(SGELIB) 
+	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_tq $(LFLAGS) test_sge_tq.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB)  $(SGELIB) $(LIBS)
 
 test_sge_tq.o: $(UTILIB_DIR)/test_sge_tq.c
 	$(CC) $(CFLAGS) -c $(UTILIB_DIR)/test_sge_tq.c
 
-test_sge_err: test_sge_err.o $(UTILIB) $(COMMLISTSBIN) $(LCKLIB) $(RMONLIB)
-	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_err $(LFLAGS) test_sge_err.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB) $(LIBS)
+test_sge_err: test_sge_err.o $(UTILIB) $(COMMLISTSBIN) $(LCKLIB) $(RMONLIB) $(SGELIB) 
+	$(LD_WRAPPER) $(CC) $(CFLAGS) -o test_sge_err $(LFLAGS) test_sge_err.o $(UTILIB) $(COMMLISTSLIB) $(LCKLIB) $(RMONLIB) $(SGELIB)  $(LIBS)
 
 test_sge_err.o: $(UTILIB_DIR)/test_sge_err.c
 	$(CC) $(CFLAGS) -c $(UTILIB_DIR)/test_sge_err.c

@@ -168,8 +168,8 @@ static int                  (*cl_com_ssl_func__BIO_printf)                      
 static void                 (*cl_com_ssl_func__SSL_set_bio)                         (SSL *s, BIO *rbio,BIO *wbio);
 static int                  (*cl_com_ssl_func__SSL_accept)                          (SSL *ssl);
 static void                 (*cl_com_ssl_func__SSL_CTX_free)                        (SSL_CTX *);
-static SSL_CTX*             (*cl_com_ssl_func__SSL_CTX_new)                         (SSL_METHOD *meth);
-static SSL_METHOD*          (*cl_com_ssl_func__SSLv23_method)                       (void);
+static SSL_CTX*             (*cl_com_ssl_func__SSL_CTX_new)                         (const SSL_METHOD *meth);
+static const SSL_METHOD*    (*cl_com_ssl_func__SSLv23_method)                       (void);
 static int                  (*cl_com_ssl_func__SSL_CTX_use_certificate_chain_file)  (SSL_CTX *ctx, const char *file);
 static int                  (*cl_com_ssl_func__SSL_CTX_use_certificate)             (SSL_CTX *ctx, X509 *cert);
 static int                  (*cl_com_ssl_func__SSL_CTX_use_PrivateKey_file)         (SSL_CTX *ctx, const char *file, int type);
@@ -1211,14 +1211,14 @@ static int cl_com_ssl_build_symbol_table(void) {
       }
 
       func_name = "SSL_CTX_new";
-      cl_com_ssl_func__SSL_CTX_new = (SSL_CTX* (*)(SSL_METHOD *meth))dlsym(cl_com_ssl_crypto_handle, func_name);
+      cl_com_ssl_func__SSL_CTX_new = (SSL_CTX* (*)(const SSL_METHOD *meth))dlsym(cl_com_ssl_crypto_handle, func_name);
       if (cl_com_ssl_func__SSL_CTX_new == NULL) {
          CL_LOG_STR(CL_LOG_ERROR,"dlsym error: can't get function address:", func_name);
          had_errors++;
       }
 
       func_name = "SSLv23_method";
-      cl_com_ssl_func__SSLv23_method = (SSL_METHOD* (*)(void))dlsym(cl_com_ssl_crypto_handle, func_name);
+      cl_com_ssl_func__SSLv23_method = (const SSL_METHOD* (*)(void))dlsym(cl_com_ssl_crypto_handle, func_name);
       if (cl_com_ssl_func__SSLv23_method == NULL) {
          CL_LOG_STR(CL_LOG_ERROR,"dlsym error: can't get function address:", func_name);
          had_errors++;
@@ -1757,21 +1757,21 @@ static int cl_com_ssl_build_symbol_table(void) {
       }
 
       func_name = "X509_cmp_current_time";
-      cl_com_ssl_func__X509_cmp_current_time = (int (*)(ASN1_TIME *s))dlsym(cl_com_ssl_crypto_handle, func_name);
+      cl_com_ssl_func__X509_cmp_current_time = (int (*)(const ASN1_TIME *s))dlsym(cl_com_ssl_crypto_handle, func_name);
       if (cl_com_ssl_func__X509_cmp_current_time == NULL) {
          CL_LOG_STR(CL_LOG_ERROR,"dlsym error: can't get function address:", func_name);
          had_errors++;
       }
 
       func_name = "ASN1_INTEGER_cmp";
-      cl_com_ssl_func__ASN1_INTEGER_cmp = (int (*)(ASN1_INTEGER *x, ASN1_INTEGER *y))dlsym(cl_com_ssl_crypto_handle, func_name);
+      cl_com_ssl_func__ASN1_INTEGER_cmp = (int (*)(const ASN1_INTEGER *x, const ASN1_INTEGER *y))dlsym(cl_com_ssl_crypto_handle, func_name);
       if (cl_com_ssl_func__ASN1_INTEGER_cmp == NULL) {
          CL_LOG_STR(CL_LOG_ERROR,"dlsym error: can't get function address:", func_name);
          had_errors++;
       }
 
       func_name = "ASN1_INTEGER_get";
-      cl_com_ssl_func__ASN1_INTEGER_get = (long (*)(ASN1_INTEGER *a))dlsym(cl_com_ssl_crypto_handle, func_name);
+      cl_com_ssl_func__ASN1_INTEGER_get = (long (*)(const ASN1_INTEGER *a))dlsym(cl_com_ssl_crypto_handle, func_name);
       if (cl_com_ssl_func__ASN1_INTEGER_get == NULL) {
          CL_LOG_STR(CL_LOG_ERROR,"dlsym error: can't get function address:", func_name);
          had_errors++;
