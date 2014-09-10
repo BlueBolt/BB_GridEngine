@@ -7,6 +7,8 @@
 dir=`dirname $0`
 
 # change this if the 3rdparty dependices are in a different location
+# if you do change it make sure you update the junit class path in 
+# source/build.properties as well.
 export GE_DEPENDECIES_PATH=$(readlink -f ../BB_GridEngine_Dependencies) 
 
 export JAVA_HOME=${GE_DEPENDECIES_PATH}/jdk1.6.0_39
