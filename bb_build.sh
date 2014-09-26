@@ -27,6 +27,10 @@ cd "$dir/source"
 # ./aimk -no-gui-inst -shared-libs depend
 # ./aimk -no-gui-inst -shared-libs
 
+exitstatus=$?
+
+if [ $exitstatus == 0 ];then
+
 echo
 echo "#-------------- Build Complete ---------------#"
 echo "#--------- Starting Package Creation ----------#"
@@ -42,3 +46,4 @@ scripts/mk_dist -vdir $SGE_ROOT -version BBGE_$version -basedir $PWD/../DIST/ -c
 
 echo "#------------- Package Finished --------------#"
 
+fi
